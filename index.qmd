@@ -1,0 +1,89 @@
+---
+title: Relatório de autopesquisa do voluntariado
+authors:
+  - name: Eduardo de Santana Medeiros
+    affiliation: Editares, ISIC, Juriscons
+    roles: writing
+    corresponding: true
+bibliography: references.bib
+---
+
+## Section
+
+This is a simple placeholder for the manuscript's main document [@knuth84].
+
+```{r}
+1 + 1
+```
+
+# Instituições
+
+# ISIC
+
+# Juriscon
+
+# Editares
+
+## Atividades
+
+### Cartão de crédito
+
+## Ingresso no voluntariado
+```{mermaid}
+timeline
+    title Ingresso nos Voluntariados
+    2025/4 : Convite para diagramação dos livros em Árabe (ISIC)
+         : Google
+    2025/5 : Convite para diagramação da revista Estado Mundial (Juriscons)
+    2025/7 : Convite para diagramação da revista bienal Gescons (Editares)
+```
+
+
+## Nomes das Pessoas
+
+
+# Situações
+
+O que há em situações
+
+:::{.callout-note}
+
+Privacidade. Os nomes das pessoas foram alterados para manter a privacidade. 
+
+Substituição. Para manter uma coerência ao longo do relatório, alguns nomes foram substituidos por nomes em Latim.
+
+<!-- 
+https://www.dicionariodenomesproprios.com.br/nomes-latim-femininos/
+https://www.dicionariodenomesproprios.com.br/nomes-latim-masculinos/
+-->
+
+:::
+
+# 
+
+```{mermaid}
+timeline
+    title History of Social Media Platform
+    2002 : LinkedIn
+    2004 : Facebook
+         : Google
+    2005 : YouTube
+    2006 : Twitter
+```
+
+
+# Linha do tempo
+
+
+
+
+```{mermaid}
+timeline
+    title History of Social Media Platform
+    2002 : LinkedIn
+    2004 : Facebook
+         : Google
+    2005 : YouTube
+    2006 : Twitter
+```
+
