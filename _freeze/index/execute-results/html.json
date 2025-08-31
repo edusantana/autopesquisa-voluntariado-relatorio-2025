@@ -1,0 +1,15 @@
+{
+  "hash": "03557eaf791377a3027f3b3d238ce561",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: Relatório de autopesquisa do voluntariado\nauthors:\n  - name: Eduardo de Santana Medeiros\n    affiliation: Editares, ISIC, Juriscons\n    roles: writing\n    corresponding: true\nbibliography: references.bib\n---\n\n## Section\nThis is a simple placeholder for the manuscript's main document [@knuth84].\n\n\n::: {.cell}\n\n```{.r .cell-code .hidden}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n\n# Instituições\n\n# ISIC\n\n# Juriscon\n\n# Editares\n\n## Atividades\n\n### Cartão de crédito\n\n## Ingresso no voluntariado\n```{mermaid}\ntimeline\n    title Ingresso nos Voluntariados\n    2025/4 : Convite para diagramação dos livros em Árabe (ISIC)\n         : Google\n    2025/5 : Convite para diagramação da revista Estado Mundial (Juriscons)\n    2025/7 : Convite para diagramação da revista bienal Gescons (Editares)\n```\n\n\n## Nomes das Pessoas\n\n\n# Situações\n\nO que há em situações\n\n:::{.callout-note}\n\nPrivacidade. Os nomes das pessoas foram alterados para manter a privacidade. \n\nSubstituição. Para manter uma coerência ao longo do relatório, alguns nomes foram substituidos por nomes em Latim.\n\n<!-- \nhttps://www.dicionariodenomesproprios.com.br/nomes-latim-femininos/\nhttps://www.dicionariodenomesproprios.com.br/nomes-latim-masculinos/\n-->\n\n:::\n\n# \n\n```{mermaid}\ntimeline\n    title History of Social Media Platform\n    2002 : LinkedIn\n    2004 : Facebook\n         : Google\n    2005 : YouTube\n    2006 : Twitter\n```\n\n\n# Linha do tempo\n\n\n\n\n```{mermaid}\ntimeline\n    title History of Social Media Platform\n    2002 : LinkedIn\n    2004 : Facebook\n         : Google\n    2005 : YouTube\n    2006 : Twitter\n```\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

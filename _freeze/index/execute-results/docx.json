@@ -1,0 +1,17 @@
+{
+  "hash": "472d753ea538c661e21f7b82f05402b2",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: autopesquisa-voluntariado-relatorio-2025\nauthors:\n  - name: Eduardo de Santana Medeiros\n    affiliation: ISIC, Juriscons, Editares\n    roles: writing\n    corresponding: true\nbibliography: references.bib\n---\n\n## Section\nThis is a simple placeholder for the manuscript's main document [@knuth84].\n\n\n::: {.cell}\n\n```{.r .cell-code .hidden}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": null,
+    "postProcess": false
+  }
+}
