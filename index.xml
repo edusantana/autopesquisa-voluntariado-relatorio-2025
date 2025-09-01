@@ -5,6 +5,18 @@ and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
 <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
 
 <front>
+<journal-meta>
+<journal-id></journal-id>
+
+<journal-title-group>
+<journal-title>Earth and Space Science</journal-title>
+</journal-title-group>
+<issn></issn>
+
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
 
 
 <article-meta>
@@ -44,7 +56,11 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
 <corresp id="cor-1"></corresp>
 </author-notes>
 
-
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2025-09-01">
+<year>2025</year>
+<month>9</month>
+<day>1</day>
+</pub-date>
 
 
 
@@ -55,6 +71,16 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
 <history></history>
 
 
+<abstract>
+<p>This report contains my self-research related to conscienciology
+volunteer work.</p>
+</abstract>
+<kwd-group kwd-group-type="author">
+<kwd>Voluntariado</kwd>
+<kwd>Conscienciologia</kwd>
+<kwd>Autogestão</kwd>
+<kwd>Relatório</kwd>
+</kwd-group>
 
 
 
@@ -65,41 +91,41 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
 
 <body>
 <sec id="section">
-  <title>Section</title>
+  <title>0.1 Section</title>
   <p>This is a simple placeholder for the manuscript’s main document
   (<xref alt="Knuth 1984" rid="ref-knuth84" ref-type="bibr">Knuth
   1984</xref>).</p>
   <preformat>[1] 2</preformat>
 </sec>
 <sec id="instituições">
-  <title>Instituições</title>
+  <title>1. Instituições</title>
 </sec>
 <sec id="isic">
-  <title>ISIC</title>
+  <title>2. ISIC</title>
 </sec>
 <sec id="juriscon">
-  <title>Juriscon</title>
+  <title>3. Juriscon</title>
 </sec>
 <sec id="editares">
-  <title>Editares</title>
+  <title>4. Editares</title>
   <sec id="atividades">
-    <title>Atividades</title>
+    <title>4.1 Atividades</title>
     <sec id="cartão-de-crédito">
-      <title>Cartão de crédito</title>
+      <title>4.1.1 Cartão de crédito</title>
     </sec>
   </sec>
   <sec id="ingresso-no-voluntariado">
-    <title>Ingresso no voluntariado</title>
+    <title>4.2 Ingresso no voluntariado</title>
     <p></p>
     <graphic mimetype="image" mime-subtype="png" xlink:href="index_files\figure-jats\mermaid-figure-1.png" />
     <p></p>
   </sec>
   <sec id="nomes-das-pessoas">
-    <title>Nomes das Pessoas</title>
+    <title>4.3 Nomes das Pessoas</title>
   </sec>
 </sec>
 <sec id="situações">
-  <title>Situações</title>
+  <title>5. Situações</title>
   <p>O que há em situações</p>
   <boxed-text>
   <p><bold>Note</bold></p>
@@ -110,13 +136,13 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
   </boxed-text>
 </sec>
 <sec id="section-1">
-  <title></title>
+  <title>6. </title>
   <p></p>
   <graphic mimetype="image" mime-subtype="png" xlink:href="index_files\figure-jats\mermaid-figure-3.png" />
   <p></p>
 </sec>
 <sec id="linha-do-tempo">
-  <title>Linha do tempo</title>
+  <title>7. Linha do tempo</title>
   <p></p>
   <graphic mimetype="image" mime-subtype="png" xlink:href="index_files\figure-jats\mermaid-figure-2.png" />
   <p></p>
@@ -148,7 +174,7 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
 </ref-list>
 </back>
 
-<sub-article article-type="notebook" id="nb-4-nb-article">
+<sub-article article-type="notebook" id="nb-2-nb-article">
 <front-stub>
 <title-group>
 <article-title>Relatório de autopesquisa do voluntariado</article-title>
@@ -182,11 +208,15 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
 <author-notes>
 <corresp id="cor-1-nb-article"></corresp>
 </author-notes>
+<abstract>
+<p>This report contains my self-research related to conscienciology
+volunteer work.</p>
+</abstract>
 </front-stub>
 
 <body>
 <sec id="section-nb-article">
-  <title>Section</title>
+  <title>0.1 Section</title>
   <p>This is a simple placeholder for the manuscript’s main document
   (<xref alt="Knuth 1984" rid="ref-knuth84-nb-article" ref-type="bibr">Knuth
   1984</xref>).</p>
@@ -198,24 +228,24 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
   </sec>
 </sec>
 <sec id="instituições-nb-article">
-  <title>Instituições</title>
+  <title>1. Instituições</title>
 </sec>
 <sec id="isic-nb-article">
-  <title>ISIC</title>
+  <title>2. ISIC</title>
 </sec>
 <sec id="juriscon-nb-article">
-  <title>Juriscon</title>
+  <title>3. Juriscon</title>
 </sec>
 <sec id="editares-nb-article">
-  <title>Editares</title>
+  <title>4. Editares</title>
   <sec id="atividades-nb-article">
-    <title>Atividades</title>
+    <title>4.1 Atividades</title>
     <sec id="cartão-de-crédito-nb-article">
-      <title>Cartão de crédito</title>
+      <title>4.1.1 Cartão de crédito</title>
     </sec>
   </sec>
   <sec id="ingresso-no-voluntariado-nb-article">
-    <title>Ingresso no voluntariado</title>
+    <title>4.2 Ingresso no voluntariado</title>
     <sec specific-use="notebook-content">
     <p></p>
     <graphic mimetype="image" mime-subtype="png" xlink:href="index_files\figure-jats\mermaid-figure-1.png" />
@@ -223,11 +253,11 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
     </sec>
   </sec>
   <sec id="nomes-das-pessoas-nb-article">
-    <title>Nomes das Pessoas</title>
+    <title>4.3 Nomes das Pessoas</title>
   </sec>
 </sec>
 <sec id="situações-nb-article">
-  <title>Situações</title>
+  <title>5. Situações</title>
   <p>O que há em situações</p>
   <boxed-text>
     <disp-quote>
@@ -240,7 +270,7 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
   </boxed-text>
 </sec>
 <sec id="section-1-nb-article">
-  <title></title>
+  <title>6. </title>
   <sec specific-use="notebook-content">
   <p></p>
   <graphic mimetype="image" mime-subtype="png" xlink:href="index_files\figure-jats\mermaid-figure-3.png" />
@@ -248,7 +278,7 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
   </sec>
 </sec>
 <sec id="linha-do-tempo-nb-article">
-  <title>Linha do tempo</title>
+  <title>7. Linha do tempo</title>
   <sec specific-use="notebook-content">
   <p></p>
   <graphic mimetype="image" mime-subtype="png" xlink:href="index_files\figure-jats\mermaid-figure-2.png" />
