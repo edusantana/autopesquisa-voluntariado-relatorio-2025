@@ -19,3 +19,6 @@ execute:
 
 
 
+crossref:
+  fig-prefix: Figura   # (default is "Figure")
+  tbl-prefix: Tabela   # (default is "Table")
