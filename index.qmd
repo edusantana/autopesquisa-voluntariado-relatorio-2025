@@ -33,151 +33,139 @@ citation:
 number-sections: true
 ---
 
-## Section
+# Introdução
 
-This is a simple placeholder for the manuscript's main document [@knuth84].
-
-```{r}
-1 + 1
-```
-
-# Instituições conscenciocêntricas
-
-
-ISIC
-: Interassistantial Services for the Internationalization of Conscientiology. Website: <https://www.isicons.org>
-
-Juriscon
-: Associação Internacional de Paradireitologia. Website: <https://juriscons.org>
-
-Editares
-: A editora da Conscienciologia. Website: <https://editares.org>
-
-Outras instituições:
-
-CEAEC
-
-: Centro de Altos Estudos da Conscienciologia. <http://campusceaec.org>
-
-
-
-## Atividades
-
-### Cartão de crédito
-
-## Ingresso no voluntariado
-```{mermaid}
-timeline
-    title Ingresso nos Voluntariados
-    2025/4 : Convite para diagramação dos livros em Árabe (ISIC)
-         : Google
-    2025/5 : Convite para diagramação da revista Estado Mundial (Juriscons)
-    2025/7 : Convite para diagramação da revista bienal Gescons (Editares)
-```
-
-
-## Nomes das Pessoas
-
-
-# Situações
-
-O que há em situações
-
-:::{.callout-note}
-
-Privacidade. Os nomes das pessoas foram alterados para manter a privacidade. 
-
-Substituição. Para manter uma coerência ao longo do relatório, alguns nomes foram substituidos por nomes em Latim.
-
-<!-- 
-https://www.dicionariodenomesproprios.com.br/nomes-latim-femininos/
-https://www.dicionariodenomesproprios.com.br/nomes-latim-masculinos/
--->
-
-:::
-
-# Timeline 2
-
-```{mermaid}
-timeline
-    title History of Social Media Platform
-    2002 : LinkedIn
-    2004 : Facebook
-         : Google
-    2005 : YouTube
-    2006 : Twitter
-```
-
-
-# Linha do tempo
+Este relatório
 
 
 
 
-```{mermaid}
-timeline
-    title History of Social Media Platform
-    2002 : LinkedIn
-    2004 : Facebook
-         : Google
-    2005 : YouTube
-    2006 : Twitter
-```
+# Métodos
 
-# Eventos 
-
-# Atividades e papeis
-
-| Atividade            | IC     |
-| -------------------- | ------ |
-| Current              | 2021   |
-| Teneguía             | 1971   |
-| Nambroque            | 1949   |
-| El Charco            | 1712   |
-| Volcán San Antonio   | 1677   |
-| Volcán San Martin    | 1646   |
-| Tajuya near El Paso  | 1585   |
-| Montaña Quemada      | 1492   |
+## Base de dados ICnet
 
 
+O Sistema ICnet é um pacote de soluções de software que permite a gestão integrada de várias áreas das Instituições Conscienciocêntricas, @icnetDocs: 
 
-<!--
-Atividade não oficiais
-- Reunião com Leandro
-- Como as atividades foram adicionadas
--->
+1. Voluntariado.
+2. Eventos.
+3. Gestão financeira (receitas e despesas) e contábil.
+4. Ecommerce.
+5. Dinâmicas parapsíquicas.
+6. Laboratórios.
+7. Hospedagem em Campus.
+8. Gescons.
+9. Gerenciamento de Ensino a Distância.
+10. Marketing Digital.
 
-# Extração de dados do ICNet
+Através de uma conta com permissões admnistrativas de uma IC é possível acessar os dados cadastrados nos sistema.
+
+Nas seções a seguir são apresentadas as telas contendo os dados registrado no sistema.
+
+### Voluntariado
+
+Para acessar o módulo de gestão de Voluntariado é necessário logar com uma conta administrativa de usuário da IC.
+
+![Extração do ICNet](images/voluntariado-na-ic.png){#fig-voluntariado-na-ic}
+
+A @fig-voluntariado-na-ic apresenta a tela de Voluntariado (para o voluntário Eduardo de Santana Medeiros) na IC Juriscons. Nela podemos verificar que "Eduardo de Santana Medeiros" está *ativo* no voluntariado (nenhuma data de saída), que está lotado na Sede da JURISCONS (em Foz do Iguaçu), está vinculado através do organograma da instituição em *Colegiado Administrativo \\ Relações Institucionais* com função de *Membro* e iniciou formalmente o voluntariado em *11/06/2025*.
+
+A tela de "Voluntariado em Outras IC's", não apresentada mas acessível a partir desta tela, possui estrutura semelhante.
+
+### Participação em equipes
+
+
+![Participação em equipes cadastradas no ICnet](images/participacao-em-equipe.png){#fig-equipe}
+
+A tela de Participação em Equipe na @fig-equipe lista em quais equipes o voluntario(a) participou.
+
+
+### Histórico de atividades
+
+![Histórico de atividades no ICNet consultado em 31/8/2025](images/historico.png){#fig-atividades}
+
+A @fig-atividades apresenta o histórico das atividades registradas no sistema. A coluna "Data Início" indica a data de início do evento, os eventos listados não são indicativos de presença, uma vez que existe evento para o ano sequinte (2026).
+
+## E-mail
+
+![Consulta no E-mail](images/consulta-no-email.png){#fig-consultaemail}
+O E-mail também uma rica fonte de informações, pois é habitual receber confirmações de compras ou tickets no e-mail.
+
+## Calendário
+
+A agenda de compromissos é um ótimo recurso para consultar eventos anteriores (ver @fig-agenda).
+
+![Pesquisa no calendário](images/calendar.png){#fig-agenda}
+
+## WhatsApp
+
+![Pesquisa no WhatsApp](images/whatsapp.png){#fig-whatsapp}
+
+Alguns eventos podem ser pesquisados através do WhatsApp (@fig-whatsapp), como é o caso das atividades realizadas na OIC (que não usa o ICNet para registros de atendimentos).
+
+## Livros
+
+As compras (ou recebimento de presentes) de livros podem ter registros no e-mail ou uma organização da biblioteca pessoal pode set implementada manualmente.
+
+## Ferramentas de extração de dados
+
+A extração de dados do ICNet, como na @fig-atividades, pode ser realizada copiando a tabela e colando no Excel.
+
+
+Para extração de dados nos sites também foi utilizado a extensão Instant Data Scraper criada por @instantDataScraper para o Google Chrome.
+
+
+![Extração de dados na Megastore através do Instant Data Scraper](images/instant-data-scraper.png){#fig-instantdata}
+
+A @fig-instantdata mostra uma extração de uma lista de pedidos de compras na Megastore.
+
+## RStudio
+
+O RStudio mantido por @rstudio é uma IDE (Ambiente de Desenvolvimento Integrado) que permite a edição dos documentos e agrupa diversas funcionalidades para gerenciar o projeto. Ela é uma ferramenta de referência para a ciência de dados de código aberto.
+
+Este documento foi redigido no RStudio.
+
+![Escrita do documento no RStudio](images/rstudio.png)
+
+## Quarto
+
+O Quarto mantido por @quarto é um sistema de código aberto para escrita e publicação técnica e científica. Ela é uma ferramenta de comandos de linhas para gerenciar e publicar projetos, integrada nas versões recentes do RStudio.
+
+# Dados coletados
 
 Através do ICNet podemos extrair diversos dados sobre nossa atuação na CCCI.
 
 Na seções a seguir são apresentadas diversos dados extraídos do ICNet.
 
-## Voluntariado na IC
-
-![Extração do ICNet](images/voluntariado-na-ic.png){#fig-voluntariado-na-ic}
+## Voluntariados
 
 
 ```{r}
+#| label: tbl-voluntariados
+#| tbl-cap: Assinatura dos voluntariados
+
 library(readr)
 library(dplyr)
 library(knitr)
 
-participacao_em_equipe <- read_csv(
-  "csv/voluntariado-na-ic.csv",
-  col_types = cols(`Data Início` = col_date(format = "%d/%m/%Y"))
-) %>%
-  select(-`Ativo`) %>%           # Remove a coluna
-  mutate(`Data Início` = format(`Data Início`, "%d/%m/%Y"))  # Reformatar data
+voluntariados <- read_csv("csv/voluntariados.csv")
 
-kable(participacao_em_equipe, format = "pipe")
+kable(voluntariados, format = "pipe")
+```
+
+A @tbl-voluntariados apresenta o dia o contrato de voluntariado para cada instituição foi assinado. A ISIC e EDITARES ainda não incluiu no sistema em qual departamento foi incluído.
+
+
+```{mermaid}
+timeline
+    title Ingresso no Voluntariado
+    06/2025 : ISIC
+            : JURISCONS
+    07/2025 : EDITARES
 ```
 
 
 ## Participação em Equipe
-
-
-![Participação em equipes cadastradas no ICnet](./images/participacao-em-equipe.png)
 
 
 ```{r}
@@ -198,11 +186,6 @@ kable(participacao_em_equipe, format = "pipe")
 
 ## Histórico de atividades
 
-
-![Histórico de atividades no ICNet tirado em 8/31/2025](images/historico.png){#fig-historicoatividades}
-
-Através do ICNet foi possível extrair um histórico de atividades. A @fig-historicoatividades apresenta o histórico das atividades registradas no sistema, consultados em 31/8/2025.
-
 Segue uma tabela contendo hitórico de atividades extraídos pelo ICNet:
 
 ```{r}
@@ -220,7 +203,7 @@ historico <- read_csv(
 kable(historico, format = "pipe")
 ```
 
-O hitórico de atividades extraídos pelo ICNet conteve alguns erros de datas apresentados na @fig-historicoerros.
+O hitórico de atividades extraídos pelo ICNet contém alguns erros de datas (@fig-historicoerros).
 
 ![Erros no Histórico de atividades no ICNet](images/historico-erros.png){#fig-historicoerros}
 
@@ -290,10 +273,67 @@ acomplamentarium <- read_csv(
 kable(acomplamentarium, format = "pipe")
 ```
 
-# ICNet
 
-Em 31/8/2025: eu ainda não estava cadastrado na Editares e ISIC no ICNet.
+# Análise dos dados
 
-# Apendice
+# Resultados
+
+# Apendice/Rascunho
+## Instituições conscenciocêntricas
 
 
+CEAEC
+: Centro de Altos Estudos da Conscienciologia. <http://campusceaec.org>
+
+Editares
+: A editora da Conscienciologia. Website: <https://editares.org>
+
+ISIC
+: Interassistantial Services for the Internationalization of Conscientiology. Website: <https://www.isicons.org>
+
+Juriscon
+: Associação Internacional de Paradireitologia. Website: <https://juriscons.org>
+
+
+## Atividades
+
+
+## Situações
+
+O que há em situações
+
+:::{.callout-note}
+
+Privacidade. Os nomes das pessoas foram alterados para manter a privacidade. 
+
+Substituição. Para manter uma coerência ao longo do relatório, alguns nomes foram substituidos por nomes em Latim.
+
+<!-- 
+https://www.dicionariodenomesproprios.com.br/nomes-latim-femininos/
+https://www.dicionariodenomesproprios.com.br/nomes-latim-masculinos/
+-->
+
+:::
+
+
+
+## Atividades e papeis
+
+| Atividade            | IC     |
+| -------------------- | ------ |
+| Current              | 2021   |
+| Teneguía             | 1971   |
+| Nambroque            | 1949   |
+| El Charco            | 1712   |
+| Volcán San Antonio   | 1677   |
+| Volcán San Martin    | 1646   |
+| Tajuya near El Paso  | 1585   |
+| Montaña Quemada      | 1492   |
+
+
+
+<!--
+Atividade não oficiais
+- Reunião com Leandro
+- Como as atividades foram adicionadas
+-->
