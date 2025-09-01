@@ -45,9 +45,7 @@ Este relatório
 ## Base de dados ICnet
 
 
-> O Sistema ICnet é um pacote de soluções de software que permite a gestão integrada de várias áreas das Instituições Conscienciocêntricas. -- @icnetDocs
-
-De acordo com @icnetDocs, o Sistema implementa módulos nas seguintes áreas:
+O Sistema ICnet é um pacote de soluções de software que permite a gestão integrada de várias áreas das Instituições Conscienciocêntricas, @icnetDocs: 
 
 1. Voluntariado.
 2. Eventos.
@@ -131,9 +129,9 @@ Este documento foi redigido no RStudio.
 
 ## Quarto
 
-O Quarto mantido por @quarto é um sistema de código aberto para escrita e publicação técnica e científica. Ela é uma ferramenta de comandos de linhas para gerenciar e publicar um projeto, ela vem integrada nas versões recentes do RStudio.
+O Quarto mantido por @quarto é um sistema de código aberto para escrita e publicação técnica e científica. Ela é uma ferramenta de comandos de linhas para gerenciar e publicar projetos, integrada nas versões recentes do RStudio.
 
-# Dados
+# Dados coletados
 
 Através do ICNet podemos extrair diversos dados sobre nossa atuação na CCCI.
 
@@ -143,22 +141,28 @@ Na seções a seguir são apresentadas diversos dados extraídos do ICNet.
 
 
 ```{r}
-#| label: tbl-voluntariado
-#| tbl-cap: Apenas o voluntariado da JURISCONS está cadastrado no ICNet.
+#| label: tbl-voluntariados
+#| tbl-cap: Assinatura dos voluntariados
+
 library(readr)
 library(dplyr)
 library(knitr)
 
-participacao_em_equipe <- read_csv(
-  "csv/voluntariado-na-ic.csv",
-  col_types = cols(`Data Início` = col_date(format = "%d/%m/%Y"))
-) %>%
-  select(-`Ativo`) %>%           # Remove a coluna
-  mutate(`Data Início` = format(`Data Início`, "%d/%m/%Y"))  # Reformatar data
+voluntariados <- read_csv("csv/voluntariados.csv")
 
-kable(participacao_em_equipe, format = "pipe")
+kable(voluntariados, format = "pipe")
 ```
 
+A @tbl-voluntariados apresenta o dia o contrato de voluntariado para cada instituição foi assinado. A ISIC e EDITARES ainda não incluiu no sistema em qual departamento foi incluído.
+
+
+```{mermaid}
+timeline
+    title Ingresso no Voluntariado
+    06/2025 : ISIC
+            : JURISCONS
+    07/2025 : EDITARES
+```
 
 
 ## Participação em Equipe
@@ -269,16 +273,13 @@ acomplamentarium <- read_csv(
 kable(acomplamentarium, format = "pipe")
 ```
 
-# ICNet
-
-Em 31/8/2025: eu ainda não estava cadastrado na Editares e ISIC no ICNet.
 
 # Análise dos dados
 
 # Resultados
 
-
-# Instituições conscenciocêntricas
+# Apendice/Rascunho
+## Instituições conscenciocêntricas
 
 
 CEAEC
@@ -296,23 +297,8 @@ Juriscon
 
 ## Atividades
 
-### Cartão de crédito
 
-## Ingresso no voluntariado
-```{mermaid}
-timeline
-    title Ingresso nos Voluntariados
-    2025/4 : Convite para diagramação dos livros em Árabe (ISIC)
-         : Google
-    2025/5 : Convite para diagramação da revista Estado Mundial (Juriscons)
-    2025/7 : Convite para diagramação da revista bienal Gescons (Editares)
-```
-
-
-## Nomes das Pessoas
-
-
-# Situações
+## Situações
 
 O que há em situações
 
@@ -329,37 +315,9 @@ https://www.dicionariodenomesproprios.com.br/nomes-latim-masculinos/
 
 :::
 
-# Timeline 2
-
-```{mermaid}
-timeline
-    title History of Social Media Platform
-    2002 : LinkedIn
-    2004 : Facebook
-         : Google
-    2005 : YouTube
-    2006 : Twitter
-```
 
 
-# Linha do tempo
-
-
-
-
-```{mermaid}
-timeline
-    title History of Social Media Platform
-    11/6/2025 : JURISCONS
-    2004 : Facebook
-         : Google
-    2005 : YouTube
-    2006 : Twitter
-```
-
-# Eventos 
-
-# Atividades e papeis
+## Atividades e papeis
 
 | Atividade            | IC     |
 | -------------------- | ------ |
