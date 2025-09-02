@@ -8,7 +8,7 @@ format:
   html:
     comments:
       hypothesis: true
-  docx: default
+  # docx: default
   jats: default
 
   # (other formats)
@@ -17,7 +17,7 @@ format:
 execute:
   freeze: true
 
-
+lang: "pt-BR"
 
 crossref:
   fig-prefix: Figura   # (default is "Figure")

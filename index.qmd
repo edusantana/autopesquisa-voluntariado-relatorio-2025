@@ -28,8 +28,8 @@ key-points:
   - Recéxis
 date: last-modified
 bibliography: references.bib
-citation:
-  container-title: Earth and Space Science
+#citation:
+#  container-title: Earth and Space Science
 number-sections: true
 ---
 
@@ -37,7 +37,7 @@ number-sections: true
 
 Este relatório
 
-
+<!-- Pesquisar INVENTARIOLOGIA -->
 
 
 # Método
@@ -87,6 +87,18 @@ A tela de Participação em Equipe na @fig-equipe lista em quais equipes o volun
 
 A @fig-atividades apresenta o histórico das atividades registradas no sistema. A coluna "Data Início" indica a data de início do evento, os eventos listados não são indicativos de presença, uma vez que existe evento para o ano sequinte (2026).
 
+O hitórico de atividades extraídos pelo ICNet poder conter alguns erros de datas (@fig-historicoerros).
+
+![Erros no Histórico de atividades no ICNet](images/historico-erros.png){#fig-historicoerros}
+
+
+
+### Laboratórios
+
+
+![Laboratórios](images/laboratorios.jpg)
+
+
 ### E-mail
 
 ![Consulta no E-mail](images/consulta-no-email.png){#fig-consultaemail}
@@ -117,7 +129,12 @@ Extrações mais complexas podem ser realizadas com a extensão para o Google Ch
 
 ![Extração de dados na Megastore através do Instant Data Scraper](images/instant-data-scraper.png){#fig-instantdata}
 
+### Track \& Graph
 
+O Track \& Graph (@fig-trackandgraph) é um aplicativo para Android, @trackandgraph, que permite o registro de dados pessoas e exportação dos dados para planilhas. Pode ser utilizado para registro de tentativas de EV, de peso, sinaléticas ou qualquer outras variáveis que forem configuradas.
+
+
+![Track \& Graph](images/Screenshot_20250902_183240_Track_and_Graph.jpg){#fig-trackandgraph}
 
 ### RStudio
 
@@ -150,11 +167,11 @@ library(knitr)
 
 voluntariados <- read_csv("csv/voluntariados.csv")
 
+
 kable(voluntariados, format = "pipe")
 ```
 
 A @tbl-voluntariados apresenta o dia o contrato de voluntariado para cada instituição foi assinado. A ISIC e EDITARES ainda não incluiu no sistema em qual departamento foi incluído.
-
 
 ```{mermaid}
 timeline
@@ -165,7 +182,7 @@ timeline
     07/2025 : EDITARES
 ```
 
-A HOLOMEMÓRIA é uma condição especial, por não é uma IC, da mesma forma que o ICGE também não é. Ambas são iniciativas da CCCI com o apoio da UNICIN.
+A HOLOMEMÓRIA é uma condição especial, por não ser uma IC, da mesma forma que o ICGE também não é. Ambas são iniciativas da CCCI com o apoio da UNICIN.
 
 ## Participação em Equipe
 
@@ -205,9 +222,6 @@ historico <- read_csv(
 kable(historico, format = "pipe")
 ```
 
-O hitórico de atividades extraídos pelo ICNet contém alguns erros de datas (@fig-historicoerros).
-
-![Erros no Histórico de atividades no ICNet](images/historico-erros.png){#fig-historicoerros}
 
 
 
@@ -218,6 +232,8 @@ OIC
 26,28,29/8
 
 ## Laboratórios
+
+
 
 ## Registros no E-mail
 
@@ -277,6 +293,103 @@ acomplamentarium <- read_csv(
 kable(acomplamentarium, format = "pipe")
 ```
 
+## Soma
+
+### Evolução do Peso
+
+```{r}
+#| label: fig-peso-mmc-2025
+#| fig-cap: "Evolução do peso em 2025 com faixas de IMC (OMS)"
+#| echo: false
+
+library(readr)
+library(dplyr)
+library(lubridate)
+library(ggplot2)
+library(scales)
+library(tibble)
+
+# === PARAMETRO: sua altura em metros ===
+altura_m <- 1.72  # <- ajuste aqui
+
+# Função para converter IMC em peso (kg) dado altura
+peso_imc <- function(imc, h) imc * h^2
+
+# Cortes OMS para obesidade
+w30 <- peso_imc(30, altura_m)  # início Obesidade I
+w35 <- peso_imc(35, altura_m)  # início Obesidade II
+w40 <- peso_imc(40, altura_m)  # início Obesidade III
+
+# Intervalo que você quer destacar no gráfico
+ymin_plot <- 100
+ymax_plot <- 112
+
+# Tabela de faixas com cores mais nítidas
+faixas <- tribble(
+  ~cat,             ~ymin, ~ymax, ~fill,
+  "Sobrepeso (25–29.9)",                peso_imc(25, altura_m), min(w30, ymax_plot), "#A5D6A7",
+  "Obesidade I (30–34.9)",              max(w30, ymin_plot),     min(w35, ymax_plot), "#FFCC80",
+  "Obesidade II (35–39.9)",             max(w35, ymin_plot),     min(w40, ymax_plot), "#EF9A9A",
+  "Obesidade III (≥40)",                max(w40, ymin_plot),     ymax_plot,           "#F48FB1"
+) %>%
+  filter(ymax > ymin) %>%
+  mutate(ymin = pmax(ymin, ymin_plot),
+         ymax = pmin(ymax, ymax_plot))
+
+# Lê e prepara os dados
+dados <- read_csv("csv/TrackAndGraph-null-20250902-181047.csv")
+
+peso_2025 <- dados %>%
+  filter(FeatureName == "Peso") %>%
+  mutate(
+    Timestamp = ymd_hms(Timestamp),
+    Value = as.numeric(Value)
+  ) %>%
+  filter(year(Timestamp) == 2025) %>%
+  arrange(Timestamp)
+
+# limites do eixo X para pintar as faixas no fundo
+xmin <- min(peso_2025$Timestamp, na.rm = TRUE)
+xmax <- max(peso_2025$Timestamp, na.rm = TRUE)
+
+# Define locale para português
+Sys.setlocale("LC_TIME", "pt_BR.UTF-8") # Windows: "Portuguese_Brazil.1252"
+
+ggplot() +
+  # Faixas de IMC no fundo
+  geom_rect(data = faixas,
+            aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = cat),
+            inherit.aes = FALSE, alpha = 0.35, color = NA) +
+  # Série temporal do peso
+  geom_line(data = peso_2025, aes(x = Timestamp, y = Value), linewidth = 0.9) +
+  geom_point(data = peso_2025, aes(x = Timestamp, y = Value), size = 1.6) +
+  # Escalas
+  scale_x_datetime(
+    date_labels = "%d %b",   # dia + mês abreviado em português
+    date_breaks = "1 week",
+    expand = expansion(mult = c(0.01, 0.01))
+  ) +
+  scale_y_continuous(limits = c(ymin_plot, ymax_plot), labels = label_number(suffix = " kg")) +
+  # Cores e legenda
+  scale_fill_manual(
+    name = "Faixas de IMC",
+    values = setNames(faixas$fill, faixas$cat),
+    breaks = faixas$cat
+  ) +
+  labs(
+    title = "Evolução do peso (2025) com faixas de IMC",
+    x = "Data",
+    y = "Peso"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "bottom"
+  )
+
+
+```
 
 # Análise dos dados
 
@@ -358,4 +471,6 @@ Mudanças. Se houve mudanças de planos, criar um novo evento e remover o que n�
 
 ## Planejamento para o próximo ano
 
+
+# Rerefências
 
