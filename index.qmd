@@ -40,10 +40,11 @@ Este relatório
 
 
 
-# Métodos
+# Método
 
-## Base de dados ICnet
 
+## Base dos dados
+### ICnet
 
 O Sistema ICnet é um pacote de soluções de software que permite a gestão integrada de várias áreas das Instituições Conscienciocêntricas, @icnetDocs: 
 
@@ -58,7 +59,7 @@ O Sistema ICnet é um pacote de soluções de software que permite a gestão int
 9. Gerenciamento de Ensino a Distância.
 10. Marketing Digital.
 
-Através de uma conta com permissões admnistrativas de uma IC é possível acessar os dados cadastrados nos sistema.
+Através de uma conta com permissões admnistrativas de uma IC é possível acessar os dados cadastrados no sistema.
 
 Nas seções a seguir são apresentadas as telas contendo os dados registrado no sistema.
 
@@ -86,18 +87,18 @@ A tela de Participação em Equipe na @fig-equipe lista em quais equipes o volun
 
 A @fig-atividades apresenta o histórico das atividades registradas no sistema. A coluna "Data Início" indica a data de início do evento, os eventos listados não são indicativos de presença, uma vez que existe evento para o ano sequinte (2026).
 
-## E-mail
+### E-mail
 
 ![Consulta no E-mail](images/consulta-no-email.png){#fig-consultaemail}
 O E-mail também uma rica fonte de informações, pois é habitual receber confirmações de compras ou tickets no e-mail.
 
-## Calendário
+### Calendário
 
 A agenda de compromissos é um ótimo recurso para consultar eventos anteriores (ver @fig-agenda).
 
 ![Pesquisa no calendário](images/calendar.png){#fig-agenda}
 
-## WhatsApp
+### WhatsApp
 
 ![Pesquisa no WhatsApp](images/whatsapp.png){#fig-whatsapp}
 
@@ -107,19 +108,18 @@ Alguns eventos podem ser pesquisados através do WhatsApp (@fig-whatsapp), como 
 
 As compras (ou recebimento de presentes) de livros podem ter registros no e-mail ou uma organização da biblioteca pessoal pode set implementada manualmente.
 
-## Ferramentas de extração de dados
+## Software
+### Instant Data Scraper
 
-A extração de dados do ICNet, como na @fig-atividades, pode ser realizada copiando a tabela e colando no Excel.
+Para a extração de dados do ICNet (ver @fig-atividades) copiar e colar no Excel é suficiente.
 
-
-Para extração de dados nos sites também foi utilizado a extensão Instant Data Scraper criada por @instantDataScraper para o Google Chrome.
-
+Extrações mais complexas podem ser realizadas com a extensão para o Google Chrome chamada Instant Data Scraper, criada por @instantDataScraper. A @fig-instantdata mostra uma extração de uma lista de pedidos de compras na Megastore.
 
 ![Extração de dados na Megastore através do Instant Data Scraper](images/instant-data-scraper.png){#fig-instantdata}
 
-A @fig-instantdata mostra uma extração de uma lista de pedidos de compras na Megastore.
 
-## RStudio
+
+### RStudio
 
 O RStudio mantido por @rstudio é uma IDE (Ambiente de Desenvolvimento Integrado) que permite a edição dos documentos e agrupa diversas funcionalidades para gerenciar o projeto. Ela é uma ferramenta de referência para a ciência de dados de código aberto.
 
@@ -127,7 +127,7 @@ Este documento foi redigido no RStudio.
 
 ![Escrita do documento no RStudio](images/rstudio.png)
 
-## Quarto
+### Quarto
 
 O Quarto mantido por @quarto é um sistema de código aberto para escrita e publicação técnica e científica. Ela é uma ferramenta de comandos de linhas para gerenciar e publicar projetos, integrada nas versões recentes do RStudio.
 
@@ -137,7 +137,7 @@ Através do ICNet podemos extrair diversos dados sobre nossa atuação na CCCI.
 
 Na seções a seguir são apresentadas diversos dados extraídos do ICNet.
 
-## Voluntariados
+## Voluntariado
 
 
 ```{r}
@@ -161,9 +161,11 @@ timeline
     title Ingresso no Voluntariado
     06/2025 : ISIC
             : JURISCONS
+            : HOLOMEMÓRIA
     07/2025 : EDITARES
 ```
 
+A HOLOMEMÓRIA é uma condição especial, por não é uma IC, da mesma forma que o ICGE também não é. Ambas são iniciativas da CCCI com o apoio da UNICIN.
 
 ## Participação em Equipe
 
@@ -214,6 +216,8 @@ O hitórico de atividades extraídos pelo ICNet contém alguns erros de datas (@
 OIC
 
 26,28,29/8
+
+## Laboratórios
 
 ## Registros no E-mail
 
@@ -278,6 +282,8 @@ kable(acomplamentarium, format = "pipe")
 
 # Resultados
 
+
+
 # Apendice/Rascunho
 ## Instituições conscenciocêntricas
 
@@ -337,3 +343,19 @@ Atividade não oficiais
 - Reunião com Leandro
 - Como as atividades foram adicionadas
 -->
+
+## Otimizadores
+
+### Agenda de compromissos atualizada
+
+Exclusão. Remover os compromissos recorrentes que não foi atendidos para evitar compromissos enexistentes.
+
+Presentes. Para os compromissos on-line, manter a lista de convidados consistente com quem realmente esteve no evento.
+
+Mudanças. Se houve mudanças de planos, criar um novo evento e remover o que não ocorreu.
+
+
+
+## Planejamento para o próximo ano
+
+
