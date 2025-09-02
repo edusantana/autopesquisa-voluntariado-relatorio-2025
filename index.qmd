@@ -137,7 +137,7 @@ Através do ICNet podemos extrair diversos dados sobre nossa atuação na CCCI.
 
 Na seções a seguir são apresentadas diversos dados extraídos do ICNet.
 
-## Voluntariados
+## Voluntariado
 
 
 ```{r}
@@ -161,9 +161,11 @@ timeline
     title Ingresso no Voluntariado
     06/2025 : ISIC
             : JURISCONS
+            : HOLOMEMÓRIA
     07/2025 : EDITARES
 ```
 
+A HOLOMEMÓRIA é uma condição especial, por não é uma IC, da mesma forma que o ICGE também não é. Ambas são iniciativas da CCCI com o apoio da UNICIN.
 
 ## Participação em Equipe
 
@@ -280,6 +282,8 @@ kable(acomplamentarium, format = "pipe")
 
 # Resultados
 
+
+
 # Apendice/Rascunho
 ## Instituições conscenciocêntricas
 
@@ -349,3 +353,9 @@ Exclusão. Remover os compromissos recorrentes que não foi atendidos para evita
 Presentes. Para os compromissos on-line, manter a lista de convidados consistente com quem realmente esteve no evento.
 
 Mudanças. Se houve mudanças de planos, criar um novo evento e remover o que não ocorreu.
+
+
+
+## Planejamento para o próximo ano
+
+
