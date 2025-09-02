@@ -150,11 +150,11 @@ library(knitr)
 
 voluntariados <- read_csv("csv/voluntariados.csv")
 
+
 kable(voluntariados, format = "pipe")
 ```
 
 A @tbl-voluntariados apresenta o dia o contrato de voluntariado para cada instituição foi assinado. A ISIC e EDITARES ainda não incluiu no sistema em qual departamento foi incluído.
-
 
 ```{mermaid}
 timeline
