@@ -5,18 +5,6 @@ and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
 <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
 
 <front>
-<journal-meta>
-<journal-id></journal-id>
-
-<journal-title-group>
-<journal-title>Earth and Space Science</journal-title>
-</journal-title-group>
-<issn></issn>
-
-<publisher>
-<publisher-name></publisher-name>
-</publisher>
-</journal-meta>
 
 
 <article-meta>
@@ -56,11 +44,7 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
 <corresp id="cor-1"></corresp>
 </author-notes>
 
-<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2025-09-02">
-<year>2025</year>
-<month>9</month>
-<day>2</day>
-</pub-date>
+
 
 
 
@@ -157,11 +141,11 @@ volunteer work.</p>
       <person-group person-group-type="author">
         <name><surname>Knuth</surname><given-names>Donald E.</given-names></name>
       </person-group>
-      <article-title>Literate programming</article-title>
+      <article-title>Literate Programming</article-title>
       <source>Comput. J.</source>
       <publisher-name>Oxford University Press, Inc.</publisher-name>
       <publisher-loc>USA</publisher-loc>
-      <year iso-8601-date="1984-05">1984</year><month>05</month>
+      <year iso-8601-date="1984">1984</year>
       <volume>27</volume>
       <issue>2</issue>
       <issn>0010-4620</issn>
@@ -297,11 +281,11 @@ volunteer work.</p>
       <person-group person-group-type="author">
         <name><surname>Knuth</surname><given-names>Donald E.</given-names></name>
       </person-group>
-      <article-title>Literate programming</article-title>
+      <article-title>Literate Programming</article-title>
       <source>Comput. J.</source>
       <publisher-name>Oxford University Press, Inc.</publisher-name>
       <publisher-loc>USA</publisher-loc>
-      <year iso-8601-date="1984-05">1984</year><month>05</month>
+      <year iso-8601-date="1984">1984</year>
       <volume>27</volume>
       <issue>2</issue>
       <issn>0010-4620</issn>
