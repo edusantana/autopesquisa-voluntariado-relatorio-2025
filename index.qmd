@@ -37,6 +37,27 @@ number-sections: true
 
 Este relatório
 
+<!-- 
+
+O quê? Por quê? Para quê? Como? Quando?
+
+Quesitos. Visando auxiliar o leitor-pesquisador na elaboração de um projeto técnico de autopesquisa, indica-se a elaboração dos 8 seguintes quesitos, interconectados entre si:
+1. Tema: clareza do assunto a tratar, o tema.
+2. Problema: formulação do problema da pesquisa.
+3. Hipóteses: proposições admissíveis, possibilidades de respostas para a investigação.
+4. Justificativa: motivo para realizar determinada pesquisa.
+5. Metodologia: estabelecimento dos métodos a seguir.
+6. Objetivo: definição do propósito geral e específicos.
+7. Prazo: cronograma das atividades.
+8. Revisão da literatura: pesquisa da bibliografia existente sobre a temática.
+
+
+Delimitador. O foco delimita o tema.
+Exemplo. Para ilustrar a determinação de um tema de pesquisa e o respectivo foco, segue exemplo: – Em uma pesquisa sobre pensenidade, manifestação dos autopensenes é tema (denota abrangência) e manutenção da ortopensenidade nas Ações Diárias é um foco dentro do tema (especifica a abordagem da pesquisa no contexto da manifestação dos autopensenes).
+
+
+-->
+
 <!-- Pesquisar INVENTARIOLOGIA -->
 
 
@@ -329,7 +350,7 @@ kable(acomplamentarium, format = "pipe")
 
 ```{r}
 #| label: fig-peso-mmc-2025
-#| fig-cap: "Evolução do peso em 2025 com faixas de IMC (OMS)"
+#| fig-cap: "Evolução do peso em com faixas de IMC (OMS) - 2025"
 #| echo: false
 
 library(readr)
@@ -407,7 +428,7 @@ ggplot() +
     breaks = faixas$cat
   ) +
   labs(
-    title = "Evolução do peso (2025) com faixas de IMC",
+    title = "Evolução do peso com faixas de IMC (2025)",
     x = "Data",
     y = "Peso"
   ) +
@@ -420,6 +441,10 @@ ggplot() +
 
 
 ```
+
+# ECP1
+
+- Eliminar a dispersão
 
 # Análise dos dados
 
