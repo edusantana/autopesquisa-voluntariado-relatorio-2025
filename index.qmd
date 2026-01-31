@@ -35,7 +35,7 @@ number-sections: true
 
 # Introdução
 
-Este relatório
+Este relatório. 
 
 ```{=html}
 <!-- 
@@ -201,7 +201,7 @@ Segundo @vieira1986projeciologia projeciologia é cool.
 -   Apropriação das Metas do Inversor aos 40 anos
 -   Dominar o EV
 -   Dupla evolutiva
--   
+-   CPC Ativo
 
 - traçar o plano
 - tertulia matinal > meta interessante
@@ -292,6 +292,8 @@ OIC
 26,28,29/8
 
 ## Laboratórios
+
+## Cursos de Campo
 
 ## Registros no E-mail
 
@@ -450,6 +452,8 @@ ggplot() +
 -   Eliminar a dispersão
 
 # Análise dos dados
+
+## Holopensene
 
 # Resultados
 
