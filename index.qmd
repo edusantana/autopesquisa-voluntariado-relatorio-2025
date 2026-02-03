@@ -27,6 +27,7 @@ key-points:
   - Recins
   - Recéxis
 date: last-modified
+lang: pt-BR
 bibliography: references.bib
 #citation:
 #  container-title: Earth and Space Science
@@ -35,8 +36,14 @@ number-sections: true
 
 # Introdução
 
-Este relatório
+Este relatório lista as atividades da conscienciologia e voluntariado realizadas pelo autor durante o ano de 2025 e uma breve análise sobre o holopense imerso.
 
+Este relatório é minha iniciativa para a autopesquisa. O desenvolvimento das ferramentas de autopesquisa é desafiador, necessitamos equilibar o tempo e esforço para pesquisar e avaliar ferramentas desenvolvidas pela comunidade ou desenvolver as nossas próprias ferramentas.
+
+Estas são as perguntas da pesquisa que desejo responder:
+
+
+```{=html}
 <!-- 
 
 O quê? Por quê? Para quê? Como? Quando?
@@ -56,28 +63,216 @@ Delimitador. O foco delimita o tema.
 Exemplo. Para ilustrar a determinação de um tema de pesquisa e o respectivo foco, segue exemplo: – Em uma pesquisa sobre pensenidade, manifestação dos autopensenes é tema (denota abrangência) e manutenção da ortopensenidade nas Ações Diárias é um foco dentro do tema (especifica a abordagem da pesquisa no contexto da manifestação dos autopensenes).
 
 
+Hipóteses: qual estratégia utilizar para atingir um objetivo
+
+-->
+```
+
+
+# Perguntas da Pesquisa
+
+Esta pesquisa visa responder às seguintes perguntas na @tbl-rqs.
+
+: Perguntas de Pesquisa (RQ) para Autopesquisa {#tbl-rqs}
+
+| ID  | Área de foco | Pergunta de pesquisa | Resultado esperado |
+|-----|--------------|:---------------------|-------------------|
+| RQ1 | Processo     | Como iniciar meu processo de autopesquisa? | Definição das etapas iniciais |
+| RQ2 | Conteúdo     | Quais informações incluir na autopesquisa? | Identificação dos dados relevantes |
+| RQ3 | Ferramentas  | Quais ferramentas utilizar para realizar a autopesquisa? | Identificação das ferramentas |
+| RQ4 | Análise      | Que tipos de análises devo empregar e como realizá-las? | Estrutura (framework) analítica |
+
+
+# Hipóteses
+
+- Comprar e ler livros sobre autopesquisa da conscienciologia irão me ajudar a iniciar minha autopesquisa
+
+
+: Hipóteses (H) associadas às Perguntas de Pesquisa {#tbl-hipoteses}
+
+| ID  | Pergunta de pesquisa | Hipótese (testável) | Como verificar (indicador/critério) |
+|-----|----------------------|---------------------|-------------------------------------|
+| H1  | RQ1 – Como iniciar meu processo de autopesquisa? | A definição explícita de um **recorte** (tema), um **horizonte temporal** e um **roteiro semanal** aumenta a continuidade do processo nas primeiras 4 semanas. | % de semanas com registro completo; nº de sessões realizadas/planejadas; abandono vs continuidade. |
+| H2  | RQ2 – Quais informações incluir na autopesquisa? | Um protocolo mínimo de registro (ex.: **contexto → evento → reação → interpretação → decisão**) reduz lacunas e melhora a comparabilidade dos dados ao longo do tempo. | Presença dos campos em ≥80% dos registros; redução de “entradas vagas”; facilidade de codificação. |
+| H3  | RQ3 – Quais ferramentas utilizar para realizar a autopesquisa? | Ferramentas com **baixo atrito** (captura rápida + busca + tags) aumentam a frequência de registro e a reutilização de dados (revisão/insights). | Tempo médio para registrar; nº de registros/semana; nº de consultas (buscas) e revisões/mês. |
+| H4  | RQ4 – Que tipos de análises devo empregar e como realizá-las? | A combinação de **análise temporal** (linha do tempo), **análise temática** (tags/códigos) e **análise de padrões** (gatilhos/recorrências) gera planos de ação mais específicos do que usar apenas reflexão livre. | Nº de padrões identificados; nº de ações formuladas; taxa de execução das ações; clareza avaliada (autoavaliação). |
+
+
+<!-- 
+
+Como iniciar?
+
+Não é apenas sobre o físico. Mas incluindo o paradigma consciencial.
+
+O estudo de si mesmo pode ser realizado considerando somente as questões do corpo, desta vida e desta dimensão física ou aplicando sob a ótica do paradigma consciencial.
+
 -->
 
+# Como iniciar meu processo de autopesquisa?
+
+Em @kauati2024autopesquisa, cap. 7, é listado 5 fases para realização da autopesquisa:
+
+1. Escolha do tema.
+2. Delimitação da autopesquisa
+3. Pesquisa bibliográfica.
+4. Experimentação.
+5. Análise.
+
+# A escolha do tema da pesquisa
+
+@kauati2024autopesquisa sugere escolher uma das seguintes alternativas para inciar a autopesquisa:
+
+- Identificação de um mal estar
+- Definir o que deseja alcançar na vida
+- De acordo com a necessidade mais importante
+- Definir um tema simples, que seja motivador
+
+## Avaliando as alternativas para escolha de tema
+
+Nas seçoes seguintes vou avaliar as alternativas apresentadas.
+
+### Identificação de um mal estar
+
+No momento não tenho um *mal estar* que desejo enfrentar.
+
+### Definir o que deseja alcançar na vida
+
+Inicialmente fui pesquisar por técnicas para aplicar na elaboração de objetivos em referências bibliográficas.
+
+<!-- 
+A escolha de qual técnica empregar para definicação dos objetivos e metas requer esforço de leitura e avaliação. Defini objetivos gerais e tracei metas para o ano.
+-->
+
+A tentativa de escrita de objetivos utilizando a técnica OKRs (*Objectives and Key Results*) descrita em @Doerr2018MeasureWhatMatters não apresentou resultado satisfatório. O processo é voltado para objetivos empresariais e *transpor a técnica para escrita de propósito geral de vida foi frustrante*.
+
+<!-- XXX espaço de pesquisa, como definir objetivo de vida para pesquisa consciencial? -->
+
+Considerei uma abordagem diferente para os objetivos, inspirada por @Borges2025Eitologia, baseado na Eitologia: avaliar as áreas da vida e classificá-las em Deficiente, Suficiente e Proficiente e dar atenção ao que estiver Carente, transformando-as em Suficiente, e posteriormente qualificando-as para Proficiente.
+
+Classifiquei como não prioritário o emprego de técnica específica para escrita de objetivos, abortando leituras e pesquisa nessa temática. 
+
+
+#### Metas estabelecidas para 2025
+
+Escrevi brevemente metas para ano. A elaboração das metas (ver @tbl-metas-2025) foi realizada e revisada durante os meses iniciais do ano.[^exemplo-revisao-metas]
+
+[^exemplo-revisao-metas]: Por exemplo, eu quero ser um docente, mas eu desconhecia o caminho para docência. Durante o curso de entrada eu fui conhecendo os meios para ser docente e adicionei a meta M2, para estar ápito para realizar Reapredentia no ano seguinte.
+
+: Metas para 2025 {#tbl-metas-2025}
+
+| ID | Categoria     | Meta                                                                 |
+|----|---------------|:---------------------------------------------------------------------|
+| M1 | Formação      | Vir para Foz do Iguaçu e estudar a Conscienciologia.                  |
+| M2 | Docência      | Estar apto e na lista de espera para realizar curso de docência pela Reaprendia em 2026. |
+| M3 | Autopesquisa  | Autopesquisa em execução, com registros diversos e análise incipiente. |
+| M4 | Saúde         | Peso em monitoramento com medições constantes.                       |
+| M5 | Projeciologia | Alcançar pelo menos uma projeção lúcida.                             |
+| M6 | Energias      | Identificar o estado vibracional.                                    |
+| M7 | Financeiro    | Expandir a reserva de emergência para 12 meses.                      |
+
+Além das metas, os seguintes objetivos (ver @tbl-objetivos-nao-prioritarios-2025) foram elaborados para nortear o ano.
+
+: Objetivos não prioritários {#tbl-objetivos-nao-prioritarios-2025}
+
+| ID | Categoria           | Objetivo                                                    |
+|----|---------------------|:------------------------------------------------------------|
+| O1 | Proexologia         | Identificação da Proéxis.                                   |
+| O2 | Docência            | Planejamento de curso livre.                                |
+| O3 | Evoluciologia       | Planejamento estratégico evolutivo.                         |
+| O4 | Inversão Existencial| Apropriação das metas do inversor aos 40 anos.              |
+| O5 | Energias            | Dominar o estado vibracional (EV).                          |
+| O6 | Duplismo            | Constituir dupla evolutiva.                                 |
+| O7 | Cosmoeticologia     | Manter um Código Pessoal de Cosmoética (CPC) ativo.         |
+
+
+### De acordo com a necessidade mais importante
+
+Este é o levantamento das metas e objetivos mais importantes:
+
+Vir para Foz do Iguaçu e estudar a Conscienciologia
+: Eu cheguei em Foz do Iguaçu em Janeiro e iniciei o curso de entrada em Fevereiro.
+
+Estar ápito e na lista de espera para realizar curso de docência através da Reaprendia em 2026
+: Os pré-requisitos são: concluído um curso de entrada, realizado curso de campo como ECP2 ou Imerssão Projecioterápica, 6 meses de voluntariado, passar em prova de admissão e entrevista.
+
+Autopesquisa em execução. Registro diversos e análise incipiente
+
+: O propósito é ter o processo de autopesquisa iniciado, com registros e análise de qualquer aspectos.
+
+Peso em monitoramento com medições constantes
+
+: Cumprir as metas requer esforço e força de vontade. Para o ano virgente, a meta era *monitorar o peso, realizar medições e registrar*.
+
+Planejamento de curso livre
+: Embora pareça prematuro pensar no planejamento de um curso livre acredito em preparação antecipada para os objetivos de longo prazo.
+
+Avaliar tecnologias para produção de livros, artigos e autopesquisa
+: Ao longo do ano me envolvi, no voluntariado, em atividades de produção de livros, busco avaliar tecnologias para otimizar o trabalho.
+
+
+<!-- Retomei a tenepes -->
+
+### Definir um tema simples, que seja motivador
+
+- Monitoramento do peso.
+- Avaliar trajetória de cursos e atividades realizadas.
+- Desenvolvimento de instrumento de autopesquisa
+
+## Temas escolhidos
+
+- Avaliar trajetória de cursos e atividades realizadas.
+- Avaliação das metas e objetivos
+- Desenvolvimento de instrumento de autopesquisa
+
 <!-- Pesquisar INVENTARIOLOGIA -->
+
+# Delimitação da autopesquisa
+
+Como tenho o propósito de criar um instrumento de pesquisa que possa ser facilmente replicado, tenho as seguintes restrições:
+
+Instrumento de pesquisa replicável
+
+: Tenho que requisito a elaboração de instrumentos de autopesquisa que outras pessoas possam baixar, adaptar e iniciar sua autopesquisa.
+
+Agilidade para iniciar.
+
+: Escolha de temáticas simples, que possa agilizar o início da utilização por outrem
+
+
+Sem exposição de traços íntimos
+
+: Como proposta inicial, não abordar conteúdos íntimos. Para facilitar a obtenção de feedbacks e reprodutibilidade.
+
+Privacidade
+
+: Sem exposição de situações ou nomes de terceiros.
+
+Instrumento robusto
+
+: O instrumento deve poder gerar muitos gráficos diferentes e com automações.
+
+# Pesquisa bibliográfica.
+
+
 
 
 # Método
 
-
 ## Base dos dados
+
 ### ICnet
 
-O Sistema ICnet é um pacote de soluções de software que permite a gestão integrada de várias áreas das Instituições Conscienciocêntricas, @icnetDocs: 
+O Sistema ICnet é um pacote de soluções de software que permite a gestão integrada de várias áreas das Instituições Conscienciocêntricas, @icnetDocs:
 
-1. Voluntariado.
-2. Eventos.
-3. Gestão financeira (receitas e despesas) e contábil.
-4. Ecommerce.
-5. Dinâmicas parapsíquicas.
-6. Laboratórios.
-7. Hospedagem em Campus.
-8. Gescons.
-9. Gerenciamento de Ensino a Distância.
+1.  Voluntariado.
+2.  Eventos.
+3.  Gestão financeira (receitas e despesas) e contábil.
+4.  Ecommerce.
+5.  Dinâmicas parapsíquicas.
+6.  Laboratórios.
+7.  Hospedagem em Campus.
+8.  Gescons.
+9.  Gerenciamento de Ensino a Distância.
 10. Marketing Digital.
 
 Através de uma conta com permissões admnistrativas de uma IC é possível acessar os dados cadastrados no sistema.
@@ -96,11 +291,9 @@ A tela de "Voluntariado em Outras IC's", não apresentada mas acessível a parti
 
 ### Participação em equipes
 
-
 ![Participação em equipes cadastradas no ICnet](images/participacao-em-equipe.png){#fig-equipe}
 
 A tela de Participação em Equipe na @fig-equipe lista em quais equipes o voluntario(a) participou.
-
 
 ### Histórico de atividades
 
@@ -112,18 +305,13 @@ O hitórico de atividades extraídos pelo ICNet poder conter alguns erros de dat
 
 ![Erros no Histórico de atividades no ICNet](images/historico-erros.png){#fig-historicoerros}
 
-
-
 ### Laboratórios
-
 
 ![Laboratórios](images/laboratorios.jpg)
 
-
 ### E-mail
 
-![Consulta no E-mail](images/consulta-no-email.png){#fig-consultaemail}
-O E-mail também uma rica fonte de informações, pois é habitual receber confirmações de compras ou tickets no e-mail.
+![Consulta no E-mail](images/consulta-no-email.png){#fig-consultaemail} O E-mail também uma rica fonte de informações, pois é habitual receber confirmações de compras ou tickets no e-mail.
 
 ### Calendário
 
@@ -142,6 +330,15 @@ Alguns eventos podem ser pesquisados através do WhatsApp (@fig-whatsapp), como 
 As compras (ou recebimento de presentes) de livros podem ter registros no e-mail ou uma organização da biblioteca pessoal pode set implementada manualmente.
 
 ## Software
+
+### CosmoWare
+
+O CosmoWare, @CosmoWareExtension, é uma extensão para o Google Chrome (Ver @fig-cosmoware) que adiciona funcionalidades aos sites da conscienciologia, especificamente ao ICNET. Com ela é possível exportar os dados do ICNET em planilhas compatíveis com o RStudio, @rstudio.
+
+![Utilização do CosmoWare para extração dos dados do ICNET](images/cosmoware-exportar-planilhas.png){#fig-cosmoware}
+
+
+
 ### Instant Data Scraper
 
 Para a extração de dados do ICNet (ver @fig-atividades) copiar e colar no Excel é suficiente.
@@ -150,12 +347,11 @@ Extrações mais complexas podem ser realizadas com a extensão para o Google Ch
 
 ![Extração de dados na Megastore através do Instant Data Scraper](images/instant-data-scraper.png){#fig-instantdata}
 
-### Track \& Graph
+### Track & Graph
 
-O Track \& Graph (@fig-trackandgraph) é um aplicativo para Android, @trackandgraph, que permite o registro de dados pessoas e exportação dos dados para planilhas. Pode ser utilizado para registro de tentativas de EV, de peso, sinaléticas ou qualquer outras variáveis que forem configuradas.
+O Track & Graph (@fig-trackandgraph) é um aplicativo para Android, @trackandgraph, que permite o registro de dados pessoas e exportação dos dados para planilhas. Pode ser utilizado para registro de tentativas de EV, de peso, sinaléticas ou qualquer outras variáveis que forem configuradas.
 
-
-![Track \& Graph](images/Screenshot_20250902_183240_Track_and_Graph.jpg){#fig-trackandgraph}
+![Track & Graph](images/Screenshot_20250902_183240_Track_and_Graph.jpg){#fig-trackandgraph}
 
 ### RStudio
 
@@ -169,44 +365,147 @@ Este documento foi redigido no RStudio.
 
 O Quarto mantido por @quarto é um sistema de código aberto para escrita e publicação técnica e científica. Ela é uma ferramenta de comandos de linhas para gerenciar e publicar projetos, integrada nas versões recentes do RStudio.
 
+Segundo @vieira1986projeciologia projeciologia é cool.
 
 # Objetivos e metas
 
 ## Objetivos gerais
 
-- **Epicon**.
-- **Docência**. Docência consciencilógica.
-- **Grupo-carma**. Manter-se como epicentro da Conscienciologia em João Pessoa.
-- **Independência financeira**. Aposentar mais cedo para dedicar-se ao desenvolvimento e interassistência.
-- **Metas**. Traçar metas para os próximos anos.
+-   **Epicon**.
+-   **Docência**. Docência consciencilógica.
+-   **Grupo-carma**. Manter-se como epicentro da Conscienciologia em João Pessoa.
+-   **Independência financeira**. Aposentar mais cedo para dedicar-se ao desenvolvimento e interassistência.
+-   **Metas**. Traçar metas para os próximos anos.
 
 ## Metas estabelecidas para 2025
 
-- Vir para Foz do Iguaçu e estudar a Conscienciologia
-- Estar ápito e na lista de espera para realizar curso de docência através da Reaprendia em 2026.
-- Pelo menos uma projeção lúcida.
-- Estado vibracional identificado.
-- Autopesquisa em execução. Registro diversos e análise incipiente.
-- Peso em monitoramento com medições constantes.
-- Expansão de reserva de emergência para 12 meses.
+-   Vir para Foz do Iguaçu e estudar a Conscienciologia
+-   Estar ápito e na lista de espera para realizar curso de docência através da Reaprendia em 2026.
+-   Pelo menos uma projeção lúcida.
+-   Estado vibracional identificado.
+-   Autopesquisa em execução. Registro diversos e análise incipiente.
+-   Peso em monitoramento com medições constantes.
+-   Expansão de reserva de emergência para 12 meses.
 
 ## Outras metas
 
-- Identificação de Proéxis
-- Planejamento de curso livre
-- Planejamento estratégico evolucente
-- Apropriação das Metas do Inversor aos 40 anos
-- Dominar o EV
-- Dupla evolutiva
+-   Identificação de Proéxis
+-   Planejamento de curso livre
+-   Planejamento estratégico evolucente
+-   Apropriação das Metas do Inversor aos 40 anos
+-   Dominar o EV
+-   Dupla evolutiva
+-   CPC Ativo
+
+- traçar o plano
+- tertulia matinal > meta interessante
+
+- verbete > infocomunicologia > ferramentas de pesquisas conscienciologicas
+
+auto pesquisa projeciologica -- info comunicologia e projeciologia
+
+usar projções da consciencia para testar
+
+Artigo
 
 # Dados coletados
 
+<!--
 Através do ICNet podemos extrair diversos dados sobre nossa atuação na CCCI.
 
 Na seções a seguir são apresentadas diversos dados extraídos do ICNet.
+-->
+
+
+## Eventos
+
+Segue o hitórico de eventos que estive presente em 2025:
+
+```{r}
+library(readr)
+library(dplyr)
+library(knitr)
+
+historico <- read_csv(
+  "csv/eventos.csv",
+  col_types = cols(`Data Início` = col_date(format = "%d/%m/%Y"))
+) %>%
+  select(-`Cód.Turma`) %>%  # Remove a coluna de código da turma
+  mutate(`Data Início` = format(`Data Início`, "%d/%m/%Y"))  # Reformatar data
+
+kable(historico, format = "pipe")
+```
+
+## Cursos de Campo
+
+Na @tbl-campo estão os cursos de campo realizados. Os curso do CEAC são Acoplamentarium.
+
+```{r}
+#| label: tbl-campo
+#| tbl-cap: Cursos de Campo em 2025
+library(readxl)
+library(dplyr)
+library(knitr)
+
+acomplamentarium <- read_excel(
+  "dados/campo.xlsx",
+  sheet = "campo"   # ou 1
+)
+
+kable(acomplamentarium, format = "pipe")
+```
+
+
+## Dinâmicas
+
+OIC
+
+26,28,29/8
+
+
+
+## Laboratórios
+
+
+
+
+```{=html}
+<!--
+
+## Registros no E-mail
+
+- Expotação com IA: https://chromewebstore.google.com/detail/ofaokhiedipichpaobibbnahnkdoiiah?utm_source=item-share-cb
+
+- Exportação no G-mail: https://support.cloudhq.net/category/browser-extensions/export-emails-to-excel-csv-or-google-sheet/
+
+-->
+```
+
+## Compras
+
+Minhas compras:
+
+```{r}
+#| label: tbl-compras
+#| tbl-cap: Lista das compras
+library(readr)
+library(dplyr)
+library(knitr)
+
+compras <- read_csv(
+  "csv/compras.csv",
+  col_types = cols(Data = col_date(format = "%m/%d/%Y"))
+) %>%
+  select(Data, Loja, Categoria, Produto) %>%  # Mantém apenas as 4 primeiras colunas
+  mutate(Data = format(Data, "%d/%m/%Y"))     # Reformatar data para dd/mm/aaaa
+
+kable(compras, format = "pipe")
+```
+
 
 ## Voluntariado
 
+### Ingresso no Voluntariado
 
 ```{r}
 #| label: tbl-voluntariados
@@ -235,8 +534,9 @@ timeline
 
 A HOLOMEMÓRIA é uma condição especial, por não ser uma IC, da mesma forma que o ICGE também não é. Ambas são iniciativas da CCCI com o apoio da UNICIN.
 
-## Participação em Equipe
 
+
+### Participação em Equipe
 
 ```{r}
 library(readr)
@@ -251,97 +551,6 @@ participacao_em_equipe <- read_csv(
   mutate(`Data Início` = format(`Data Início`, "%d/%m/%Y"))  # Reformatar data
 
 kable(participacao_em_equipe, format = "pipe")
-```
-
-
-## Histórico de atividades
-
-Segue uma tabela contendo hitórico de atividades extraídos pelo ICNet:
-
-```{r}
-library(readr)
-library(dplyr)
-library(knitr)
-
-historico <- read_csv(
-  "csv/historico.csv",
-  col_types = cols(`Data Início` = col_date(format = "%d/%m/%Y"))
-) %>%
-  select(-`Cód.Turma`) %>%  # Remove a coluna de código da turma
-  mutate(`Data Início` = format(`Data Início`, "%d/%m/%Y"))  # Reformatar data
-
-kable(historico, format = "pipe")
-```
-
-
-
-
-## Dinâmicas
-
-OIC
-
-26,28,29/8
-
-## Laboratórios
-
-
-
-## Registros no E-mail
-
-
-
-
-<!--
-
-- Expotação com IA: https://chromewebstore.google.com/detail/ofaokhiedipichpaobibbnahnkdoiiah?utm_source=item-share-cb
-
-- Exportação no G-mail: https://support.cloudhq.net/category/browser-extensions/export-emails-to-excel-csv-or-google-sheet/
-
--->
-
-## Compras
-
-Minhas compras:
-
-
-```{r}
-#| label: tbl-compras
-#| tbl-cap: Lista das compras
-library(readr)
-library(dplyr)
-library(knitr)
-
-compras <- read_csv(
-  "csv/compras.csv",
-  col_types = cols(Data = col_date(format = "%m/%d/%Y"))
-) %>%
-  select(Data, Loja, Categoria, Produto) %>%  # Mantém apenas as 4 primeiras colunas
-  mutate(Data = format(Data, "%d/%m/%Y"))     # Reformatar data para dd/mm/aaaa
-
-kable(compras, format = "pipe")
-```
-
-
-## Acoplamentarium
-
-Na @tbl-acoplamentarium estão os cursos de Acoplamentarium realizados:
-
-
-```{r}
-#| label: tbl-acoplamentarium
-#| tbl-cap: Cursos de Acoplamentarium de 2025
-#| 
-library(readr)
-library(dplyr)
-library(knitr)
-
-acomplamentarium <- read_csv(
-  "csv/acoplamentarium.csv",
-  col_types = cols(Data = col_date(format = "%d/%m/%Y"))
-) %>%
-  mutate(Data = format(Data, "%d/%m/%Y"))  # Formatar datas no padrão dd/mm/aaaa
-
-kable(acomplamentarium, format = "pipe")
 ```
 
 ## Soma
@@ -388,7 +597,7 @@ faixas <- tribble(
          ymax = pmin(ymax, ymax_plot))
 
 # Lê e prepara os dados
-dados <- read_csv("csv/TrackAndGraph-null-20250902-181047.csv")
+dados <- read_csv("csv/TrackAndGraph-20260122-204431.csv")
 
 peso_2025 <- dados %>%
   filter(FeatureName == "Peso") %>%
@@ -396,7 +605,7 @@ peso_2025 <- dados %>%
     Timestamp = ymd_hms(Timestamp),
     Value = as.numeric(Value)
   ) %>%
-  filter(year(Timestamp) == 2025) %>%
+  filter(year(Timestamp) == 2025 | year(Timestamp) == 2026) %>%
   arrange(Timestamp)
 
 # limites do eixo X para pintar as faixas no fundo
@@ -444,73 +653,73 @@ ggplot() +
 
 # ECP1
 
-- Eliminar a dispersão
+-   Eliminar a dispersão
 
 # Análise dos dados
 
+## Holopensene
+
 # Resultados
 
-
-
 # Apendice/Rascunho
+
 ## Instituições conscenciocêntricas
 
-
 CEAEC
-: Centro de Altos Estudos da Conscienciologia. <http://campusceaec.org>
+
+:   Centro de Altos Estudos da Conscienciologia. <http://campusceaec.org>
 
 Editares
-: A editora da Conscienciologia. Website: <https://editares.org>
+
+:   A editora da Conscienciologia. Website: <https://editares.org>
 
 ISIC
-: Interassistantial Services for the Internationalization of Conscientiology. Website: <https://www.isicons.org>
+
+:   Interassistantial Services for the Internationalization of Conscientiology. Website: <https://www.isicons.org>
 
 Juriscon
-: Associação Internacional de Paradireitologia. Website: <https://juriscons.org>
 
+:   Associação Internacional de Paradireitologia. Website: <https://juriscons.org>
 
 ## Atividades
-
 
 ## Situações
 
 O que há em situações
 
-:::{.callout-note}
-
-Privacidade. Os nomes das pessoas foram alterados para manter a privacidade. 
+::: callout-note
+Privacidade. Os nomes das pessoas foram alterados para manter a privacidade.
 
 Substituição. Para manter uma coerência ao longo do relatório, alguns nomes foram substituidos por nomes em Latim.
 
+```{=html}
 <!-- 
 https://www.dicionariodenomesproprios.com.br/nomes-latim-femininos/
 https://www.dicionariodenomesproprios.com.br/nomes-latim-masculinos/
 -->
-
+```
 :::
-
-
 
 ## Atividades e papeis
 
-| Atividade            | IC     |
-| -------------------- | ------ |
-| Current              | 2021   |
-| Teneguía             | 1971   |
-| Nambroque            | 1949   |
-| El Charco            | 1712   |
-| Volcán San Antonio   | 1677   |
-| Volcán San Martin    | 1646   |
-| Tajuya near El Paso  | 1585   |
-| Montaña Quemada      | 1492   |
+| Atividade           | IC   |
+|---------------------|------|
+| Current             | 2021 |
+| Teneguía            | 1971 |
+| Nambroque           | 1949 |
+| El Charco           | 1712 |
+| Volcán San Antonio  | 1677 |
+| Volcán San Martin   | 1646 |
+| Tajuya near El Paso | 1585 |
+| Montaña Quemada     | 1492 |
 
-
-
+```{=html}
 <!--
 Atividade não oficiais
 - Reunião com Leandro
 - Como as atividades foram adicionadas
 -->
+```
 
 ## Otimizadores
 
@@ -522,10 +731,6 @@ Presentes. Para os compromissos on-line, manter a lista de convidados consistent
 
 Mudanças. Se houve mudanças de planos, criar um novo evento e remover o que não ocorreu.
 
-
-
 ## Planejamento para o próximo ano
 
-
 # Rerefências
-
