@@ -1,0 +1,6 @@
+@startuml
+json Example {
+  "key": "value"
+}
+@enduml
+

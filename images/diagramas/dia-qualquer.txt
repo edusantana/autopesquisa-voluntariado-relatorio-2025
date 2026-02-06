@@ -1,0 +1,44 @@
+@startmindmap
+<style>
+mindmapDiagram {
+  .green {
+    BackgroundColor lightgreen
+  }
+  .rose {
+    BackgroundColor #FFBBCC
+  }
+  .your_style_name {
+    BackgroundColor lightblue
+  }
+}
+</style>
+* 20/03/2025
+** Manhã
+*** Café da Manha
+**** Diálogo sobre Investigação do 8 de Janeiro <<green>>
+*** Academia
+**** Empréstimo da bandana <<green>>
+**** Gesto simpático de uma moça <<green>>
+*** Planejamento dos registros <<rose>>
+*** Trabalho
+**** Recebimento de mensagem <<green>>
+**** Tinder <<green>>
+***** Ativação de sinalética <<green>>
+**** Pesquisa como personalizar relógio do Windows <<green>>
+** Tarde
+*** Almoço
+**** Pensamento X <<green>>
+**** Pensamento Y <<green>>
+**** Tinder <<green>>
+**** Pensamento Z <<green>>
+**** Busca: How to download Backup of WhatsApp from Google drive <<green>>
+*** ev
+*** Deitado na cama <<green>>
+** Noite
+*** Jantar
+**** Instagram  <<green>>
+**** Youtube  <<green>>
+**** Tertulia  <<green>>
+*** Curso verbetografia  <<green>>
+*** Tenepes
+@endmindmap

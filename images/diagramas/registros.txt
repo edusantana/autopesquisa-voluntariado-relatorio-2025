@@ -1,0 +1,102 @@
+@startjson
+{
+  "Registros diários" :  [{
+  "Data": "20/03/2025",
+  "Registros": [
+        {
+        "Titulo" : "Café da manhã",
+        "Horário" : "7:15",
+        "Local" : "Casa",
+        "Companhia": ["Mãe", "Irmã"],
+        "Temática": "investigação do 8 de janeiro",
+        "Situação": "...",
+        "Pensene": { "pen": "Não conseguir convencer minha irmã e mãe \\nsobre a perseguição ao Bolsonaro", "sen": "Impotência", "ene": "", "Patológico": "N"}, 
+        "Técnicas": 
+         [
+            {
+             "Técnica" :"Anotação assertiva",
+              "Por que fiz isto?": "",
+              "Por que fiz aquilo?": "",
+              "Por que agi desta forma?": "",
+              "Por que reagi assim desta maneira?": "",
+              "Por que aconteceu isto?" : "",
+              "O que está por trás?" : "",
+              "Por que com essa pessoa (consciência)?" : "",
+              "Por que neste local?" : "",
+              "Por que neste instante (horário)?": "",
+              "O porquê da sincronicidade?" : ""
+            }
+         ]
+        },
+        {
+        "Titulo" : "Academia",
+        "Horário" : "7:50",
+        "Local" : "Academia",
+        "Companhia": ["Gabriel"],
+        "Temática": "Crítica",
+        "Situação": "...",
+        "Pensene": { "pen": "Eles deviam abrir uma excessão para mim", "sen": "Raiva", "ene": "Bloqueio no cardiochacra", "Patológico": "Sim"},
+        "Técnicas": 
+         [
+            {
+             "Técnica" :"Anotação assertiva",
+              "Por que fiz isto?": "",
+              "Por que fiz aquilo?": "",
+              "Por que agi desta forma?": "",
+              "Por que reagi assim desta maneira?": "",
+              "Por que aconteceu isto?" : "",
+              "O que está por trás?" : "",
+              "Por que com essa pessoa (consciência)?" : "",
+              "Por que neste local?" : "",
+              "Por que neste instante (horário)?": "",
+              "O porquê da sincronicidade?" : ""
+            },
+            {
+             "Técnica" :"Identificação dos Autopatospenses",
+              "Situação conflitiva": "Proibição de utilização da Esteira",
+              "Comportamento": "Deixar de ir na academia"
+            },
+            {
+             "Técnica" :"Identificação das Necessidades na Autopesenidade",
+              "Consequência negativa": "Deixei de fazer atividade física",
+              "Necessidade egóica": "Reconhecer que necessito de tratamento especial",
+              "Necessidade altruísta": "Tem poucas esteiras é necessário fazer um controle."
+            }
+         ]
+        },
+        {
+        "Titulo" : "Trabalho",
+        "Horário" : "9:30",
+        "Local" : "Casa",
+        "Companhia": [],
+        "Temática": "Frustração",
+        "Situação": "Problemas com processamento de arquivos",
+        "Pensene": { "pen": "isso está trabalhoso", "sen": "Frustração", "ene": "", "Patológico": "Sim"},
+        "Técnicas": 
+         [
+            {
+             "Técnica" :"Anotação assertiva",
+              "Por que fiz isto?": "",
+              "Por que fiz aquilo?": "",
+              "Por que agi desta forma?": "",
+              "Por que reagi assim desta maneira?": "",
+              "Por que aconteceu isto?" : "",
+              "O que está por trás?" : "",
+              "Por que com essa pessoa (consciência)?" : "",
+              "Por que neste local?" : "",
+              "Por que neste instante (horário)?": "",
+              "O porquê da sincronicidade?" : ""
+            },
+            {
+             "Técnica" :"Identificação dos Autopatospenses",
+              "Situação conflitiva": "Não estou conseguindo realizar o trabalho",
+              "Comportamento": "Comer"
+            }
+         ]
+        }
+
+
+   ]
+   },{"Data": "21/03/2025", "Registros": []}]
+}
+@endjson
