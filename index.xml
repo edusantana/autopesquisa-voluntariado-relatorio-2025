@@ -158,7 +158,7 @@ volunteer work.</p>
 </ref-list>
 </back>
 
-<sub-article article-type="notebook" id="nb-2-nb-article">
+<sub-article article-type="notebook" id="nb-8-nb-article">
 <front-stub>
 <title-group>
 <article-title>Relatório de autopesquisa do voluntariado</article-title>
@@ -296,6 +296,489 @@ volunteer work.</p>
     </element-citation>
   </ref>
 </ref-list>
+</back>
+
+
+</sub-article>
+<sub-article article-type="notebook" id="nb-3-nb-1">
+<front-stub>
+<title-group>
+<article-title>openscience.chatgpt</article-title>
+</title-group>
+</front-stub>
+
+<body>
+<sec id="quais-os-top-15-na-área-de-reprodutibilidade-cientifica-nb-1">
+  <title>Quais os top 15 na área de reprodutibilidade
+  cientifica?</title>
+  <p>Ótima pergunta. Em <bold>reprodutibilidade científica</bold>, não
+  existe um ranking único oficial, mas este é um <bold>Top 15 amplamente
+  aceito na prática</bold> (especialmente em pesquisa
+  computacional):</p>
+  <list list-type="order">
+    <list-item>
+      <p><bold>Git</bold> — versionamento de código e histórico
+      auditável.
+      (<ext-link ext-link-type="uri" xlink:href="https://git-scm.com/book/ms/v2/Getting-Started-About-Version-Control?utm_source=chatgpt.com" xlink:title="1.1 Getting Started - About Version Control">Git</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>GitHub / GitLab</bold> — colaboração, revisão e
+      integração com CI/CD (base de workflows reproduzíveis).
+      (<ext-link ext-link-type="uri" xlink:href="https://docs.github.com/en/get-started/using-git/about-git?utm_source=chatgpt.com" xlink:title="About Git">GitHub
+      Docs</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>Jupyter Notebook / JupyterLab</bold> — notebooks para
+      computação interativa e documentação do processo analítico.
+      (<ext-link ext-link-type="uri" xlink:href="https://docs.jupyter.org/?utm_source=chatgpt.com" xlink:title="Jupyter Documentation - Jupyter Notebook">Jupyter
+      Documentation</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>Quarto</bold> — publicação técnico-científica
+      reprodutível (HTML/PDF/Word) com Python/R/Julia.
+      (<ext-link ext-link-type="uri" xlink:href="https://quarto.org/?utm_source=chatgpt.com" xlink:title="Quarto">Quarto</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>Snakemake</bold> — orquestração de pipelines
+      reprodutíveis e escaláveis.
+      (<ext-link ext-link-type="uri" xlink:href="https://snakemake.readthedocs.io/?utm_source=chatgpt.com" xlink:title="Snakemake | Snakemake 9.16.2 documentation">Snakemake</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>Nextflow</bold> — workflows portáveis/reprodutíveis para
+      HPC e nuvem.
+      (<ext-link ext-link-type="uri" xlink:href="https://www.nextflow.io/docs/latest/?utm_source=chatgpt.com" xlink:title="Nextflow documentation">Nextflow</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>Docker</bold> — empacotamento de ambiente para execução
+      consistente.
+      (<ext-link ext-link-type="uri" xlink:href="https://www.docker.com/blog/docker-for-devops/?utm_source=chatgpt.com" xlink:title="Exploring Docker for DevOps: What It Is and How It Works">Docker</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>Apptainer (Singularity)</bold> — containers portáveis
+      muito usados em HPC acadêmico.
+      (<ext-link ext-link-type="uri" xlink:href="https://apptainer.org/?utm_source=chatgpt.com" xlink:title="Apptainer - Portable, Reproducible Containers">Apptainer</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>Conda</bold> — gestão de ambientes e dependências com
+      exportação/compartilhamento.
+      (<ext-link ext-link-type="uri" xlink:href="https://docs.conda.io/docs/user-guide/tasks/manage-environments.html?utm_source=chatgpt.com" xlink:title="Managing environments — conda 26.1.1.dev6 ...">Conda
+      Documentation</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>DVC (Data Version Control)</bold> — versionamento de
+      dados/modelos e pipelines de ML reproduzíveis.
+      (<ext-link ext-link-type="uri" xlink:href="https://doc.dvc.org/user-guide?utm_source=chatgpt.com" xlink:title="User Guide | Data Version Control · DVC">Data
+      Version Control · DVC</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>MLflow</bold> — rastreio e reprodução de experimentos de
+      ML.
+      (<ext-link ext-link-type="uri" xlink:href="https://mlflow.org/classical-ml/experiment-tracking?utm_source=chatgpt.com" xlink:title="Experiment tracking">MLflow</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>OSF (Open Science Framework)</bold> — gestão de projeto
+      científico, colaboração e transparência do ciclo de pesquisa.
+      (<ext-link ext-link-type="uri" xlink:href="https://help.osf.io/article/353-welcome-to-projects?utm_source=chatgpt.com" xlink:title="Welcome to OSF Projects">OSF
+      Support</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>Zenodo</bold> — depósito/arquivamento com DOI para dados,
+      software e artefatos.
+      (<ext-link ext-link-type="uri" xlink:href="https://about.zenodo.org/?utm_source=chatgpt.com" xlink:title="Zenodo: About">Zenodo</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>DataLad</bold> — gestão distribuída de dados com
+      proveniência e foco em FAIR/reprodutibilidade.
+      (<ext-link ext-link-type="uri" xlink:href="https://www.datalad.org/?utm_source=chatgpt.com" xlink:title="DataLad – DataLad">DataLad</ext-link>)</p>
+    </list-item>
+    <list-item>
+      <p><bold>Jupyter Book</bold> — documentação/publicação
+      reprodutível e interativa baseada no ecossistema Jupyter.
+      (<ext-link ext-link-type="uri" xlink:href="https://jupyterbook.org/?utm_source=chatgpt.com" xlink:title="Jupyter Book">Jupyter
+      Book</ext-link>)</p>
+    </list-item>
+  </list>
+  <p>Se quiser, eu transformo essa lista em um <bold>stack recomendado
+  por perfil</bold> (ex.: “mínimo para laboratório pequeno”, “pipeline
+  bioinfo em HPC”, “ML reprodutível para paper”).</p>
+</sec>
+<sec id="liste-os-15-principais-softwares-utilizados-em-open-science-nb-1">
+  <title>Liste os 15 principais softwares utilizados em Open
+  Science</title>
+  <p>Excelente recorte. Em <bold>Open Science</bold>, os “principais”
+  costumam ser os que cobrem: planejamento/pré-registro, colaboração
+  aberta, repositórios, versionamento, workflows reprodutíveis e
+  publicação aberta.</p>
+  <sec id="top-15-softwaresplataformas-usados-em-open-science-nb-1">
+    <title>Top 15 softwares/plataformas usados em Open Science</title>
+    <list list-type="order">
+      <list-item>
+        <p><bold>Open Science Framework (OSF)</bold> — gestão de
+        projeto, colaboração, compartilhamento e pré-registro.
+        (<ext-link ext-link-type="uri" xlink:href="https://www.cos.io/products/osf?utm_source=chatgpt.com" xlink:title="The Open Science Framework">Center
+        for Open Science</ext-link>)</p>
+      </list-item>
+      <list-item>
+        <p><bold>Zenodo</bold> — repositório aberto para
+        dados/software/publicações com DOI.
+        (<ext-link ext-link-type="uri" xlink:href="https://about.zenodo.org/?utm_source=chatgpt.com" xlink:title="Zenodo: About">Zenodo</ext-link>)</p>
+      </list-item>
+      <list-item>
+        <p><bold>Dataverse</bold> — software open source para
+        repositórios de dados de pesquisa.
+        (<ext-link ext-link-type="uri" xlink:href="https://dataverse.org/about?utm_source=chatgpt.com" xlink:title="About">Dataverse</ext-link>)</p>
+      </list-item>
+      <list-item>
+        <p><bold>Galaxy</bold> — plataforma aberta para análises
+        científicas reprodutíveis por workflow (muito forte em bioinfo).
+        (<ext-link ext-link-type="uri" xlink:href="https://galaxyproject.org/?utm_source=chatgpt.com" xlink:title="Galaxy Project">Galaxy
+        Project</ext-link>)</p>
+      </list-item>
+      <list-item>
+        <p><bold>Jupyter Notebook / JupyterLab</bold> — notebooks
+        reprodutíveis (código + narrativa + resultado).</p>
+      </list-item>
+      <list-item>
+        <p><bold>Quarto</bold> — publicação científica reprodutível
+        (HTML/PDF/Word) com notebooks.</p>
+      </list-item>
+      <list-item>
+        <p><bold>RStudio + R Markdown</bold> — pipeline reprodutível
+        para análise e relatório científico.</p>
+      </list-item>
+      <list-item>
+        <p><bold>Git</bold> — controle de versão rastreável para
+        transparência metodológica.</p>
+      </list-item>
+      <list-item>
+        <p><bold>GitHub</bold> — colaboração aberta, revisão, issues e
+        integração com publicação de artefatos.</p>
+      </list-item>
+      <list-item>
+        <p><bold>GitLab</bold> — alternativa forte ao GitHub com CI/CD
+        integrado para workflows científicos.</p>
+      </list-item>
+      <list-item>
+        <p><bold>Docker</bold> — empacotamento de ambiente para
+        repetibilidade computacional.</p>
+      </list-item>
+      <list-item>
+        <p><bold>Apptainer (Singularity)</bold> — containerização focada
+        em HPC acadêmico.</p>
+      </list-item>
+      <list-item>
+        <p><bold>Snakemake</bold> — orquestração declarativa de
+        pipelines reprodutíveis.</p>
+      </list-item>
+      <list-item>
+        <p><bold>Nextflow</bold> — workflows científicos portáveis
+        (local, cluster e cloud).</p>
+      </list-item>
+      <list-item>
+        <p><bold>DVC (Data Version Control)</bold> — versionamento de
+        dados/modelos e pipelines de experimentos.</p>
+      </list-item>
+    </list>
+    <p>Se você quiser, na próxima mensagem eu te entrego uma versão
+    <bold>“Top 15 por perfil”</bold> (ex.: laboratório pequeno,
+    bioinformática/HPC, ciências sociais, IA) com stack mínimo
+    recomendado para cada caso.</p>
+  </sec>
+</sec>
+</body>
+
+
+
+<back>
+</back>
+
+
+</sub-article>
+<sub-article article-type="notebook" id="nb-6-nb-2">
+<front-stub>
+<title-group>
+<article-title>openscience.grok</article-title>
+</title-group>
+</front-stub>
+
+<body>
+<sec id="quais-as-tecnologias-de-ponta-na-área-de-open-science-nb-2">
+  <title>Quais as tecnologias de ponta na área de Open Science?</title>
+  <p>As tecnologias de ponta na área de <bold>Open Science</bold> em
+  2026 estão fortemente influenciadas pela convergência entre
+  <bold>ciência aberta</bold>, <bold>inteligência artificial</bold>,
+  infraestrutura digital moderna e princípios de transparência,
+  reprodutibilidade e colaboração global.</p>
+  <p>Aqui estão as principais tecnologias e tendências que estão
+  moldando o campo atualmente (início de 2026):</p>
+  <sec id="ia-generativa-e-agentes-autônomos-para-pesquisa-agentic-ai-nb-2">
+    <title>1. <bold>IA Generativa e Agentes Autônomos para Pesquisa
+    (Agentic AI)</bold></title>
+    <list list-type="bullet">
+      <list-item>
+        <p>Modelos de raciocínio avançado (reasoning models) integrados
+        diretamente ao fluxo de trabalho científico</p>
+      </list-item>
+      <list-item>
+        <p>Ferramentas como <bold>Prism</bold> (OpenAI),
+        <bold>Elicit</bold>, <bold>Consensus</bold>, <bold>Scite</bold>,
+        <bold>Research Rabbit</bold> + <bold>Perplexity Pro</bold> e
+        <bold>Grok Deep Research</bold></p>
+      </list-item>
+      <list-item>
+        <p>Agentes que fazem <bold>literature review</bold>,
+        <bold>hypothesis generation</bold>, <bold>data analysis</bold> e
+        até <bold>paper writing</bold> de forma semi-autônoma</p>
+      </list-item>
+      <list-item>
+        <p>Modelos open-weight / open-source dominantes: Llama 3.x,
+        DeepSeek-R1, Qwen 3, Granite, OLMo 3, Mistral Large, Gemma 3
+        etc.</p>
+      </list-item>
+    </list>
+  </sec>
+  <sec id="modelos-de-ia-multimodais-e-de-domínio-específico-para-ciência-nb-2">
+    <title>2. <bold>Modelos de IA Multimodais e de Domínio Específico
+    para Ciência</bold></title>
+    <list list-type="bullet">
+      <list-item>
+        <p>Modelos treinados/fine-tuned em grandes corpora científicos
+        (arXiv, PubMed, Chem, bioRxiv, etc.)</p>
+      </list-item>
+      <list-item>
+        <p>Exemplos: <bold>Galactica</bold> (evolução),
+        <bold>ChemCrow</bold>, <bold>BioMedGPT</bold>, <bold>Med-PaLM
+        2/3</bold>, <bold>Claude for Science</bold>, <bold>Gemini 2.5
+        Science</bold></p>
+      </list-item>
+      <list-item>
+        <p>IA que lê figuras, tabelas, equações LaTeX e entende contexto
+        científico profundo</p>
+      </list-item>
+    </list>
+  </sec>
+  <sec id="plataformas-de-ciência-aberta-ia-integrada-nb-2">
+    <title>3. <bold>Plataformas de Ciência Aberta + IA
+    Integrada</bold></title>
+    <list list-type="bullet">
+      <list-item>
+        <p><bold>OSF (Open Science Framework)</bold> + extensões como
+        DataPipe, ACORN</p>
+      </list-item>
+      <list-item>
+        <p><bold>Zenodo + GitHub + Hugging Face</bold> como trio central
+        para compartilhar modelos, datasets e código</p>
+      </list-item>
+      <list-item>
+        <p><bold>JupyterLab + Jupyter Book + Quarto + Hex +
+        Deepnote</bold> → notebooks executáveis e publicáveis</p>
+      </list-item>
+      <list-item>
+        <p><bold>EOSC (European Open Science Cloud)</bold>,
+        <bold>ARDC</bold> (Austrália), <bold>LA Referencia</bold>,
+        <bold>SciELO</bold>, <bold>Redalyc</bold> evoluindo com APIs e
+        IA</p>
+      </list-item>
+      <list-item>
+        <p><bold>OpenAlex</bold> (sucessor do Microsoft Academic) como
+        base de dados bibliométrica aberta e gratuita</p>
+      </list-item>
+    </list>
+  </sec>
+  <sec id="reprodutibilidade-e-verificação-automatizada-nb-2">
+    <title>4. <bold>Reprodutibilidade e Verificação
+    Automatizada</bold></title>
+    <list list-type="bullet">
+      <list-item>
+        <p>Ferramentas de <bold>reproducible workflows</bold>:
+        <bold>Snakemake</bold>, <bold>Nextflow</bold>,
+        <bold>Prefect</bold>, <bold>Dagster</bold></p>
+      </list-item>
+      <list-item>
+        <p><bold>Guix</bold>, <bold>Nix</bold>, <bold>Conda-lock</bold>,
+        <bold>Docker + Singularity/Apptainer</bold> para ambientes 100%
+        reprodutíveis</p>
+      </list-item>
+      <list-item>
+        <p>Verificação automática de resultados com
+        <bold>SciUnit</bold>, ** Popper<bold>, </bold>ReproZip**</p>
+      </list-item>
+      <list-item>
+        <p>Plataformas como <bold>Code Ocean</bold>, <bold>Whole
+        Tale</bold>, <bold>Renku</bold></p>
+      </list-item>
+    </list>
+  </sec>
+  <sec id="blockchain-verifiable-credentials-e-prova-de-autoria-nb-2">
+    <title>5. <bold>Blockchain, Verifiable Credentials e Prova de
+    Autoria</bold></title>
+    <list list-type="bullet">
+      <list-item>
+        <p>Uso crescente de <bold>decentralized science (DeSci)</bold>:
+        <bold>Molecule</bold>, <bold>VitaDAO</bold>,
+        <bold>AthenaDAO</bold>, <bold>Opscientia</bold></p>
+      </list-item>
+      <list-item>
+        <p><bold>NFTs de dados científicos</bold>, <bold>IP-NFTs</bold>,
+        <bold>verifiable compute</bold> (zero-knowledge proofs para
+        rodar experimentos confidenciais mas verificáveis)</p>
+      </list-item>
+      <list-item>
+        <p><bold>DID (Decentralized Identifiers)</bold> +
+        <bold>Verifiable Credentials</bold> para ORCID 2.0, currículos
+        verificáveis e contribuição em papers</p>
+      </list-item>
+    </list>
+  </sec>
+  <sec id="dados-abertos-massivos-fair-by-design-nb-2">
+    <title>6. <bold>Dados Abertos Massivos +
+    FAIR-by-Design</bold></title>
+    <list list-type="bullet">
+      <list-item>
+        <p><bold>Hugging Face Datasets</bold> + <bold>Kaggle</bold> +
+        <bold>Open Data Commons</bold></p>
+      </list-item>
+      <list-item>
+        <p><bold>Dryad</bold>, <bold>Figshare</bold>, <bold>Mendeley
+        Data</bold>, <bold>Dataverse</bold></p>
+      </list-item>
+      <list-item>
+        <p>Repositórios disciplinares com curadoria + IA:
+        <bold>Materials Project</bold>, <bold>PDB</bold>,
+        <bold>UniProt</bold>, <bold>Zenodo + AI metadata
+        enrichment</bold></p>
+      </list-item>
+    </list>
+  </sec>
+  <sec id="ferramentas-de-escrita-e-publicação-científica-assistidas-por-ia-nb-2">
+    <title>7. <bold>Ferramentas de Escrita e Publicação Científica
+    Assistidas por IA</bold></title>
+    <list list-type="bullet">
+      <list-item>
+        <p><bold>Overleaf + AI plugins</bold>, <bold>Paperpal</bold>,
+        <bold>Trinka</bold>, <bold>Writefull</bold>, <bold>Jenni
+        AI</bold>, <bold>Scholarcy</bold></p>
+      </list-item>
+      <list-item>
+        <p>Ambientes LaTeX + IA nativa: <bold>Prism (OpenAI)</bold>,
+        <bold>Typeset</bold>, <bold>SciSpace</bold></p>
+      </list-item>
+      <list-item>
+        <p>Pré-prints com revisão aberta: <bold>PREreview</bold>,
+        <bold>Rapid Reviews</bold>, <bold>Review Commons</bold></p>
+      </list-item>
+    </list>
+  </sec>
+  <sec id="ciência-aberta-responsável-governança-de-ia-nb-2">
+    <title>8. <bold>Ciência Aberta Responsável + Governança de
+    IA</bold></title>
+    <list list-type="bullet">
+      <list-item>
+        <p>Ferramentas de <bold>watermarking</bold> e detecção de
+        conteúdo gerado por IA (importante para integridade
+        científica)</p>
+      </list-item>
+      <list-item>
+        <p>Frameworks como <bold>Montreal Declaration</bold>,
+        <bold>UNESCO Open Science + AI</bold>, <bold>CoARA</bold>
+        (reforma da avaliação científica)</p>
+      </list-item>
+      <list-item>
+        <p>Ênfase em <bold>equity</bold>, <bold>inclusão global</bold> e
+        <bold>open science no Sul Global</bold></p>
+      </list-item>
+    </list>
+  </sec>
+  <sec id="resumo-ranking-de-impacto-em-2026-nb-2">
+    <title>Resumo – Ranking de impacto em 2026</title>
+    <table-wrap>
+      <table>
+        <colgroup>
+          <col width="8%" />
+          <col width="45%" />
+          <col width="21%" />
+          <col width="26%" />
+        </colgroup>
+        <thead>
+          <tr>
+            <th>Posição</th>
+            <th>Tecnologia/Tendência</th>
+            <th>Nível de Maturidade</th>
+            <th>Impacto na Open Science</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>IA generativa + agentes autônomos</td>
+            <td>Muito alta</td>
+            <td>★★★★★</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Modelos científicos open-weight / fine-tuned</td>
+            <td>Alta</td>
+            <td>★★★★★</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Plataformas integradas (OSF + HF + GitHub)</td>
+            <td>Alta</td>
+            <td>★★★★☆</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Workflows reprodutíveis + containers</td>
+            <td>Alta</td>
+            <td>★★★★☆</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Repositórios FAIR + metadados enriquecidos por IA</td>
+            <td>Alta</td>
+            <td>★★★★☆</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>DeSci / blockchain para dados e IP</td>
+            <td>Média-alta</td>
+            <td>★★★☆☆</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Ambientes de escrita científica + IA</td>
+            <td>Alta</td>
+            <td>★★★★☆</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Verificação automática de reprodutibilidade</td>
+            <td>Média-alta</td>
+            <td>★★★☆☆</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+    <p><bold>Conclusão rápida (2026)</bold>:
+    A combinação de <bold>modelos de IA open-source potentes</bold> +
+    <bold>plataformas de colaboração maduras</bold> + <bold>ênfase em
+    reprodutibilidade automatizada</bold> está transformando a Open
+    Science de um ideal ético em uma <bold>prática cotidiana
+    extremamente produtiva</bold>.</p>
+    <p>A diferença entre quem publica 3–5 papers por ano e quem publica
+    15–25 (com mais qualidade) muitas vezes hoje está na <bold>mestre
+    habilidade de usar essas tecnologias de ponta de forma
+    integrada</bold>.</p>
+    <p>Você já está usando alguma dessas ferramentas no seu fluxo de
+    pesquisa? Qual área científica você mais acompanha? Posso aprofundar
+    em exemplos práticos de alguma delas. 😄</p>
+  </sec>
+</sec>
+</body>
+
+
+
+<back>
 </back>
 
 

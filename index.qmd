@@ -83,7 +83,7 @@ Para compreender melhor, segue exemplo de situação que necessita registro e an
 ![Exemplo de situações que necessitam registro e análise em um dia hipotético](images/diagramas/dia-qualquer.png){#fig-dia-qualquer}
 
 
-## RQ1 - Como seria um exemplo de registro de situações? 
+## RQ1 - Como seria um exemplo de registro de situações de anotação assertiva? 
 
 
 ### Hipótese 1 - Formulário web pode ser utilizado para registrar situações e análises
@@ -163,7 +163,7 @@ A utilização dos softwares de roteiro para registrar as situações não se de
 :::
 
 
-### Hipótese 3 - Elaborar uma Linguagem Específica de Domínio para registrar as situações
+### Hipótese 3 - Uma Linguagem Específica de Domínio pode ser utilizada para registrar as situações
 
 Uma linguagem específica de domínio (DSL) permite o processamento das informações inseridas por um computador. Caso as situações estivessem registradas nesse formato seria possível consultar: 
 
@@ -196,7 +196,7 @@ Uma linguagem específica de domínio (DSL) permite o processamento das informa�
 
 A utilização de uma DSL permite um mapeamento mais fácil dos conceitos (ver @tbl-linguagem-diminio-roteiro), e a escrita dos dados de forma mais rápida.
 
-Através do registro na @fig-registro-dsl-2025-03-20 podemos extrair as seguintes informações:
+Através do registro na @fig-registro-dsl-2025-03-20, utilizando o editor @ObsidianSite, podemos extrair as seguintes informações:
 
 * O nome do arquivo indica a data que ocorreu as situações (20/03/2025).
 * Cada cena possui um título que representa a situação
@@ -216,8 +216,11 @@ Na @fig-registro-dsl-2025-03-21 temos o registro do dia seguinte.
 
 ![Registro do dia 21/03/2025 com DSL](images/registro-dsl-2025-03-21.png){#fig-registro-dsl-2025-03-21}
 
-A escrita do registro utilizando uma DSL é rápida e autoexplicativa. A experiência foi muito mais agradável. Contudo esse registro foi apenas uma simulação. A implementação de DSL real exige mais alguns desafios tecnicos e de semântica.
+A escrita do registro utilizando uma DSL é rápida e autoexplicativa. A experiência foi muito mais agradável. Contudo esse registro foi apenas uma simulação. 
 
+#### Desafios técnicos para implementação da DSL {#dsl-desafios}
+
+A implementação de DSL real exige mais alguns desafios tecnicos e de semântica.
 
 O significado das variáveis podem depender da data do registro
 
@@ -243,15 +246,249 @@ Sentimento de restrição pensênica
 
 : Quando eu iniciei redigir as situações dessa forma, eu senti que havia restrições na forma de pensar. Eu trabalho com instruções para o computador, eu não quis permanecer com o mesmo holopense aplicado ao registros de autopesquisa conscienciológico.
 
-Posteriormente criei um diagrama para representar visualmente os registros e análises (ver @fig-diagrama-registros) utilizando a ferramenta PlantUML (@PlantUMLSite).
+Posteriormente criei um diagrama para representar visualmente os registros e análises (ver @fig-diagrama-registros) utilizando a ferramenta @PlantUMLSite.
 
 ![Representação visual de registros e análise](images/diagramas/registros.png){#fig-diagrama-registros}
 
 Os passos seguintes seriam utilizar um banco de dados não relacional para importar os registros.
 
-Abortei o projeto porque estava demandando muito esforço.
 
-# Autopesquisa 
+
+::: callout-note
+Abortei o projeto porque estava demandando muito esforço de implementação.
+
+Recomendação para seguir investigando outra hipótese:
+
+- Redigir registros com Subtitulamento e Apostilhamento do Texto 
+
+Para conhecer a técnica de Apostilhamento consultar @Nader2018QualificacaoAutografopensenica, e @YouTubeAPOSTILHAMENTO.
+
+- Redigir registros Markdown+Attributes. Ver no @PandocManual:  [header_attributes](https://pandoc.org/MANUAL.html#extension-header_attributes), [extension-inline_code_attributes](https://pandoc.org/MANUAL.html#extension-inline_code_attributes), [link_attributes](https://pandoc.org/MANUAL.html#extension-link_attributes),  [bracketed_spans](https://pandoc.org/MANUAL.html#extension-bracketed_spans),  [attributes](https://pandoc.org/MANUAL.html#extension-attributes).
+
+:::
+
+# Tecnologias para Editoração
+
+## RQ2 - Quais as tecnologias de ponta na área de Open Science?
+
+### Hipótese 4 - Encontrar as tecnologias através de prompts no ChatGPT e Grok
+
+
+Através de *prompts* [realizados no chatgpt](./prompts/openscience.chatgpt.md) obtemos os seguintes resultados relevantes:
+
+::: {.callout-note}
+
+1. **Open Science Framework (OSF)** — gestão de projeto, colaboração, compartilhamento e pré-registro. ([Center for Open Science][21])
+2. **Zenodo** — repositório aberto para dados/software/publicações com DOI. ([Zenodo][22])
+3. **Dataverse** — software open source para repositórios de dados de pesquisa. ([Dataverse][23])
+4. **Galaxy** — plataforma aberta para análises científicas reprodutíveis por workflow (muito forte em bioinfo). ([Galaxy Project][24])
+5. **Jupyter Notebook / JupyterLab** — notebooks reprodutíveis (código + narrativa + resultado).
+6. **Quarto** — publicação científica reprodutível (HTML/PDF/Word) com notebooks.
+7. **RStudio + R Markdown** — pipeline reprodutível para análise e relatório científico.
+8. **Git** — controle de versão rastreável para transparência metodológica.
+9. **GitHub** — colaboração aberta, revisão, issues e integração com publicação de artefatos.
+10. **GitLab** — alternativa forte ao GitHub com CI/CD integrado para workflows científicos.
+
+[21]: https://www.cos.io/products/osf "The Open Science Framework"
+[22]: https://about.zenodo.org "Zenodo: About"
+[23]: https://dataverse.org/about "About"
+[24]: https://galaxyproject.org "Galaxy Project"
+
+:::
+
+Através de *prompts* [realizados no grok](./prompts/openscience.grok.md) obtemos os seguintes resultados relevantes:
+
+::: {.callout-note}
+
+
+* Plataformas de Ciência Aberta + IA Integrada:
+
+  - **OSF (Open Science Framework)** + extensões como DataPipe, ACORN
+  - **Zenodo + GitHub + Hugging Face** como trio central para compartilhar modelos, datasets e código
+  - **JupyterLab + Jupyter Book + Quarto + Hex + Deepnote** → notebooks executáveis e publicáveis
+  - **EOSC (European Open Science Cloud)**, **ARDC** (Austrália), **LA Referencia**, **SciELO**, **Redalyc** evoluindo com APIs e IA
+  - **OpenAlex** (sucessor do Microsoft Academic) como base de dados bibliométrica aberta e gratuita
+
+* Reprodutibilidade e Verificação Automatizada:
+
+  - Ferramentas de **reproducible workflows**: **Snakemake**, **Nextflow**, **Prefect**, **Dagster**
+  - **Guix**, **Nix**, **Conda-lock**, **Docker + Singularity/Apptainer** para ambientes 100% reprodutíveis
+  - Verificação automática de resultados com **SciUnit**, ** Popper**, **ReproZip**
+  - Plataformas como **Code Ocean**, **Whole Tale**, **Renku**
+
+* Blockchain, Verifiable Credentials e Prova de Autoria:
+
+  - Uso crescente de **decentralized science (DeSci)**: **Molecule**, **VitaDAO**, **AthenaDAO**, **Opscientia**
+  - **NFTs de dados científicos**, **IP-NFTs**, **verifiable compute** (zero-knowledge proofs para rodar experimentos confidenciais mas verificáveis)
+  - **DID (Decentralized Identifiers)** + **Verifiable Credentials** para ORCID 2.0, currículos verificáveis e contribuição em papers
+
+* Dados Abertos Massivos + FAIR-by-Design:
+
+  - **Hugging Face Datasets** + **Kaggle** + **Open Data Commons**
+  - **Dryad**, **Figshare**, **Mendeley Data**, **Dataverse**
+  - Repositórios disciplinares com curadoria + IA: **Materials Project**, **PDB**, **UniProt**, **Zenodo + AI metadata enrichment**
+
+* Ferramentas de Escrita e Publicação Científica Assistidas por IA:
+
+  - **Overleaf + AI plugins**, **Paperpal**, **Trinka**, **Writefull**, **Jenni AI**, **Scholarcy**
+  - Ambientes LaTeX + IA nativa: **Prism (OpenAI)**, **Typeset**, **SciSpace**
+  - Pré-prints com revisão aberta: **PREreview**, **Rapid Reviews**, **Review Commons**
+
+:::
+
+## RQ3 - Quais softwares utilizar para redigir e publicar a autopesquisa?
+
+### Hipótese 5 - É possível utilizar a mesma tecnologia para escrita de artigos científicos e livros
+
+Foquei meus esforços para avaliar as tecnologias relacionadas editoração de pesquisas com reprodutibilidade, para possibilitar o processamentos de dados e geração de gráficos.
+
+Após avaliação, adotei as seguintes ferramentas para utilização na autopesquisa, que também pode ser utilização para editoração de livros:
+
+| Áreas                           | Ferramentas |
+|---------------------------------|---------------------------------|
+| Editoração                      | RStudio + Quarto.               |
+| Gestão de arquivos e publicação | Git + Github (@github_platform).|
+
+## RQ4 - Quais informações incluir para testar a ferramenta com autopesquisa?
+
+### Hipótese 6 - Escolher dados em série para geração de gráficos
+
+Para testar a geração de gráficos em série, é necessário coletar o valor da variável ao longo do tempo.
+
+Para autopesquisa, uma das variáveis escolhida foi o `peso`, que já estava sendo monitorada.
+
+#### Datasets
+
+Para a criação do *dataset* utilizei o aplicativo Track & Graph (ver @sec-trackandgraph) para registrar o meu peso ao longo do ano.
+
+O aplicativo tem a opção de exportar os dados da série para uma planilha.
+
+#### Gráfico
+
+O RStudio possui funcionalidades para geração de gráficos, sendo necessário elaborar o código para o processamento dos dados e renderização do gráfico.
+
+Utilizei a Inteligência Artificial para gerar o código e personalizar a rendenrização do gráfico de acordo com minha preferência (ver @fig-peso-mmc-2025).
+
+### Hipótese 7 - Buscar no ICNET, Lojas, E-mail, WhatsAppp e outras fontes quais dados estão disponíveis
+
+#### Lista de fontes
+
+: Fontes de consulta dos dados {#tbl-fontes-consulta}
+
+| Fonte              | URL                                                         |
+|:------------------:|:------------------------------------------------------------|
+| ICNET              | https://icnet.conscienciologia.org.br/ |
+| Megastore          | https://store.conscienciologia.org.br/my-account/encomendas/ |
+| IIPC Loja          | https://cursosonline.iipc.org/          |
+| E-mail             | https://gmail.com/|
+| Calendário         | https://calendar.google.com/calendar/u/0/r |
+| WhatsApp           | https://web.whatsapp.com/ |
+| Folha de Registro  | |
+| Registro pessoal   | |
+
+##### ICnet
+
+O Sistema ICnet é um pacote de soluções de software que permite a gestão integrada de várias áreas das Instituições Conscienciocêntricas, @icnetDocs:
+
+1.  Voluntariado.
+2.  Eventos.
+3.  Gestão financeira (receitas e despesas) e contábil.
+4.  Ecommerce.
+5.  Dinâmicas parapsíquicas.
+6.  Laboratórios.
+7.  Hospedagem em Campus.
+8.  Gescons.
+9.  Gerenciamento de Ensino a Distância.
+10. Marketing Digital.
+
+Através de uma conta com permissões admnistrativas de uma IC é possível acessar os dados cadastrados no sistema.
+
+::: {.callout-note}
+Algumas ICs não utilizam o sistema do ICNET e utilizam soluções próprias, como é o caso da OIC.
+:::
+
+
+##### E-mail
+
+![Consulta no E-mail](images/consulta-no-email.png){#fig-consultaemail} O E-mail é uma rica fonte de informações, pois recebemos confirmações de compras no e-mail.
+
+##### Calendário
+
+A agenda de compromissos, quando bem organizada, é um recurso valioso para consultar eventos anteriores (ver @fig-agenda).
+
+![Pesquisa no calendário](images/calendar.png){#fig-agenda}
+
+##### WhatsApp
+
+![Pesquisa no WhatsApp](images/whatsapp.png){#fig-whatsapp}
+
+Alguns eventos podem ser pesquisados através do WhatsApp (@fig-whatsapp), em diálogos ou grupos criados.
+
+
+#### Seleção dos dados
+
+: Dados para extração {#tbl-selecao-dados-icnet}
+
+| Dado                       | Fontes                  |
+|:--------------------------:|:------------------------|
+| Voluntariado               | ICNET, WhatsApp                   |
+| Eventos                    | ICNET, E-mail, WhatsApp, Megastore |
+| Cursos de Campo            | ICNET, E-mail, WhatsApp, IIPC Loja |
+| Atividades do Voluntariado | E-mail, WhatsApp |
+| Dinâmicas[^Dinâmicas]      | E-mail, Planilhas, Calendário|
+| Laboratórios               | ICNET, WhatsApp, Calendário|
+| Compras                    | E-mail, Registro pessoal |
+
+[^Dinâmicas]: Qualquer coisa aqui.
+
+## RQ5 - Como extrair os dados relevantes de cada fonte?
+
+### Hipótese 8 - Criar uma extensão para o Google Chrome para extrair os dados do ICNET
+
+Eu adicionei uma nova funcionalidade à extensão Cosmoware (ver @sec-cosmoware) para o Google Chrome, a extração de dados do ICNET criando datasets com nomes e estrutura padronizados. Exemplo de dataset extraído: [csv/icnet-ic-pessoa_fisica_geral_historico-20260122-102745.csv](csv/icnet-ic-pessoa_fisica_geral_historico-20260122-102745.csv)
+
+Para acessar os módulo de gestão do ICNET é necessário logar com uma conta que possua as credenciais com permissões apropriadas em cada IC.
+
+#### Voluntariado
+
+![Extração do ICNet](images/voluntariado-na-ic.png){#fig-voluntariado-na-ic}
+
+A @fig-voluntariado-na-ic apresenta a tela de Voluntariado (para o voluntário Eduardo de Santana Medeiros) na IC Juriscons. Nela podemos verificar que "Eduardo de Santana Medeiros" está *ativo* no voluntariado (nenhuma data de saída), que está lotado na Sede da JURISCONS (em Foz do Iguaçu), está vinculado através do organograma da instituição em *Colegiado Administrativo \\ Relações Institucionais* com função de *Membro* e iniciou formalmente o voluntariado em *11/06/2025*.
+
+No entanto os dados inseridos no ICNET pelos voluntários demonstraram não ser confiáveis. Na @fig-voluntariado-outras-ics é apresentado dois erros de registro realizados no cadastro da ISIC (Função e Data de Início). O cadastro do voluntariado da Editares está correto.
+
+![Voluntariado em outras ICs](images/voluntariado-outras-ics.png){#fig-voluntariado-outras-ics.png}
+
+
+#### Participação em equipes
+
+![Participação em equipes cadastradas no ICnet](images/participacao-em-equipe.png){#fig-equipe}
+
+A tela de Participação em Equipe na @fig-equipe lista em quais equipes o voluntario(a) participou. Este foi o dado menos disponível, demonstrando que as ICs não tem o hábito de cadastrar esta informação. Participei em equipes de muitos eventos, que não estão cadastrados.
+
+#### Histórico de atividades
+
+![Histórico de atividades no ICNet consultado em 6/2/2026](images/historico.png){#fig-atividades}
+
+A @fig-atividades apresenta o histórico das atividades registradas no sistema. Os eventos listados não são indicativos de presença, apenas de compra.
+
+
+A coluna "Data Início" indica a data registrada para o evento, que não necessariamente coincide com a data de início. Por exemplo, a @fig-historicoerros indica datas que eu não estava presente na Conscienciologia.
+
+![Datas de início dos eventosno ICNet](images/historico-erros.png){#fig-historicoerros}
+
+#### Laboratórios
+
+A consultado dos dados dos Laboratórios (ver @fig-laboratorios) exibe uma conta com credenciais do CEAC, que não possuo. Solicitei à recepção me enviar  um *screenshot* e copiar os dados para mim.
+
+![Laboratórios](images/laboratorios.jpg){#fig-laboratorios}
+
+#### Cursos de Campo
+
+Inexiste uma fonte de listagem de cursos de campo. É possível encontrá-los em *flyers* no WhatsApp.
+
+
+# Autopesquisa
 
 ```{=html}
 <!-- 
@@ -278,6 +515,467 @@ Hipóteses: qual estratégia utilizar para atingir um objetivo
 -->
 ```
 
+## RQ6 - O que é Autopesquisa?
+
+> A autopesquisa é o estudo de si mesmo com todas as conseqüências evolutivas
+daí advindas, onde o pesquisador, homem ou mulher, é, ao mesmo tempo, o objeto, o experimentador, o sujeito, a autocobaia voluntária e o campo de pesquisa, sendo, em tese, sempre evolutivo e cosmoético. -- @vieira2004homo, p. 1099.
+
+> A autopesquisa é o estudo ou pesquisa da própria consciência, por si e de si mesma, com 1% de teoria e 99% de prática, utilizando-se de técnicas e instrumentos disponíveis no microuniverso consciencial e no Cosmos, no qual é observadora, investigadora, cobaia, agente e participante dos próprios experimentos visando a autevolução. -- @encyclossapiens_autopesquisa
+
+## RQ7 - Como iniciar a autopesquisa? 
+
+### H9 - Pesquisa bibliográfica revela como estruturar a autopesquisa | Como iniciar,  Temas |
+
+#### Como iniciar o processo de autopesquisa?
+
+<!-- 
+
+Como iniciar?
+
+Não é apenas sobre o físico. Mas incluindo o paradigma consciencial.
+
+O estudo de si mesmo pode ser realizado considerando somente as questões do corpo, desta vida e desta dimensão física ou aplicando sob a ótica do paradigma consciencial.
+
+-->
+
+Em @kauati2024autopesquisa, cap. 7, é listado 5 fases para realização da autopesquisa:
+
+1. Escolha do tema.
+2. Delimitação da autopesquisa
+3. Pesquisa bibliográfica.
+4. Experimentação.
+5. Análise.
+
+@kauati2024autopesquisa sugere escolher uma das seguintes alternativas para inciar a autopesquisa:
+
+1. Identificação de um mal estar
+2. Definir o que deseja alcançar na vida
+3. De acordo com a necessidade mais importante
+4. Definir um tema simples, que seja motivador
+
+#### Temas
+
+Investigando as 4 alternativas apresentadas na seção anterior.
+
+##### Identificação de um mal estar
+
+No momento não tenho um *mal estar* que desejo enfrentar.
+
+##### Definir o que deseja alcançar na vida
+
+Inicialmente fui pesquisar por técnicas para aplicar na elaboração de objetivos em referências bibliográficas.
+
+<!-- 
+A escolha de qual técnica empregar para definicação dos objetivos e metas requer esforço de leitura e avaliação. Defini objetivos gerais e tracei metas para o ano.
+-->
+
+A tentativa de escrita de objetivos utilizando a técnica OKRs (*Objectives and Key Results*) descrita em @Doerr2018MeasureWhatMatters não apresentou resultado satisfatório. O processo é voltado para objetivos empresariais e *transpor a técnica para escrita de propósito geral de vida foi frustrante*.
+
+<!-- XXX espaço de pesquisa, como definir objetivo de vida para pesquisa consciencial? -->
+
+Considerei uma abordagem diferente para os objetivos, inspirada por @Borges2025Eitologia, baseado na Eitologia: avaliar as áreas da vida e classificá-las em Deficiente, Suficiente e Proficiente e dar atenção ao que estiver Carente, transformando-as em Suficiente, e posteriormente qualificando-as para Proficiente.
+
+Classifiquei como não prioritário o emprego de técnica específica para escrita de objetivos, abortando leituras e pesquisa nessa temática. 
+
+
+###### Metas estabelecidas para 2025
+
+Escrevi brevemente metas para ano. A elaboração das metas (ver @tbl-metas-2025) foi realizada e revisada durante os meses iniciais do ano.[^exemplo-revisao-metas]
+
+[^exemplo-revisao-metas]: Por exemplo, eu quero ser um docente, mas eu desconhecia o caminho para docência. Durante o curso de entrada eu fui conhecendo os meios para ser docente e adicionei a meta M2, para estar ápito para realizar Reapredentia no ano seguinte.
+
+: Metas para 2025 {#tbl-metas-2025}
+
+| ID | Categoria     | Meta                                                                 |
+|----|---------------|:---------------------------------------------------------------------|
+| M1 | Formação      | Vir para Foz do Iguaçu e estudar a Conscienciologia.                  |
+| M2 | Docência      | Estar apto e na lista de espera para realizar curso de docência pela Reaprendia em 2026. |
+| M3 | Autopesquisa  | Autopesquisa em execução, com registros diversos e análise incipiente. |
+| M4 | Saúde         | Peso em monitoramento com medições constantes.                       |
+| M5 | Projeciologia | Alcançar pelo menos uma projeção lúcida.                             |
+| M6 | Energias      | Identificar o estado vibracional.                                    |
+| M7 | Financeiro    | Expandir a reserva de emergência para 12 meses.                      |
+
+Além das metas, os seguintes objetivos (ver @tbl-objetivos-nao-prioritarios-2025) foram elaborados para nortear o ano.
+
+: Objetivos não prioritários {#tbl-objetivos-nao-prioritarios-2025}
+
+| ID | Categoria           | Objetivo                                                    |
+|----|---------------------|:------------------------------------------------------------|
+| O1 | Proexologia         | Identificação da Proéxis.                                   |
+| O2 | Docência            | Planejamento de curso livre.                                |
+| O3 | Evoluciologia       | Planejamento estratégico evolutivo.                         |
+| O4 | Inversão Existencial| Apropriação das metas do inversor aos 40 anos.              |
+| O5 | Energias            | Dominar o estado vibracional (EV).                          |
+| O6 | Duplismo            | Constituir dupla evolutiva.                                 |
+| O7 | Cosmoeticologia     | Manter um Código Pessoal de Cosmoética (CPC) ativo.         |
+
+
+##### De acordo com a necessidade mais importante
+
+Este é o levantamento das metas e objetivos mais importantes:
+
+Vir para Foz do Iguaçu e estudar a Conscienciologia
+: Eu cheguei em Foz do Iguaçu em Janeiro e iniciei o curso de entrada em Fevereiro.
+
+Estar ápito e na lista de espera para realizar curso de docência através da Reaprendia em 2026
+: Os pré-requisitos são: concluído um curso de entrada, realizado curso de campo como ECP2 ou Imerssão Projecioterápica, 6 meses de voluntariado, passar em prova de admissão e entrevista.
+
+Autopesquisa em execução. Registro diversos e análise incipiente
+
+: O propósito é ter o processo de autopesquisa iniciado, com registros e análise de qualquer aspectos.
+
+Peso em monitoramento com medições constantes
+
+: Cumprir as metas requer esforço e força de vontade. Para o ano virgente, a meta era *monitorar o peso, realizar medições e registrar*.
+
+Planejamento de curso livre
+: Embora pareça prematuro pensar no planejamento de um curso livre acredito em preparação antecipada para os objetivos de longo prazo.
+
+Avaliar tecnologias para produção de livros, artigos e autopesquisa
+: Ao longo do ano me envolvi, no voluntariado, em atividades de produção de livros, busco avaliar tecnologias para otimizar o trabalho.
+
+
+<!-- Retomei a tenepes -->
+
+##### Definir um tema simples, que seja motivador
+
+- Monitoramento do peso.
+- Avaliar trajetória de cursos e atividades realizadas.
+- Desenvolvimento de instrumento de autopesquisa
+
+##### Temas escolhidos
+
+- Avaliar trajetória de cursos e atividades realizadas.
+- Avaliação das metas e objetivos
+- Desenvolvimento de instrumento de autopesquisa
+
+<!-- Pesquisar INVENTARIOLOGIA: https://verbetoteca.info/especialidade/inventariologia -->
+
+# Dados coletados
+
+<!--
+Através do ICNet podemos extrair diversos dados sobre nossa atuação na CCCI.
+
+Na seções a seguir são apresentadas diversos dados extraídos do ICNet.
+-->
+
+## Cursos de Campo
+
+Na @tbl-campo estão os cursos de campo realizados e suas respectivas ICs.^[Os curso do CEAC foram Acoplamentarium.]
+
+```{r}
+#| label: tbl-campo
+#| tbl-cap: Cursos de Campo em 2025
+library(readxl)
+library(dplyr)
+library(knitr)
+
+acomplamentarium <- read_excel(
+  "dados/campo.xlsx",
+  sheet = "campo"   # ou 1
+)
+
+kable(acomplamentarium, format = "pipe")
+```
+
+
+## Dinâmicas
+
+```{r}
+#| label: tbl-dinamicas
+#| tbl-cap: Dinâmicas em 2025
+library(readxl)
+library(dplyr)
+library(knitr)
+
+acomplamentarium <- read_excel(
+  "dados/dinamicas.xlsx",
+  sheet = "dinamicas"
+)%>%
+  mutate(Data = format(as.Date(Data), "%d/%m/%Y"))
+
+kable(acomplamentarium, format = "pipe")
+```
+
+
+<!-- OIC 
+OIC
+
+26,28,29/8
+
+Dinâmica Parapsíquica da Intercompreensão: Teática Consciencioterápica
+Epicon: Francisco Carvalho.
+Terças-feiras, das 20h às 22h.
+ 
+
+Dinâmica Parapsíquica da Parambulatoriologia
+Epicons: Maximiliano Haymann e Rômulo Silva.
+Quintas-feiras, das 20h às 22h.
+
+
+Dinâmica Parapsíquica da Autorganização Parafisiológica
+Epicon: Flávia Aouar e Marco Almeida. 
+Sextas-feiras, das 20h às 22h.
+
+Dinâmica Parapsíquica da Projecioterapeuticologia
+Epicon: Ivo Valente. 
+Sábados, das 19h30 às 21h30.
+
+-->
+
+## Laboratórios
+
+```{r}
+library(readr)
+library(dplyr)
+library(knitr)
+library(lubridate)
+
+historico <- read_csv(
+  "csv/laboratorios.csv",
+  show_col_types = FALSE,
+  trim_ws = TRUE
+) %>%
+  mutate(
+    Data = dmy_hm(Data),                 # converte "1/2/2025 08:30" -> POSIXct
+    Data = format(Data, "%d/%m/%Y")      # mantém só a data formatada
+  )
+
+kable(historico, format = "pipe")
+```
+
+```{=html}
+<!--
+
+## Registros no E-mail
+
+- Expotação com IA: https://chromewebstore.google.com/detail/ofaokhiedipichpaobibbnahnkdoiiah?utm_source=item-share-cb
+
+- Exportação no G-mail: https://support.cloudhq.net/category/browser-extensions/export-emails-to-excel-csv-or-google-sheet/
+
+-->
+```
+
+## Compras
+
+Minhas compras:
+
+```{r}
+#| label: tbl-compras
+#| tbl-cap: Lista das compras
+library(readr)
+library(dplyr)
+library(knitr)
+
+compras <- read_csv(
+  "csv/compras.csv",
+  col_types = cols(Data = col_date(format = "%m/%d/%Y"))
+) %>%
+  select(Data, Loja, Categoria, Produto) %>%  # Mantém apenas as 4 primeiras colunas
+  mutate(Data = format(Data, "%d/%m/%Y"))     # Reformatar data para dd/mm/aaaa
+
+kable(compras, format = "pipe")
+```
+
+## Eventos
+
+Segue o hitórico de eventos que estive presente em 2025:
+
+```{r}
+library(readr)
+library(dplyr)
+library(knitr)
+
+historico <- read_csv(
+  "csv/eventos.csv",
+  col_types = cols(`Data Início` = col_date(format = "%d/%m/%Y"))
+) %>%
+  select(-`Cód.Turma`) %>%  # Remove a coluna de código da turma
+  mutate(`Data Início` = format(`Data Início`, "%d/%m/%Y"))  # Reformatar data
+
+kable(historico, format = "pipe")
+```
+
+## Voluntariado
+
+### Ingresso no Voluntariado
+
+```{r}
+#| label: tbl-voluntariados
+#| tbl-cap: Assinatura dos voluntariados
+
+library(readr)
+library(dplyr)
+library(knitr)
+
+voluntariados <- read_csv("csv/voluntariados.csv")
+
+
+kable(voluntariados, format = "pipe")
+```
+
+A @tbl-voluntariados apresenta o dia o contrato de voluntariado para cada instituição foi assinado. A ISIC e EDITARES ainda não incluiu no sistema em qual departamento foi incluído.
+
+```{mermaid}
+timeline
+    title Ingresso no Voluntariado
+    06/2025 : ISIC
+            : JURISCONS
+            : HOLOMEMÓRIA
+    07/2025 : EDITARES
+```
+
+A HOLOMEMÓRIA é uma condição especial, por não ser uma IC, da mesma forma que o ICGE também não é. Ambas são iniciativas da CCCI com o apoio da UNICIN.
+
+### Atividades
+
+```{r}
+#| label: tbl-atividades-voluntariado
+#| tbl-cap: Dinâmicas em 2025
+library(readxl)
+library(dplyr)
+library(knitr)
+
+acomplamentarium <- read_excel(
+  "dados/atividades-voluntariado.xlsx",
+  sheet = "Atividades"
+)
+
+kable(acomplamentarium, format = "pipe")
+```
+
+### Participação em Equipe
+
+Encontrei uma única entrada no ICNET sobre o trabalho em equipes (ver @tbl-equipes-participacao).
+
+```{r}
+#| label: tbl-equipes-participacao
+#| tbl-cap: Participação de Equipes em 2025
+library(readr)
+library(dplyr)
+library(knitr)
+
+participacao_em_equipe <- read_csv(
+  "csv/participacao_em_equipe.csv",
+  col_types = cols(`Data Início` = col_date(format = "%d/%m/%Y"))
+) %>%
+  select(-`Cód. Turma`) %>%           # Remove a coluna
+  mutate(`Data Início` = format(`Data Início`, "%d/%m/%Y"))  # Reformatar data
+
+kable(participacao_em_equipe, format = "pipe")
+```
+
+## Soma
+
+### Evolução do Peso
+
+<!-- Este gráfico foi elaborado com ajuda da IA -->
+
+```{r}
+#| label: fig-peso-mmc-2025
+#| fig-cap: "Evolução do peso em com faixas de IMC (OMS) - 2025"
+#| echo: false
+
+library(readr)
+library(dplyr)
+library(lubridate)
+library(ggplot2)
+library(scales)
+library(tibble)
+
+# === PARAMETRO: sua altura em metros ===
+altura_m <- 1.72  # <- ajuste aqui
+
+# Função para converter IMC em peso (kg) dado altura
+peso_imc <- function(imc, h) imc * h^2
+
+# Cortes OMS para obesidade
+w30 <- peso_imc(30, altura_m)  # início Obesidade I
+w35 <- peso_imc(35, altura_m)  # início Obesidade II
+w40 <- peso_imc(40, altura_m)  # início Obesidade III
+
+# Intervalo que você quer destacar no gráfico
+ymin_plot <- 100
+ymax_plot <- 112
+
+# Tabela de faixas com cores mais nítidas
+faixas <- tribble(
+  ~cat,             ~ymin, ~ymax, ~fill,
+  "Sobrepeso (25–29.9)",                peso_imc(25, altura_m), min(w30, ymax_plot), "#A5D6A7",
+  "Obesidade I (30–34.9)",              max(w30, ymin_plot),     min(w35, ymax_plot), "#FFCC80",
+  "Obesidade II (35–39.9)",             max(w35, ymin_plot),     min(w40, ymax_plot), "#EF9A9A",
+  "Obesidade III (≥40)",                max(w40, ymin_plot),     ymax_plot,           "#F48FB1"
+) %>%
+  filter(ymax > ymin) %>%
+  mutate(ymin = pmax(ymin, ymin_plot),
+         ymax = pmin(ymax, ymax_plot))
+
+# Lê e prepara os dados
+dados <- read_csv("csv/TrackAndGraph-20260122-204431.csv")
+
+peso_2025 <- dados %>%
+  filter(FeatureName == "Peso") %>%
+  mutate(
+    Timestamp = ymd_hms(Timestamp),
+    Value = as.numeric(Value)
+  ) %>%
+  filter(year(Timestamp) == 2025 | year(Timestamp) == 2026) %>%
+  arrange(Timestamp)
+
+# limites do eixo X para pintar as faixas no fundo
+xmin <- min(peso_2025$Timestamp, na.rm = TRUE)
+xmax <- max(peso_2025$Timestamp, na.rm = TRUE)
+
+# Define locale para português
+Sys.setlocale("LC_TIME", "pt_BR.UTF-8") # Windows: "Portuguese_Brazil.1252"
+
+ggplot() +
+  # Faixas de IMC no fundo
+  geom_rect(data = faixas,
+            aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = cat),
+            inherit.aes = FALSE, alpha = 0.35, color = NA) +
+  # Série temporal do peso
+  geom_line(data = peso_2025, aes(x = Timestamp, y = Value), linewidth = 0.9) +
+  geom_point(data = peso_2025, aes(x = Timestamp, y = Value), size = 1.6) +
+  # Escalas
+  scale_x_datetime(
+    date_labels = "%d %b",   # dia + mês abreviado em português
+    date_breaks = "1 week",
+    expand = expansion(mult = c(0.01, 0.01))
+  ) +
+  scale_y_continuous(limits = c(ymin_plot, ymax_plot), labels = label_number(suffix = " kg")) +
+  # Cores e legenda
+  scale_fill_manual(
+    name = "Faixas de IMC",
+    values = setNames(faixas$fill, faixas$cat),
+    breaks = faixas$cat
+  ) +
+  labs(
+    title = "Evolução do peso com faixas de IMC (2025)",
+    x = "Data",
+    y = "Peso"
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    plot.title = element_text(face = "bold", hjust = 0.5),
+    axis.text.x = element_text(angle = 45, hjust = 1),
+    legend.position = "bottom"
+  )
+
+
+```
+
+### Exame de sangue
+
+Um exame de sangue foi realizado em 08/09/2025, de *checkup* geral, mas sem um acompanhamento médico para avaliação.
+
+<!--
+## ECP1
+
+-   Eliminar a dispersão
+-->
+
 # Perguntas e Hipóteses
 
 ## Perguntas da Pesquisa
@@ -288,12 +986,15 @@ Esta pesquisa visa responder às seguintes perguntas na @tbl-rqs.
 
 | ID  | Área de foco | Pergunta de pesquisa | Resultado esperado |
 |-----|--------------|:---------------------|-------------------|
-| RQ1 | Modelagem    | Como seria um exemplo de registro de situações? | Linguagem do domínio, Arquivo de exemplo|
-| RQ2 | Ferramentas  | Como o preenchimento do registro seria realizado? | Software de utilização, Experimentação |
-| RQ1 | Processo     | Como iniciar meu processo de autopesquisa? | Definição das etapas iniciais |
-| RQ2 | Conteúdo     | Quais informações incluir na autopesquisa? | Identificação dos dados relevantes |
-| RQ3 | Ferramentas  | Quais ferramentas utilizar para realizar a autopesquisa? | Identificação das ferramentas |
-| RQ4 | Análise      | Que tipos de análises devo empregar e como realizá-las? | Estrutura (framework) analítica |
+| RQ1 | Qualificação da Intenção    | Como seria um exemplo de registro de situações de anotação assertiva? | Linguagem do domínio, Arquivo de exemplo|
+| RQ2 | Tecnologias  | Quais as tecnologias de ponta na área de Open Science? | Lista de tecnologias |
+| RQ3 | Editoração   | Quais softwares utilizar para redigir e publicar a autopesquisa? | Software, Avaliação |
+| RQ4 | Conteúdo     | Quais informações incluir para testar a ferramenta com autopesquisa? | Identificação de dados relevantes |
+| RQ5 | Processo     | Como extrair os dados relevantes de cada fonte? | Procedimento |
+| RQ6 | Conteúdo     | O que é Autopesquisa? |
+| RQ7 | Processo     | Como iniciar a autopesquisa? | Definição das etapas iniciais |
+| RQY | Ferramentas  | Quais ferramentas utilizar para realizar a autopesquisa? | Identificação das ferramentas |
+| RQZ | Análise      | Que tipos de análises devo empregar e como realizá-las? | Estrutura (framework) analítica |
 
 
 ## Hipóteses
@@ -305,9 +1006,15 @@ Esta pesquisa visa responder às seguintes perguntas na @tbl-rqs.
 |:--:|:--------:|:------------------------------------------|:-----------------------------------:|
 | H1 |   RQ1    | Formulário web pode ser utilizado para registrar situações e análises | Formulário WEB, Boa experiência de utilização  |
 | H2 |   RQ1    | Utilização de software de Roteiros de Filme/Teatro para registrar as situações | Roteiro escrito, Boa experiência de utilização  |
-| H3 |   RQ1   | Elaborar uma Linguagem Específica de Domínio para registrar as situações | Situações escritas, Boa experiência |
+| H3 |   RQ1    | Uma Linguagem Específica de Domínio pode ser utilizada para registrar as situações | Situações escritas, Boa experiência |
+| H4 |   RQ2    | Encontrar as tecnologias através de prompts no ChatGPT e Grok | Avaliar manualmente |
+| H5 |   RQ3    | É possível utilizar a mesma tecnologia para escrita de artigos científicos e livros | Avaliação |
+| H6 |   RQ4    | Escolher um dado de série para geração de gráficos | Dataset, Gráfico |
+| H7 |   RQ4    | Buscar no ICNET, Lojas, E-mail, WhatsAppp e outras fontes quais dados estão disponíveis | Lista de fontes, seleção dos dados |
+| H8 |   RQ5    | Criar uma extensão para o Google Chrome para extrair os dados do ICNET | Extensão, Datasets |
+| H9 |   RQ7    | Pesquisa bibliográfica revelará como estruturar a autopesquisa | Tópicos associados aos recursos empregados; Referencial teórico dos métodos. |
 
-| H1 |   RQ1    | Leituras, Mentoria, Acessoria ou Inteligência Artifical contribuirão a estruturar a autopesquisa | Tópicos associados aos recursos empregados; Referencial teórico dos métodos. |
+
 | H2 |   RQ2    | Utilização de dados simples, fácil de ser coletado será suficiente | Variáveis simples |
 | H3 |   RQ3    | Utilização de Software de pesquisa científica contemplará as necessidades da autopesquisa | Geração de gráficos, Tabelas, Formatação elegante e profissional, Reprodutibilidade da pesquisa |
 | H4 |   RQ4    | Leituras, Mentoria, Acessoria ou Inteligência Artifical contribuirão para realizar a análise | Análise realizada; Feedback positivo |
@@ -413,133 +1120,6 @@ Inteligência Artificial
 
 : Possibilidade de utilizar a IA para construção de gráficos e processamento de dados.
 
-<!-- 
-
-Como iniciar?
-
-Não é apenas sobre o físico. Mas incluindo o paradigma consciencial.
-
-O estudo de si mesmo pode ser realizado considerando somente as questões do corpo, desta vida e desta dimensão física ou aplicando sob a ótica do paradigma consciencial.
-
--->
-
-# Como iniciar meu processo de autopesquisa?
-
-Em @kauati2024autopesquisa, cap. 7, é listado 5 fases para realização da autopesquisa:
-
-1. Escolha do tema.
-2. Delimitação da autopesquisa
-3. Pesquisa bibliográfica.
-4. Experimentação.
-5. Análise.
-
-# A escolha do tema da pesquisa
-
-@kauati2024autopesquisa sugere escolher uma das seguintes alternativas para inciar a autopesquisa:
-
-- Identificação de um mal estar
-- Definir o que deseja alcançar na vida
-- De acordo com a necessidade mais importante
-- Definir um tema simples, que seja motivador
-
-## Avaliando as alternativas para escolha de tema
-
-Nas seçoes seguintes vou avaliar as alternativas apresentadas.
-
-### Identificação de um mal estar
-
-No momento não tenho um *mal estar* que desejo enfrentar.
-
-### Definir o que deseja alcançar na vida
-
-Inicialmente fui pesquisar por técnicas para aplicar na elaboração de objetivos em referências bibliográficas.
-
-<!-- 
-A escolha de qual técnica empregar para definicação dos objetivos e metas requer esforço de leitura e avaliação. Defini objetivos gerais e tracei metas para o ano.
--->
-
-A tentativa de escrita de objetivos utilizando a técnica OKRs (*Objectives and Key Results*) descrita em @Doerr2018MeasureWhatMatters não apresentou resultado satisfatório. O processo é voltado para objetivos empresariais e *transpor a técnica para escrita de propósito geral de vida foi frustrante*.
-
-<!-- XXX espaço de pesquisa, como definir objetivo de vida para pesquisa consciencial? -->
-
-Considerei uma abordagem diferente para os objetivos, inspirada por @Borges2025Eitologia, baseado na Eitologia: avaliar as áreas da vida e classificá-las em Deficiente, Suficiente e Proficiente e dar atenção ao que estiver Carente, transformando-as em Suficiente, e posteriormente qualificando-as para Proficiente.
-
-Classifiquei como não prioritário o emprego de técnica específica para escrita de objetivos, abortando leituras e pesquisa nessa temática. 
-
-
-#### Metas estabelecidas para 2025
-
-Escrevi brevemente metas para ano. A elaboração das metas (ver @tbl-metas-2025) foi realizada e revisada durante os meses iniciais do ano.[^exemplo-revisao-metas]
-
-[^exemplo-revisao-metas]: Por exemplo, eu quero ser um docente, mas eu desconhecia o caminho para docência. Durante o curso de entrada eu fui conhecendo os meios para ser docente e adicionei a meta M2, para estar ápito para realizar Reapredentia no ano seguinte.
-
-: Metas para 2025 {#tbl-metas-2025}
-
-| ID | Categoria     | Meta                                                                 |
-|----|---------------|:---------------------------------------------------------------------|
-| M1 | Formação      | Vir para Foz do Iguaçu e estudar a Conscienciologia.                  |
-| M2 | Docência      | Estar apto e na lista de espera para realizar curso de docência pela Reaprendia em 2026. |
-| M3 | Autopesquisa  | Autopesquisa em execução, com registros diversos e análise incipiente. |
-| M4 | Saúde         | Peso em monitoramento com medições constantes.                       |
-| M5 | Projeciologia | Alcançar pelo menos uma projeção lúcida.                             |
-| M6 | Energias      | Identificar o estado vibracional.                                    |
-| M7 | Financeiro    | Expandir a reserva de emergência para 12 meses.                      |
-
-Além das metas, os seguintes objetivos (ver @tbl-objetivos-nao-prioritarios-2025) foram elaborados para nortear o ano.
-
-: Objetivos não prioritários {#tbl-objetivos-nao-prioritarios-2025}
-
-| ID | Categoria           | Objetivo                                                    |
-|----|---------------------|:------------------------------------------------------------|
-| O1 | Proexologia         | Identificação da Proéxis.                                   |
-| O2 | Docência            | Planejamento de curso livre.                                |
-| O3 | Evoluciologia       | Planejamento estratégico evolutivo.                         |
-| O4 | Inversão Existencial| Apropriação das metas do inversor aos 40 anos.              |
-| O5 | Energias            | Dominar o estado vibracional (EV).                          |
-| O6 | Duplismo            | Constituir dupla evolutiva.                                 |
-| O7 | Cosmoeticologia     | Manter um Código Pessoal de Cosmoética (CPC) ativo.         |
-
-
-### De acordo com a necessidade mais importante
-
-Este é o levantamento das metas e objetivos mais importantes:
-
-Vir para Foz do Iguaçu e estudar a Conscienciologia
-: Eu cheguei em Foz do Iguaçu em Janeiro e iniciei o curso de entrada em Fevereiro.
-
-Estar ápito e na lista de espera para realizar curso de docência através da Reaprendia em 2026
-: Os pré-requisitos são: concluído um curso de entrada, realizado curso de campo como ECP2 ou Imerssão Projecioterápica, 6 meses de voluntariado, passar em prova de admissão e entrevista.
-
-Autopesquisa em execução. Registro diversos e análise incipiente
-
-: O propósito é ter o processo de autopesquisa iniciado, com registros e análise de qualquer aspectos.
-
-Peso em monitoramento com medições constantes
-
-: Cumprir as metas requer esforço e força de vontade. Para o ano virgente, a meta era *monitorar o peso, realizar medições e registrar*.
-
-Planejamento de curso livre
-: Embora pareça prematuro pensar no planejamento de um curso livre acredito em preparação antecipada para os objetivos de longo prazo.
-
-Avaliar tecnologias para produção de livros, artigos e autopesquisa
-: Ao longo do ano me envolvi, no voluntariado, em atividades de produção de livros, busco avaliar tecnologias para otimizar o trabalho.
-
-
-<!-- Retomei a tenepes -->
-
-### Definir um tema simples, que seja motivador
-
-- Monitoramento do peso.
-- Avaliar trajetória de cursos e atividades realizadas.
-- Desenvolvimento de instrumento de autopesquisa
-
-## Temas escolhidos
-
-- Avaliar trajetória de cursos e atividades realizadas.
-- Avaliação das metas e objetivos
-- Desenvolvimento de instrumento de autopesquisa
-
-<!-- Pesquisar INVENTARIOLOGIA: https://verbetoteca.info/especialidade/inventariologia -->
 
 # Delimitação da autopesquisa
 
@@ -578,70 +1158,6 @@ Clareza
 
 ## Base dos dados
 
-### ICnet
-
-O Sistema ICnet é um pacote de soluções de software que permite a gestão integrada de várias áreas das Instituições Conscienciocêntricas, @icnetDocs:
-
-1.  Voluntariado.
-2.  Eventos.
-3.  Gestão financeira (receitas e despesas) e contábil.
-4.  Ecommerce.
-5.  Dinâmicas parapsíquicas.
-6.  Laboratórios.
-7.  Hospedagem em Campus.
-8.  Gescons.
-9.  Gerenciamento de Ensino a Distância.
-10. Marketing Digital.
-
-Através de uma conta com permissões admnistrativas de uma IC é possível acessar os dados cadastrados no sistema.
-
-Nas seções a seguir são apresentadas as telas contendo os dados registrado no sistema.
-
-### Voluntariado
-
-Para acessar o módulo de gestão de Voluntariado é necessário logar com uma conta administrativa de usuário da IC.
-
-![Extração do ICNet](images/voluntariado-na-ic.png){#fig-voluntariado-na-ic}
-
-A @fig-voluntariado-na-ic apresenta a tela de Voluntariado (para o voluntário Eduardo de Santana Medeiros) na IC Juriscons. Nela podemos verificar que "Eduardo de Santana Medeiros" está *ativo* no voluntariado (nenhuma data de saída), que está lotado na Sede da JURISCONS (em Foz do Iguaçu), está vinculado através do organograma da instituição em *Colegiado Administrativo \\ Relações Institucionais* com função de *Membro* e iniciou formalmente o voluntariado em *11/06/2025*.
-
-A tela de "Voluntariado em Outras IC's", não apresentada mas acessível a partir desta tela, possui estrutura semelhante.
-
-### Participação em equipes
-
-![Participação em equipes cadastradas no ICnet](images/participacao-em-equipe.png){#fig-equipe}
-
-A tela de Participação em Equipe na @fig-equipe lista em quais equipes o voluntario(a) participou.
-
-### Histórico de atividades
-
-![Histórico de atividades no ICNet consultado em 31/8/2025](images/historico.png){#fig-atividades}
-
-A @fig-atividades apresenta o histórico das atividades registradas no sistema. A coluna "Data Início" indica a data de início do evento, os eventos listados não são indicativos de presença, uma vez que existe evento para o ano sequinte (2026).
-
-O hitórico de atividades extraídos pelo ICNet poder conter alguns erros de datas (@fig-historicoerros).
-
-![Erros no Histórico de atividades no ICNet](images/historico-erros.png){#fig-historicoerros}
-
-### Laboratórios
-
-![Laboratórios](images/laboratorios.jpg)
-
-### E-mail
-
-![Consulta no E-mail](images/consulta-no-email.png){#fig-consultaemail} O E-mail também uma rica fonte de informações, pois é habitual receber confirmações de compras ou tickets no e-mail.
-
-### Calendário
-
-A agenda de compromissos é um ótimo recurso para consultar eventos anteriores (ver @fig-agenda).
-
-![Pesquisa no calendário](images/calendar.png){#fig-agenda}
-
-### WhatsApp
-
-![Pesquisa no WhatsApp](images/whatsapp.png){#fig-whatsapp}
-
-Alguns eventos podem ser pesquisados através do WhatsApp (@fig-whatsapp), como é o caso das atividades realizadas na OIC (que não usa o ICNet para registros de atendimentos).
 
 ## Livros
 
@@ -649,7 +1165,9 @@ As compras (ou recebimento de presentes) de livros podem ter registros no e-mail
 
 ## Software
 
-### CosmoWare
+### CosmoWare{#sec-cosmoware}
+
+Para facilitar a extração dos dados do ICNET
 
 O CosmoWare, @CosmoWareExtension, é uma extensão para o Google Chrome (Ver @fig-cosmoware) que adiciona funcionalidades aos sites da conscienciologia, especificamente ao ICNET. Com ela é possível exportar os dados do ICNET em planilhas compatíveis com o RStudio, @rstudio.
 
@@ -665,7 +1183,7 @@ Extrações mais complexas podem ser realizadas com a extensão para o Google Ch
 
 ![Extração de dados na Megastore através do Instant Data Scraper](images/instant-data-scraper.png){#fig-instantdata}
 
-### Track & Graph
+### Track & Graph{#sec-trackandgraph}
 
 O Track & Graph (@fig-trackandgraph) é um aplicativo para Android, @trackandgraph, que permite o registro de dados pessoas e exportação dos dados para planilhas. Pode ser utilizado para registro de tentativas de EV, de peso, sinaléticas ou qualquer outras variáveis que forem configuradas.
 
@@ -697,6 +1215,8 @@ Segundo @vieira1986projeciologia projeciologia é cool.
 
 ## Metas estabelecidas para 2025
 
+<!-- 12/1/2025>
+
 -   Vir para Foz do Iguaçu e estudar a Conscienciologia
 -   Estar ápito e na lista de espera para realizar curso de docência através da Reaprendia em 2026.
 -   Pelo menos uma projeção lúcida.
@@ -704,6 +1224,7 @@ Segundo @vieira1986projeciologia projeciologia é cool.
 -   Autopesquisa em execução. Registro diversos e análise incipiente.
 -   Peso em monitoramento com medições constantes.
 -   Expansão de reserva de emergência para 12 meses.
+-   Publicação de Verbete
 
 ## Outras metas
 
@@ -714,270 +1235,54 @@ Segundo @vieira1986projeciologia projeciologia é cool.
 -   Dominar o EV
 -   Dupla evolutiva
 -   CPC Ativo
+-   Tertúlia Matinal
+-   Artigo
 
+<!--
 - traçar o plano
-- tertulia matinal > meta interessante
-
 - verbete > infocomunicologia > ferramentas de pesquisas conscienciologicas
 
 auto pesquisa projeciologica -- info comunicologia e projeciologia
-
 usar projções da consciencia para testar
-
 Artigo
-
-# Dados coletados
-
-<!--
-Através do ICNet podemos extrair diversos dados sobre nossa atuação na CCCI.
-
-Na seções a seguir são apresentadas diversos dados extraídos do ICNet.
 -->
 
-
-## Eventos
-
-Segue o hitórico de eventos que estive presente em 2025:
-
-```{r}
-library(readr)
-library(dplyr)
-library(knitr)
-
-historico <- read_csv(
-  "csv/eventos.csv",
-  col_types = cols(`Data Início` = col_date(format = "%d/%m/%Y"))
-) %>%
-  select(-`Cód.Turma`) %>%  # Remove a coluna de código da turma
-  mutate(`Data Início` = format(`Data Início`, "%d/%m/%Y"))  # Reformatar data
-
-kable(historico, format = "pipe")
-```
-
-## Cursos de Campo
-
-Na @tbl-campo estão os cursos de campo realizados e suas respectivas ICs.^[Os curso do CEAC foram Acoplamentarium.]
-
-```{r}
-#| label: tbl-campo
-#| tbl-cap: Cursos de Campo em 2025
-library(readxl)
-library(dplyr)
-library(knitr)
-
-acomplamentarium <- read_excel(
-  "dados/campo.xlsx",
-  sheet = "campo"   # ou 1
-)
-
-kable(acomplamentarium, format = "pipe")
-```
-
-
-## Dinâmicas
-
-OIC
-
-26,28,29/8
-
-
-
-## Laboratórios
-
-
-
-
-```{=html}
-<!--
-
-## Registros no E-mail
-
-- Expotação com IA: https://chromewebstore.google.com/detail/ofaokhiedipichpaobibbnahnkdoiiah?utm_source=item-share-cb
-
-- Exportação no G-mail: https://support.cloudhq.net/category/browser-extensions/export-emails-to-excel-csv-or-google-sheet/
-
--->
-```
-
-## Compras
-
-Minhas compras:
-
-```{r}
-#| label: tbl-compras
-#| tbl-cap: Lista das compras
-library(readr)
-library(dplyr)
-library(knitr)
-
-compras <- read_csv(
-  "csv/compras.csv",
-  col_types = cols(Data = col_date(format = "%m/%d/%Y"))
-) %>%
-  select(Data, Loja, Categoria, Produto) %>%  # Mantém apenas as 4 primeiras colunas
-  mutate(Data = format(Data, "%d/%m/%Y"))     # Reformatar data para dd/mm/aaaa
-
-kable(compras, format = "pipe")
-```
-
-
-## Voluntariado
-
-### Ingresso no Voluntariado
-
-```{r}
-#| label: tbl-voluntariados
-#| tbl-cap: Assinatura dos voluntariados
-
-library(readr)
-library(dplyr)
-library(knitr)
-
-voluntariados <- read_csv("csv/voluntariados.csv")
-
-
-kable(voluntariados, format = "pipe")
-```
-
-A @tbl-voluntariados apresenta o dia o contrato de voluntariado para cada instituição foi assinado. A ISIC e EDITARES ainda não incluiu no sistema em qual departamento foi incluído.
-
-```{mermaid}
-timeline
-    title Ingresso no Voluntariado
-    06/2025 : ISIC
-            : JURISCONS
-            : HOLOMEMÓRIA
-    07/2025 : EDITARES
-```
-
-A HOLOMEMÓRIA é uma condição especial, por não ser uma IC, da mesma forma que o ICGE também não é. Ambas são iniciativas da CCCI com o apoio da UNICIN.
-
-
-
-### Participação em Equipe
-
-```{r}
-library(readr)
-library(dplyr)
-library(knitr)
-
-participacao_em_equipe <- read_csv(
-  "csv/participacao_em_equipe.csv",
-  col_types = cols(`Data Início` = col_date(format = "%d/%m/%Y"))
-) %>%
-  select(-`Cód. Turma`) %>%           # Remove a coluna
-  mutate(`Data Início` = format(`Data Início`, "%d/%m/%Y"))  # Reformatar data
-
-kable(participacao_em_equipe, format = "pipe")
-```
-
-## Soma
-
-### Evolução do Peso
-
-```{r}
-#| label: fig-peso-mmc-2025
-#| fig-cap: "Evolução do peso em com faixas de IMC (OMS) - 2025"
-#| echo: false
-
-library(readr)
-library(dplyr)
-library(lubridate)
-library(ggplot2)
-library(scales)
-library(tibble)
-
-# === PARAMETRO: sua altura em metros ===
-altura_m <- 1.72  # <- ajuste aqui
-
-# Função para converter IMC em peso (kg) dado altura
-peso_imc <- function(imc, h) imc * h^2
-
-# Cortes OMS para obesidade
-w30 <- peso_imc(30, altura_m)  # início Obesidade I
-w35 <- peso_imc(35, altura_m)  # início Obesidade II
-w40 <- peso_imc(40, altura_m)  # início Obesidade III
-
-# Intervalo que você quer destacar no gráfico
-ymin_plot <- 100
-ymax_plot <- 112
-
-# Tabela de faixas com cores mais nítidas
-faixas <- tribble(
-  ~cat,             ~ymin, ~ymax, ~fill,
-  "Sobrepeso (25–29.9)",                peso_imc(25, altura_m), min(w30, ymax_plot), "#A5D6A7",
-  "Obesidade I (30–34.9)",              max(w30, ymin_plot),     min(w35, ymax_plot), "#FFCC80",
-  "Obesidade II (35–39.9)",             max(w35, ymin_plot),     min(w40, ymax_plot), "#EF9A9A",
-  "Obesidade III (≥40)",                max(w40, ymin_plot),     ymax_plot,           "#F48FB1"
-) %>%
-  filter(ymax > ymin) %>%
-  mutate(ymin = pmax(ymin, ymin_plot),
-         ymax = pmin(ymax, ymax_plot))
-
-# Lê e prepara os dados
-dados <- read_csv("csv/TrackAndGraph-20260122-204431.csv")
-
-peso_2025 <- dados %>%
-  filter(FeatureName == "Peso") %>%
-  mutate(
-    Timestamp = ymd_hms(Timestamp),
-    Value = as.numeric(Value)
-  ) %>%
-  filter(year(Timestamp) == 2025 | year(Timestamp) == 2026) %>%
-  arrange(Timestamp)
-
-# limites do eixo X para pintar as faixas no fundo
-xmin <- min(peso_2025$Timestamp, na.rm = TRUE)
-xmax <- max(peso_2025$Timestamp, na.rm = TRUE)
-
-# Define locale para português
-Sys.setlocale("LC_TIME", "pt_BR.UTF-8") # Windows: "Portuguese_Brazil.1252"
-
-ggplot() +
-  # Faixas de IMC no fundo
-  geom_rect(data = faixas,
-            aes(xmin = xmin, xmax = xmax, ymin = ymin, ymax = ymax, fill = cat),
-            inherit.aes = FALSE, alpha = 0.35, color = NA) +
-  # Série temporal do peso
-  geom_line(data = peso_2025, aes(x = Timestamp, y = Value), linewidth = 0.9) +
-  geom_point(data = peso_2025, aes(x = Timestamp, y = Value), size = 1.6) +
-  # Escalas
-  scale_x_datetime(
-    date_labels = "%d %b",   # dia + mês abreviado em português
-    date_breaks = "1 week",
-    expand = expansion(mult = c(0.01, 0.01))
-  ) +
-  scale_y_continuous(limits = c(ymin_plot, ymax_plot), labels = label_number(suffix = " kg")) +
-  # Cores e legenda
-  scale_fill_manual(
-    name = "Faixas de IMC",
-    values = setNames(faixas$fill, faixas$cat),
-    breaks = faixas$cat
-  ) +
-  labs(
-    title = "Evolução do peso com faixas de IMC (2025)",
-    x = "Data",
-    y = "Peso"
-  ) +
-  theme_minimal(base_size = 12) +
-  theme(
-    plot.title = element_text(face = "bold", hjust = 0.5),
-    axis.text.x = element_text(angle = 45, hjust = 1),
-    legend.position = "bottom"
-  )
-
-
-```
-
-# ECP1
-
--   Eliminar a dispersão
 
 # Análise dos dados
 
 ## Holopensene
 
 # Resultados
+
+# Perspectivas Futuras
+## Propostas de Continuidade
+## Questões em Aberto
+
+# Rerefências
+
+
+
+
+## RQ1 - Como seria um exemplo de registro de situações de anotação assertiva?
+
+A escrita de registros com a 
+
+
+https://www.youtube.com/watch?v=Baw777e_L8A
+
+Avaliar outra hipótese:
+
+- Utilizar a @Nader2018QualificacaoAutografopensenica (consultar o @YouTubeAPOSTILHAMENTO para conhecer )com Inteligência Artifical. Pa
+
+<!-- Taquigrafia. 
+
+
+
+![Registro do dia 21/03/2025 com DSL](images/registro-dsl-2025-03-21.png){#fig-registro-dsl-2025-03-21}
+
+A escrita do registro utilizando uma DSL é rápida e autoexplicativa. A experiência foi muito mais agradável. Contudo esse registro foi apenas uma simulação. 
+
+#### Desafios técnicos para implementação da DSL {#dsl-desafios}
 
 # Apendice/Rascunho
 
@@ -1051,4 +1356,7 @@ Mudanças. Se houve mudanças de planos, criar um novo evento e remover o que n�
 
 ## Planejamento para o próximo ano
 
-# Rerefências
+# Perspectivas Futuras
+
+
+
