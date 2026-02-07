@@ -1,0 +1,75 @@
+# Objetivos e metas {#sec-objetivos-metas}
+
+## Objetivos gerais
+
+-   **Epicon**.
+-   **Docência**. Docência consciencilógica.
+-   **Grupo-carma**. Manter-se como epicentro da Conscienciologia em João Pessoa.
+-   **Independência financeira**. Aposentar mais cedo para dedicar-se ao desenvolvimento e interassistência.
+-   **Metas**. Traçar metas para os próximos anos.
+
+## Metas estabelecidas para 2025 {#sec-metas-2025}
+
+<!-- 12/1/2025>
+
+-   Vir para Foz do Iguaçu e estudar a Conscienciologia
+-   Estar ápito e na lista de espera para realizar curso de docência através da Reaprendia em 2026.
+-   Pelo menos uma projeção lúcida.
+-   Estado vibracional identificado.
+-   Autopesquisa em execução. Registro diversos e análise incipiente.
+-   Peso em monitoramento com medições constantes.
+-   Expansão de reserva de emergência para 12 meses.
+-   Publicação de Verbete
+
+## Outras metas
+
+-   Identificação de Proéxis
+-   Planejamento de curso livre
+-   Planejamento estratégico evolucente
+-   Apropriação das Metas do Inversor aos 40 anos
+-   Dominar o EV
+-   Dupla evolutiva
+-   CPC Ativo
+-   Tertúlia Matinal
+-   Artigo
+
+<!--
+- traçar o plano
+- verbete > infocomunicologia > ferramentas de pesquisas conscienciologicas
+
+auto pesquisa projeciologica -- info comunicologia e projeciologia
+usar projções da consciencia para testar
+Artigo
+-->
+
+
+Escrevi brevemente metas para ano. A elaboração das metas (ver @tbl-metas-2025) foi realizada e revisada durante os meses iniciais do ano.[^exemplo-revisao-metas]
+
+[^exemplo-revisao-metas]: Por exemplo, eu quero ser um docente, mas eu desconhecia o caminho para docência. Durante o curso de entrada eu fui conhecendo os meios para ser docente e adicionei a meta M2, para estar ápito para realizar Reapredentia no ano seguinte.
+
+: Metas para 2025 {#tbl-metas-2025}
+
+| ID | Categoria     | Meta                                                                 |
+|----|---------------|:---------------------------------------------------------------------|
+| M1 | Formação      | Vir para Foz do Iguaçu e estudar a Conscienciologia.                  |
+| M2 | Docência      | Estar apto e na lista de espera para realizar curso de docência pela Reaprendia em 2026. |
+| M3 | Autopesquisa  | Autopesquisa em execução, com registros diversos e análise incipiente. |
+| M4 | Saúde         | Peso em monitoramento com medições constantes.                       |
+| M5 | Projeciologia | Alcançar pelo menos uma projeção lúcida.                             |
+| M6 | Energias      | Identificar o estado vibracional.                                    |
+| M7 | Financeiro    | Expandir a reserva de emergência para 12 meses.                      |
+
+Além das metas, os seguintes objetivos (ver @tbl-objetivos-nao-prioritarios-2025) foram elaborados para nortear o ano.
+
+: Objetivos não prioritários {#tbl-objetivos-nao-prioritarios-2025}
+
+| ID | Categoria           | Objetivo                                                    |
+|----|---------------------|:------------------------------------------------------------|
+| O1 | Proexologia         | Identificação da Proéxis.                                   |
+| O2 | Docência            | Planejamento de curso livre.                                |
+| O3 | Evoluciologia       | Planejamento estratégico evolutivo.                         |
+| O4 | Inversão Existencial| Apropriação das metas do inversor aos 40 anos.              |
+| O5 | Energias            | Dominar o estado vibracional (EV).                          |
+| O6 | Duplismo            | Constituir dupla evolutiva.                                 |
+| O7 | Cosmoeticologia     | Manter um Código Pessoal de Cosmoética (CPC) ativo.         |
+
