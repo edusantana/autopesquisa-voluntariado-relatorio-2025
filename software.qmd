@@ -1,0 +1,39 @@
+# Software
+
+## CosmoWare{#sec-cosmoware}
+
+Para facilitar a extração dos dados do ICNET
+
+O CosmoWare, @CosmoWareExtension, é uma extensão para o Google Chrome (Ver @fig-cosmoware) que adiciona funcionalidades aos sites da conscienciologia, especificamente ao ICNET. Com ela é possível exportar os dados do ICNET em planilhas compatíveis com o RStudio, @rstudio.
+
+![Utilização do CosmoWare para extração dos dados do ICNET](images/cosmoware-exportar-planilhas.png){#fig-cosmoware}
+
+
+
+## Instant Data Scraper
+
+Para a extração de dados do ICNet (ver @fig-atividades) copiar e colar no Excel é suficiente.
+
+Extrações mais complexas podem ser realizadas com a extensão para o Google Chrome chamada Instant Data Scraper, criada por @instantDataScraper. A @fig-instantdata mostra uma extração de uma lista de pedidos de compras na Megastore.
+
+![Extração de dados na Megastore através do Instant Data Scraper](images/instant-data-scraper.png){#fig-instantdata}
+
+## Track & Graph{#sec-trackandgraph}
+
+O Track & Graph (@fig-trackandgraph) é um aplicativo para Android, @trackandgraph, que permite o registro de dados pessoas e exportação dos dados para planilhas. Pode ser utilizado para registro de tentativas de EV, de peso, sinaléticas ou qualquer outras variáveis que forem configuradas.
+
+![Track & Graph](images/Screenshot_20250902_183240_Track_and_Graph.jpg){#fig-trackandgraph}
+
+## RStudio
+
+O RStudio mantido por @rstudio é uma IDE (Ambiente de Desenvolvimento Integrado) que permite a edição dos documentos e agrupa diversas funcionalidades para gerenciar o projeto. Ela é uma ferramenta de referência para a ciência de dados de código aberto.
+
+Este documento foi redigido no RStudio.
+
+![Escrita do documento no RStudio](images/rstudio.png)
+
+## Quarto
+
+O Quarto mantido por @quarto é um sistema de código aberto para escrita e publicação técnica e científica. Ela é uma ferramenta de comandos de linhas para gerenciar e publicar projetos, integrada nas versões recentes do RStudio.
+
+<!-- Segundo @vieira1986projeciologia projeciologia é cool. -->

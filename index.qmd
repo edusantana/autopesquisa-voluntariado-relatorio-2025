@@ -32,18 +32,81 @@ bibliography: references.bib
 #citation:
 #  container-title: Earth and Space Science
 number-sections: true
+perguntas:
+  - "Pergunta 1?"
+  - "Pergunta 2?"
+  - "Pergunta 3?"
 ---
 
 # Introdução
 
-Este relatório lista as atividades da conscienciologia e voluntariado realizadas pelo autor durante o ano de 2025 e uma breve análise sobre o holopense imerso.
+Este relatório lista as atividades da conscienciologia do voluntariado realizadas pelo autor durante o ano de 2025.
 
 Este relatório é minha iniciativa para a autopesquisa. O desenvolvimento das ferramentas de autopesquisa é desafiador, necessitamos equilibar o tempo e esforço para pesquisar e avaliar ferramentas desenvolvidas pela comunidade ou desenvolver as nossas próprias ferramentas.
 
-Estas são as perguntas da pesquisa que desejo responder:
+### Justificativa
+
+Este relatório demonstra meu esforço para iniciar o desenvolvimento dos meus instrumentos de Autopesquisa, iniciando a coleta e registro de informações necessárias para o autoenfrentamentos e visando a autevolução.
 
 
-# Qualificação da intenção
+O propósito de apresentar, para a comunidade da conscienciologia, a iniciativa do emprego de novas tecnologias aplicadas à autopesquisa.
+
+## Projetos de pesquisa
+
+Agrupei as ações e iniciativas de autopesquisa, realizadas ao longo do ano, em 3 categorias a seguir:
+
+Qualificação da Intenção
+
+: Aplicação de uma técnica de Qualificação da intenção chamada de **técnica da anotação assertiva** (ver @sec-qualificacao-da-intencao).
+
+Tecnologias para Editoração
+
+: Exploração e desenvolvimento das tecnologias necessárias para realizar a autopesquisa, incluindo a aquisição dos dados, gestão dos arquivos e publicação da pesquisa.
+
+Autopesquisa
+
+: Pesquisa do referencial teórico, planejamento e análise dos dados.
+
+## Perguntas da Pesquisa
+
+Esta pesquisa visa responder às seguintes perguntas na @tbl-rqs.
+
+: Perguntas de Pesquisa (RQ) para Autopesquisa {#tbl-rqs}
+
+| ID  | Projeto | Pergunta de pesquisa | Resultado esperado |
+|-----|--------------|:---------------------|-------------------|
+| [RQ1]{#rq-rq1} | Qualificação da Intenção    | Como seria um exemplo de registro de situações de anotação assertiva? | Linguagem do domínio, Arquivo de exemplo|
+| [RQ2]{#rq-rq2} | Editoração  | Quais as tecnologias de ponta na área de Open Science? | Lista de tecnologias |
+| [RQ3]{#rq-rq3} | Editoração   | Quais softwares utilizar para redigir e publicar a autopesquisa? | Software, Avaliação |
+| [RQ4]{#rq-rq4} | Editoração     | Quais informações incluir para testar a ferramenta com autopesquisa? | Identificação de dados relevantes |
+| [RQ5]{#rq-rq5} | Editoração     | Como extrair os dados relevantes de cada fonte? | Procedimento |
+| [RQ6]{#rq-rq6} | Autopesquisa     | O que é Autopesquisa? | Definição |
+| [RQ7]{#rq-rq7} | Autopesquisa     | Como iniciar a autopesquisa? | Definição das etapas iniciais |
+
+
+## Hipóteses
+
+: Hipóteses (H) associadas às Perguntas de Pesquisa {#tbl-hipoteses}
+
+| ID | Pergunta | Hipótese (testável)                       | Como verificar (indicador/critério) |
+|:--:|:--------:|:------------------------------------------|:-----------------------------------:|
+| H1 |   [RQ1](#rq-rq1 "Voltar para a pergunta RQ1 na Tabela de RQs") | Formulário web pode ser utilizado para registrar situações e análises | Formulário WEB, Boa experiência de utilização  |
+| H2 |   [RQ1](#rq-rq1) | Utilização de software de Roteiros de Filme/Teatro para registrar as situações | Roteiro escrito, Boa experiência de utilização  |
+| H3 |   [RQ1](#rq-rq1) | Uma Linguagem Específica de Domínio pode ser utilizada para registrar as situações | Situações escritas, Boa experiência |
+| H4 |   [RQ2](#rq-rq2)    | Encontrar as tecnologias através de prompts no ChatGPT e Grok | Avaliar manualmente |
+| H5 |   [RQ3](#rq-rq3)    | É possível utilizar a mesma tecnologia para escrita de artigos científicos e livros | Avaliação |
+| H6 |   [RQ4](#rq-rq4)    | Escolher um dado de série para geração de gráficos | Dataset, Gráfico |
+| H7 |   [RQ4](#rq-rq4)    | Buscar no ICNET, Lojas, E-mail, WhatsAppp e outras fontes quais dados estão disponíveis | Lista de fontes, seleção dos dados |
+| H8 |   [RQ5](#rq-rq5)    | Criar uma extensão para o Google Chrome para extrair os dados do ICNET | Extensão, Datasets |
+| H9 |   [RQ7](#rq-rq7)    | Pesquisa bibliográfica revelará como estruturar a autopesquisa | Tópicos associados aos recursos empregados; Referencial teórico dos métodos. |
+
+## Justificativa
+
+**Planilhas**. Na CCCI está consolidado a disponibilização de instrumentos de autopesquisa no @ICGEPlanilhasAutopesquisa.^[Haviam 25 instrumentos de autopesquisa disponibilizados em 2025. A maioria das planihas tem origem nos livros publicados ou em cursos específicos de autopesquisa.] As planilhas contém instruções para utilização e implementam recursos avançados, tais com proteção de células contra edição, geração de diferentes tipos gráficos e ligação dados entre as páginas.
+
+**Registro.** *Sem registro não há autopesquisa.* Utilizar um instrumento de registro que seja confortável para o pesquisador é essencial para a manutenção da pesquisa.
+
+# Qualificação da intenção {#sec-qualificacao-da-intencao}
 
 Eu iniciei minha autopesquisa através da leitura do livro "Intenção: Manifestação Atributológica da Consciência". Eu me propus a realizar a **técnica da anotação assertiva,** @Gesing2017Intencao p. 72:
 
@@ -274,7 +337,7 @@ Para conhecer a técnica de Apostilhamento consultar @Nader2018QualificacaoAutog
 ### Hipótese 4 - Encontrar as tecnologias através de prompts no ChatGPT e Grok
 
 
-Através de *prompts* [realizados no chatgpt](./prompts/openscience.chatgpt.md) obtemos os seguintes resultados relevantes:
+Através de *prompts* [realizados no chatgpt](./prompts/openscience.chatgpt) obtemos os seguintes resultados relevantes:
 
 ::: {.callout-note}
 
@@ -296,7 +359,7 @@ Através de *prompts* [realizados no chatgpt](./prompts/openscience.chatgpt.md) 
 
 :::
 
-Através de *prompts* [realizados no grok](./prompts/openscience.grok.md) obtemos os seguintes resultados relevantes:
+Através de *prompts* [realizados no grok](./prompts/openscience.grok) obtemos os seguintes resultados relevantes:
 
 ::: {.callout-note}
 
@@ -383,7 +446,7 @@ Utilizei a Inteligência Artificial para gerar o código e personalizar a renden
 | E-mail             | https://gmail.com/|
 | Calendário         | https://calendar.google.com/calendar/u/0/r |
 | WhatsApp           | https://web.whatsapp.com/ |
-| Folha de Registro  | |
+| Planilha Ortopensenologia  | |
 | Registro pessoal   | |
 
 ##### ICnet
@@ -457,7 +520,7 @@ A @fig-voluntariado-na-ic apresenta a tela de Voluntariado (para o voluntário E
 
 No entanto os dados inseridos no ICNET pelos voluntários demonstraram não ser confiáveis. Na @fig-voluntariado-outras-ics é apresentado dois erros de registro realizados no cadastro da ISIC (Função e Data de Início). O cadastro do voluntariado da Editares está correto.
 
-![Voluntariado em outras ICs](images/voluntariado-outras-ics.png){#fig-voluntariado-outras-ics.png}
+![Voluntariado em outras ICs](images/voluntariado-outras-ics.png){#fig-voluntariado-outras-ics}
 
 
 #### Participação em equipes
@@ -577,38 +640,7 @@ Considerei uma abordagem diferente para os objetivos, inspirada por @Borges2025E
 
 Classifiquei como não prioritário o emprego de técnica específica para escrita de objetivos, abortando leituras e pesquisa nessa temática. 
 
-
-###### Metas estabelecidas para 2025
-
-Escrevi brevemente metas para ano. A elaboração das metas (ver @tbl-metas-2025) foi realizada e revisada durante os meses iniciais do ano.[^exemplo-revisao-metas]
-
-[^exemplo-revisao-metas]: Por exemplo, eu quero ser um docente, mas eu desconhecia o caminho para docência. Durante o curso de entrada eu fui conhecendo os meios para ser docente e adicionei a meta M2, para estar ápito para realizar Reapredentia no ano seguinte.
-
-: Metas para 2025 {#tbl-metas-2025}
-
-| ID | Categoria     | Meta                                                                 |
-|----|---------------|:---------------------------------------------------------------------|
-| M1 | Formação      | Vir para Foz do Iguaçu e estudar a Conscienciologia.                  |
-| M2 | Docência      | Estar apto e na lista de espera para realizar curso de docência pela Reaprendia em 2026. |
-| M3 | Autopesquisa  | Autopesquisa em execução, com registros diversos e análise incipiente. |
-| M4 | Saúde         | Peso em monitoramento com medições constantes.                       |
-| M5 | Projeciologia | Alcançar pelo menos uma projeção lúcida.                             |
-| M6 | Energias      | Identificar o estado vibracional.                                    |
-| M7 | Financeiro    | Expandir a reserva de emergência para 12 meses.                      |
-
-Além das metas, os seguintes objetivos (ver @tbl-objetivos-nao-prioritarios-2025) foram elaborados para nortear o ano.
-
-: Objetivos não prioritários {#tbl-objetivos-nao-prioritarios-2025}
-
-| ID | Categoria           | Objetivo                                                    |
-|----|---------------------|:------------------------------------------------------------|
-| O1 | Proexologia         | Identificação da Proéxis.                                   |
-| O2 | Docência            | Planejamento de curso livre.                                |
-| O3 | Evoluciologia       | Planejamento estratégico evolutivo.                         |
-| O4 | Inversão Existencial| Apropriação das metas do inversor aos 40 anos.              |
-| O5 | Energias            | Dominar o estado vibracional (EV).                          |
-| O6 | Duplismo            | Constituir dupla evolutiva.                                 |
-| O7 | Cosmoeticologia     | Manter um Código Pessoal de Cosmoética (CPC) ativo.         |
+Elaborei os Objetivos em @sec-metas-2025.
 
 
 ##### De acordo com a necessidade mais importante
@@ -745,6 +777,7 @@ historico <- read_csv(
 kable(historico, format = "pipe")
 ```
 
+
 ```{=html}
 <!--
 
@@ -828,23 +861,6 @@ timeline
 
 A HOLOMEMÓRIA é uma condição especial, por não ser uma IC, da mesma forma que o ICGE também não é. Ambas são iniciativas da CCCI com o apoio da UNICIN.
 
-### Atividades
-
-```{r}
-#| label: tbl-atividades-voluntariado
-#| tbl-cap: Dinâmicas em 2025
-library(readxl)
-library(dplyr)
-library(knitr)
-
-acomplamentarium <- read_excel(
-  "dados/atividades-voluntariado.xlsx",
-  sheet = "Atividades"
-)
-
-kable(acomplamentarium, format = "pipe")
-```
-
 ### Participação em Equipe
 
 Encontrei uma única entrada no ICNET sobre o trabalho em equipes (ver @tbl-equipes-participacao).
@@ -865,6 +881,46 @@ participacao_em_equipe <- read_csv(
 
 kable(participacao_em_equipe, format = "pipe")
 ```
+
+### Atividades
+
+```{r}
+#| label: tbl-atividades-voluntariado
+#| tbl-cap: Dinâmicas em 2025
+library(readxl)
+library(dplyr)
+library(knitr)
+
+acomplamentarium <- read_excel(
+  "dados/atividades-voluntariado.xlsx",
+  sheet = "Atividades"
+)
+
+kable(acomplamentarium, format = "pipe")
+```
+
+## Iniciativa de projetos
+
+Iniciativa de projetos e estudos.
+
+```{r}
+#| label: tbl-iniciativas
+#| tbl-cap: Iniciativas em 2025
+library(readxl)
+library(dplyr)
+library(knitr)
+
+acomplamentarium <- read_excel(
+  "dados/iniciativas-projetos.xlsx",
+  sheet = "Projetos"
+)
+
+kable(acomplamentarium, format = "pipe")
+```
+
+## CPC
+
+Não está ativo.
 
 ## Soma
 
@@ -976,49 +1032,6 @@ Um exame de sangue foi realizado em 08/09/2025, de *checkup* geral, mas sem um a
 -   Eliminar a dispersão
 -->
 
-# Perguntas e Hipóteses
-
-## Perguntas da Pesquisa
-
-Esta pesquisa visa responder às seguintes perguntas na @tbl-rqs.
-
-: Perguntas de Pesquisa (RQ) para Autopesquisa {#tbl-rqs}
-
-| ID  | Área de foco | Pergunta de pesquisa | Resultado esperado |
-|-----|--------------|:---------------------|-------------------|
-| RQ1 | Qualificação da Intenção    | Como seria um exemplo de registro de situações de anotação assertiva? | Linguagem do domínio, Arquivo de exemplo|
-| RQ2 | Tecnologias  | Quais as tecnologias de ponta na área de Open Science? | Lista de tecnologias |
-| RQ3 | Editoração   | Quais softwares utilizar para redigir e publicar a autopesquisa? | Software, Avaliação |
-| RQ4 | Conteúdo     | Quais informações incluir para testar a ferramenta com autopesquisa? | Identificação de dados relevantes |
-| RQ5 | Processo     | Como extrair os dados relevantes de cada fonte? | Procedimento |
-| RQ6 | Conteúdo     | O que é Autopesquisa? |
-| RQ7 | Processo     | Como iniciar a autopesquisa? | Definição das etapas iniciais |
-| RQY | Ferramentas  | Quais ferramentas utilizar para realizar a autopesquisa? | Identificação das ferramentas |
-| RQZ | Análise      | Que tipos de análises devo empregar e como realizá-las? | Estrutura (framework) analítica |
-
-
-## Hipóteses
-
-
-: Hipóteses (H) associadas às Perguntas de Pesquisa {#tbl-hipoteses}
-
-| ID | Pergunta | Hipótese (testável)                       | Como verificar (indicador/critério) |
-|:--:|:--------:|:------------------------------------------|:-----------------------------------:|
-| H1 |   RQ1    | Formulário web pode ser utilizado para registrar situações e análises | Formulário WEB, Boa experiência de utilização  |
-| H2 |   RQ1    | Utilização de software de Roteiros de Filme/Teatro para registrar as situações | Roteiro escrito, Boa experiência de utilização  |
-| H3 |   RQ1    | Uma Linguagem Específica de Domínio pode ser utilizada para registrar as situações | Situações escritas, Boa experiência |
-| H4 |   RQ2    | Encontrar as tecnologias através de prompts no ChatGPT e Grok | Avaliar manualmente |
-| H5 |   RQ3    | É possível utilizar a mesma tecnologia para escrita de artigos científicos e livros | Avaliação |
-| H6 |   RQ4    | Escolher um dado de série para geração de gráficos | Dataset, Gráfico |
-| H7 |   RQ4    | Buscar no ICNET, Lojas, E-mail, WhatsAppp e outras fontes quais dados estão disponíveis | Lista de fontes, seleção dos dados |
-| H8 |   RQ5    | Criar uma extensão para o Google Chrome para extrair os dados do ICNET | Extensão, Datasets |
-| H9 |   RQ7    | Pesquisa bibliográfica revelará como estruturar a autopesquisa | Tópicos associados aos recursos empregados; Referencial teórico dos métodos. |
-
-
-| H2 |   RQ2    | Utilização de dados simples, fácil de ser coletado será suficiente | Variáveis simples |
-| H3 |   RQ3    | Utilização de Software de pesquisa científica contemplará as necessidades da autopesquisa | Geração de gráficos, Tabelas, Formatação elegante e profissional, Reprodutibilidade da pesquisa |
-| H4 |   RQ4    | Leituras, Mentoria, Acessoria ou Inteligência Artifical contribuirão para realizar a análise | Análise realizada; Feedback positivo |
-
 
 # Justificativa
 
@@ -1127,7 +1140,11 @@ Como tenho o propósito de criar um instrumento de pesquisa que possa ser facilm
 
 Instrumento de pesquisa replicável
 
-: Tenho que requisito a elaboração de instrumentos de autopesquisa que outras pessoas possam baixar, adaptar e iniciar sua autopesquisa.
+: Template que outras pessoas possam baixar, adaptar e realizar a autopesquisa.
+
+Foco no Registo para análise posterior
+
+: A
 
 Agilidade para iniciar.
 
@@ -1149,10 +1166,6 @@ Clareza
 
 : A pesquisa deve promover o esclarecimento sobre o objeto de estudo (a consciência), métodos e as ferramentas empregadas.
 
-# Pesquisa bibliográfica.
-
-
-
 
 # Método
 
@@ -1162,90 +1175,6 @@ Clareza
 ## Livros
 
 As compras (ou recebimento de presentes) de livros podem ter registros no e-mail ou uma organização da biblioteca pessoal pode set implementada manualmente.
-
-## Software
-
-### CosmoWare{#sec-cosmoware}
-
-Para facilitar a extração dos dados do ICNET
-
-O CosmoWare, @CosmoWareExtension, é uma extensão para o Google Chrome (Ver @fig-cosmoware) que adiciona funcionalidades aos sites da conscienciologia, especificamente ao ICNET. Com ela é possível exportar os dados do ICNET em planilhas compatíveis com o RStudio, @rstudio.
-
-![Utilização do CosmoWare para extração dos dados do ICNET](images/cosmoware-exportar-planilhas.png){#fig-cosmoware}
-
-
-
-### Instant Data Scraper
-
-Para a extração de dados do ICNet (ver @fig-atividades) copiar e colar no Excel é suficiente.
-
-Extrações mais complexas podem ser realizadas com a extensão para o Google Chrome chamada Instant Data Scraper, criada por @instantDataScraper. A @fig-instantdata mostra uma extração de uma lista de pedidos de compras na Megastore.
-
-![Extração de dados na Megastore através do Instant Data Scraper](images/instant-data-scraper.png){#fig-instantdata}
-
-### Track & Graph{#sec-trackandgraph}
-
-O Track & Graph (@fig-trackandgraph) é um aplicativo para Android, @trackandgraph, que permite o registro de dados pessoas e exportação dos dados para planilhas. Pode ser utilizado para registro de tentativas de EV, de peso, sinaléticas ou qualquer outras variáveis que forem configuradas.
-
-![Track & Graph](images/Screenshot_20250902_183240_Track_and_Graph.jpg){#fig-trackandgraph}
-
-### RStudio
-
-O RStudio mantido por @rstudio é uma IDE (Ambiente de Desenvolvimento Integrado) que permite a edição dos documentos e agrupa diversas funcionalidades para gerenciar o projeto. Ela é uma ferramenta de referência para a ciência de dados de código aberto.
-
-Este documento foi redigido no RStudio.
-
-![Escrita do documento no RStudio](images/rstudio.png)
-
-### Quarto
-
-O Quarto mantido por @quarto é um sistema de código aberto para escrita e publicação técnica e científica. Ela é uma ferramenta de comandos de linhas para gerenciar e publicar projetos, integrada nas versões recentes do RStudio.
-
-Segundo @vieira1986projeciologia projeciologia é cool.
-
-# Objetivos e metas
-
-## Objetivos gerais
-
--   **Epicon**.
--   **Docência**. Docência consciencilógica.
--   **Grupo-carma**. Manter-se como epicentro da Conscienciologia em João Pessoa.
--   **Independência financeira**. Aposentar mais cedo para dedicar-se ao desenvolvimento e interassistência.
--   **Metas**. Traçar metas para os próximos anos.
-
-## Metas estabelecidas para 2025
-
-<!-- 12/1/2025>
-
--   Vir para Foz do Iguaçu e estudar a Conscienciologia
--   Estar ápito e na lista de espera para realizar curso de docência através da Reaprendia em 2026.
--   Pelo menos uma projeção lúcida.
--   Estado vibracional identificado.
--   Autopesquisa em execução. Registro diversos e análise incipiente.
--   Peso em monitoramento com medições constantes.
--   Expansão de reserva de emergência para 12 meses.
--   Publicação de Verbete
-
-## Outras metas
-
--   Identificação de Proéxis
--   Planejamento de curso livre
--   Planejamento estratégico evolucente
--   Apropriação das Metas do Inversor aos 40 anos
--   Dominar o EV
--   Dupla evolutiva
--   CPC Ativo
--   Tertúlia Matinal
--   Artigo
-
-<!--
-- traçar o plano
-- verbete > infocomunicologia > ferramentas de pesquisas conscienciologicas
-
-auto pesquisa projeciologica -- info comunicologia e projeciologia
-usar projções da consciencia para testar
-Artigo
--->
 
 
 # Análise dos dados
@@ -1274,7 +1203,7 @@ Avaliar outra hipótese:
 
 - Utilizar a @Nader2018QualificacaoAutografopensenica (consultar o @YouTubeAPOSTILHAMENTO para conhecer )com Inteligência Artifical. Pa
 
-<!-- Taquigrafia. 
+<!-- Taquigrafia. -->
 
 
 
@@ -1323,26 +1252,6 @@ https://www.dicionariodenomesproprios.com.br/nomes-latim-masculinos/
 ```
 :::
 
-## Atividades e papeis
-
-| Atividade           | IC   |
-|---------------------|------|
-| Current             | 2021 |
-| Teneguía            | 1971 |
-| Nambroque           | 1949 |
-| El Charco           | 1712 |
-| Volcán San Antonio  | 1677 |
-| Volcán San Martin   | 1646 |
-| Tajuya near El Paso | 1585 |
-| Montaña Quemada     | 1492 |
-
-```{=html}
-<!--
-Atividade não oficiais
-- Reunião com Leandro
-- Como as atividades foram adicionadas
--->
-```
 
 ## Otimizadores
 
@@ -1354,9 +1263,12 @@ Presentes. Para os compromissos on-line, manter a lista de convidados consistent
 
 Mudanças. Se houve mudanças de planos, criar um novo evento e remover o que não ocorreu.
 
-## Planejamento para o próximo ano
+## Planejamento para o próximo ano 3
 
 # Perspectivas Futuras
 
+texo aqui.
 
 
+{{< include software.qmd >}}
+{{< include objetivos-e-metas-2025.qmd >}}
