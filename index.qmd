@@ -32,10 +32,6 @@ bibliography: references.bib
 #citation:
 #  container-title: Earth and Space Science
 number-sections: true
-perguntas:
-  - "Pergunta 1?"
-  - "Pergunta 2?"
-  - "Pergunta 3?"
 ---
 
 # Introdução
@@ -59,13 +55,57 @@ Qualificação da Intenção
 
 : Aplicação de uma técnica de Qualificação da intenção chamada de **técnica da anotação assertiva** (ver @sec-qualificacao-da-intencao).
 
+
+<!-- qualifiquei minha intenção ? -->
+
 Tecnologias para Editoração
 
 : Exploração e desenvolvimento das tecnologias necessárias para realizar a autopesquisa, incluindo a aquisição dos dados, gestão dos arquivos e publicação da pesquisa.
 
+<!-- quando eu me disponho para fazer qual trafor foi apresentado? temperamento? -->
+
 Autopesquisa
 
 : Pesquisa do referencial teórico, planejamento e análise dos dados.
+
+<!-- isso tudo mostra que estou fazendo pesquisa? -->
+
+<!-- me ajuda a qualificar o eu CPC 
+
+qual elemento para colocar o meu CPC em pratica
+
+Reescrever minha introdução sobre o que que eu quero?
+
+E agora o que eu faço com isso?
+-> Desenvolver com isso.
+
+
+Reescrever a introduçao com base nas perguntas.
+
+. Analisar o holopense que está incluido. -> saindo de voce.
+. quais sao os seus interesses?
+. Indicador financeiro? Quais os temas que estou participando? Qual as minha Ics de interesse?
+. Quanto ja investi na conscienciologia?
+. Qual o tema que mais busco? Qual especialidade?
+. Qual trafor?
+. Temporalidade? Quanto tempo? Em anos? 
+. Qual a minha trajetória?
+. Aonde voce está andando nas especialidades?
+. Temas de relevancia de cada ano. Estao aderenes ao voluntario?
+. Trajetória da pessoa
+. Quanto ganhava e investiu
+. Verbete: Patrimonio consciencial -- o que ele oportuniza?
+. Qual o aprendizado gerado nesse curso? Qual a motivação?
+. Qual especialidade?
+. especialidade padronizadas
+. quais o valores pessoais? e principios? -- aonde eles estão?
+. assistencial
+. estáo adenrentes aos seus objetivos
+. materpensene das ics. paciologia e projeciologia. aonde os materpense das ICs. Nos estatutos.
+. revista homoprojector -- revista ana ceres - alzira: Entrevista – Alzira Gesing	Intencionologia	Ana Ceres Timóteo	Entrevista; Homo Projector; Vol. 10. N. 1; páginas 57 a 61.; 2023; coautoria.
+
+
+-->
 
 ## Perguntas da Pesquisa
 
@@ -686,6 +726,76 @@ Avaliar tecnologias para produção de livros, artigos e autopesquisa
 
 # Dados coletados
 
+## Objetivos
+
+| ID | Status  | Meta                                                                 |
+|----|---------|:---------------------------------------------------------------------|
+| M1 | ✅    | Vir para Foz do Iguaçu e estudar a Conscienciologia.                  |
+| M2 | ✅   | Estar apto e na lista de espera para realizar curso de docência pela Reaprendia em 2026. |
+| M3 | ✅  | Autopesquisa em execução, com registros diversos e análise incipiente. |
+| M4 | ✅ | Peso em monitoramento com medições constantes.                       |
+| M5 | ❌️ | Alcançar pelo menos uma projeção lúcida.                             |
+| M6 | ❌️ | Identificar o estado vibracional.                                    |
+| M7 | ❌️ | Expandir a reserva de emergência para 12 meses.                      |
+
+### M1 - Vir para Foz do Iguaçu e estudar a Conscienciologia
+
+
+```{mermaid}
+timeline
+    title Janeiro de 2025
+    12/1/2025 : Cheguei em Foz do Iguaçu.
+    17/1/2025 : Primeira visita ao CEAC.
+    18/1/2025 : Compra de curso de entrada TPC 
+    23/1/2025 : Compra do Passaporte Dinâmicas Parapsíquicas anual
+
+```
+
+
+### M2 - Estar apto e na lista de espera para realizar curso de docência pela Reaprendia em 2026
+
+Este objetivo foi estabelecido em Março, quando eu descobri sobre a Reaprendentia e sua fila de espera. Entrei no site e descrobrir os requisitos.
+
+Tracei um plano para cumprir os requisitos. Para conseguir realizar o ECP2 em Foz do Iguaçu, seria necessário terminar o curso de entrada e fazer o ECP1 em Curitiba, uma semana após o término do curso de entrada.
+
+Mesmo sem os requisitos, eu contatei todas as instituições informando o meu interesse antecipadamente e informando quando eu atingiria a completude dos requisitos.
+
+### M3 - Autopesquisa em execução, com registros diversos e análise incipiente
+
+Este relatório representa o resultado deste esforço.
+
+
+### M4 - Peso em monitoramento com medições constantes
+
+Eu consegui cumpri muito bem ao longo do primeiro semestre (ver @fig-peso-mmc-2025). No geral, avalio que a realização da meta de medições foi satisfatória.
+
+
+### M5 - Alcançar pelo menos uma projeção lúcida
+
+Embora eu tenha aplicado técnicas projetivas, eu não implementei uma rotina fixa para isso.
+
+### M6 - Identificar o estado vibracional
+
+Embora eu tenha realizado várias movimentações energéticas durante o dia, eu não identifiquei o estado vibracional.
+
+### M7 - Expandir a reserva de emergência para 12 meses
+
+As seguintes ações desfavoreceu o desenvolvimento da minha reserva de emergência:
+
+- Mobilhando a casa (compra de tudo)
+- Realização de diversos cursos da Conscienciologia
+- Assistências
+
+Minha reserva atual está em 1,5 mês.
+
+## Tenepes
+
+Retomei minha Tenepes no dia 6 de Março de 2025.
+
+Ao longo do ano mudei o horário da Tenepes, tirei da noite, e passei a fazer no horário da tarde, iniciando às 16, 17 ou 18h.
+
+Durante o ano, participei presencialmente de uma aula sobre Tenepes, no International Week.
+
 <!--
 Através do ICNet podemos extrair diversos dados sobre nossa atuação na CCCI.
 
@@ -816,16 +926,18 @@ kable(compras, format = "pipe")
 Segue o hitórico de eventos que estive presente em 2025:
 
 ```{r}
-library(readr)
+library(readxl)
 library(dplyr)
 library(knitr)
 
-historico <- read_csv(
-  "csv/eventos.csv",
-  col_types = cols(`Data Início` = col_date(format = "%d/%m/%Y"))
+historico <- read_excel(
+  "xlsx/eventos.xlsx",
+  sheet = "eventos"  # ajuste se o nome da aba for diferente
 ) %>%
-  select(-`Cód.Turma`) %>%  # Remove a coluna de código da turma
-  mutate(`Data Início` = format(`Data Início`, "%d/%m/%Y"))  # Reformatar data
+  select(-`Cód.Turma`, -Descrição) %>%          # remove as colunas
+  mutate(`Data Início` = as.Date(`Data Início`)) %>%  # garante tipo Date (se já vier Date, ok)
+  arrange(`Data Início`) %>%                   # ordena por data
+  mutate(`Data Início` = format(`Data Início`, "%d/%m/%Y"))  # formata para exibição
 
 kable(historico, format = "pipe")
 ```
@@ -918,9 +1030,34 @@ acomplamentarium <- read_excel(
 kable(acomplamentarium, format = "pipe")
 ```
 
-## CPC
+## Código Pessoal de Cosmoética (CPC)
 
-Não está ativo.
+Ao longo do ano, surgiu o curso o *Fundamentos do Código Pessoal de Cosmoética,* embora não era uma meta específica de 2025 aproveitei a oportunidade para realizar o curso.
+
+Conforme aprendi no curso, ter um CPC *ativo* significa:
+
+- impresso e exposto para leitura
+- reler e atualizá-lo com uma certa periodicidade
+
+Durante o curso experimentei a escrita das cláusulas conforme orientação do curso, mas fiquei desconfortável com o estilo apresentado. Eu também tentei o estilo apresentado no *Caderno de Exercícios da Ortopensenidade* mas também não gostei.
+
+Nenhuma nova cláusura foi adicionada durante o curso.
+
+Eu já tinha algumas cláusulas escritas há 6 anos:
+
+::: {.callout-note title="Código Pessoal de Cosmoética escrito há 6 nos"}
+> Nas ocasiões em que eu falhar, em alguns dos itens abaixo, e alguém sentir-se prejudicado: **pedir desculpas, informar que essa falha já foi havia sido identificada antes e que está trabalhando nisso**. Registrar a ocorrência da falha.
+>
+> Aceitar com naturalidade, sem risos, quando pessoas expressam opiniões ou realizam ações que considero banais, óbvias ou erro comum.
+>
+> Manter-se harmonizado e compreensivo perante ações religiosas (pregações, oração em línguas, exorcismo etc).
+>
+> Respeitar e amparar os outros dando-lhe a liberdade de pensarem e agirem como são.
+
+:::
+
+
+
 
 ## Soma
 
@@ -1021,6 +1158,15 @@ ggplot() +
 
 
 ```
+
+No primeiro semestre do ano eu consegui ir para a academia, fazer atividades físicas e perdi peso.
+
+No segundo semestre eu não superei os impecílios climáticos para ir para a academia: frio e chuva que veio com o Inverno. 
+
+Depois que passou o frio, tentei retornar a academia mas tive um desconforto relacionado a mudança das normas, que me impedindo de utilizar a esteira. Isto me desanimou e deixei de ir à academia. O peso continiu subindo.
+
+Passei várias semanas sem registrar o peso. Depois viajei para visitar a família, Natal e Ano novo. Neste período não fiz nenhuma medição.
+
 
 ### Exame de sangue
 
@@ -1167,30 +1313,163 @@ Clareza
 : A pesquisa deve promover o esclarecimento sobre o objeto de estudo (a consciência), métodos e as ferramentas empregadas.
 
 
-# Método
-
-## Base dos dados
-
+<!--
 
 ## Livros
 
 As compras (ou recebimento de presentes) de livros podem ter registros no e-mail ou uma organização da biblioteca pessoal pode set implementada manualmente.
 
+-->
 
-# Análise dos dados
+# Avaliação
 
-## Holopensene
+## Objetivos{#avaliacao-objetivos}
 
-# Resultados
+| ID | Status  | Meta                                                                 |
+|----|---------|:---------------------------------------------------------------------|
+| M1 | ✅    | Vir para Foz do Iguaçu e estudar a Conscienciologia.                  |
+| M2 | ✅   | Estar apto e na lista de espera para realizar curso de docência pela Reaprendia em 2026. |
+| M3 | ✅  | Autopesquisa em execução, com registros diversos e análise incipiente. |
+| M4 | ✅ | Peso em monitoramento com medições constantes.                       |
+| M5 | ⚠️ | Alcançar pelo menos uma projeção lúcida.                             |
+| M6 | ⚠️ | Identificar o estado vibracional.                                    |
+| M7 | ⚠️ | Expandir a reserva de emergência para 12 meses.                      |
 
-# Perspectivas Futuras
-## Propostas de Continuidade
-## Questões em Aberto
+### M1 - Vir para Foz do Iguaçu e estudar a Conscienciologia
 
-# Rerefências
+Eu passei um ano e meio viajando no exterior. Durante toda as minhas viagens meu destino final sempre foi Foz do Iguaçu, para estudar a Conscienciologia.
+
+Eu pretendia viajar um pouco mais, mas estou satisfeito de ter chegado no início do ano para pegar as atividades começando, como foi o caso do curso de entrada.
+
+### M2 - Estar apto e na lista de espera para realizar curso de docência pela Reaprendia em 2026
 
 
+> Buscar ativamente conhecer as opções disponíveis (e seus requisitos) e estabelecer metas na direção de conquistá-las me ajudam a chegar, mais rapidamente, nos objetivos que estabeleço.
 
+Eu janeiro de 2026 fiquei muito contente porque pude participar do curso de *Qualificação Equipes de Campo CCCI.* Isto foi possível devido a minha trajeitória, e meus posicionamentos ao longo do ano.
+
+
+::: {.callout-note title="Ações futuras"}
+
+Objetivo para 2027:
+
+- Estar apto e me disponibizar para fazer parte da equipe de cursos de campo do ECP2 em 2027.
+
+:::
+
+
+### M3 - Autopesquisa em execução, com registros diversos e análise incipiente
+
+Minha autopesquisa ainda está aquém do que desejo, mas cumpre o objetivo de análise incipiente.
+
+Houveram alguns incovenientes:
+
+- Não abordei apropriadamente todas as atividades realizadas
+- As análises consomem tempo
+- As iniciativas abortadas também consumiram tempo
+- Demorei muito para terminar^[Terminei o relatório em Fevereiro de 2026.]
+
+
+### M4 - Peso em monitoramento com medições constantes{#sec-avaliacao-m4}
+
+Durante o segundo semestre o decrécimo nas medições do peso é um indicativo relante:
+
+
+::: {.callout-important title="Resultado de análise"}
+- **Contexto:** pesagem corporal.
+- **Padrão observado:** evito medir quando antecipo resultado ruim.
+- **Efeito:** perda de consistência no acompanhamento.
+- **Próxima ação:** atualizar CPC.
+
+:::
+
+
+### M5 - Alcançar pelo menos uma projeção lúcida
+
+<!-- Embora eu tenha aplicado técnicas projetivas, eu não implementei uma rotina fixa para isso. -->
+
+Ao longo do ano eu não me comprometi com uma rotina fixa de ações para projeção.
+
+Um inconveniente relevante foi a descoberta de mioclonias relacionadas a movimentação energética. Quando estou relaxado fazendo as movimentações energéticas surgem algumas moclonias^[Levar um braço, perna, ou torso inteiro.] que tem o potencial perturbar o relaxamento.
+
+::: {.callout-important title="Resultado de análise"}
+- **Contexto:** movimentação energética.
+- **Problema observado:** ausência de rotina fixa (baixa constância).
+- **Fator interveniente**: mioclonias durante movimentação energética.
+- **Impacto:** quebra de relaxamento, redução de tempo de prática e queda de adesão semanal.  
+- **Próxima ação:** realizar cursos de desbloqueio.^[Já comprei dois: Bioenergoterapia da OIC e PROEP do Ectolab.]
+
+:::
+
+```{mermaid}
+flowchart LR
+  A[Prática] --> B[Mioclonia]
+  B --> C[Perturba relaxamento]
+  C --> D[Evitação]
+  D --> E[Queda de rotina]
+  E --> A
+
+```
+
+
+### M6 - Identificar o estado vibracional
+
+Embora eu realize movimentações energéticas, ainda não me comprometi com rotinas no estilo de 20 EVs diários. Ainda não identifiquei o estado vibracional.
+
+### M7 - Expandir a reserva de emergência para 12 meses
+
+Minha reserva é de 1.5 mês. Não consegui atingir a meta.
+
+## Tenepes
+
+O novo horário da Tenepes funciona bem durante a semana, mas em finais de semana com cursos ou transmissão eu não realizo a Tenepes.
+
+Minha Tenepes ainda está incipiente, com muito espaço para iniciativas de qualificação.
+
+Em Janeiro de 2026, eu percebi mudanças impactantes sobre o grupo que esteve nas intenções da minha Tenepes.^[Neste momento estou tendo uma sinalética, na escrita desta seção.]
+
+
+::: {.callout-note title="Ações futuras"}
+
+Como objetivo futuro, pretendo:
+
+- Estimular o recurso de Pedido de Tenepes nas ICs através do Website.
+- Criar/resgatar processo para avaliar os pedidos e encaminhar para um grupo de WhatsApp com o propósito específico de Tenepes.
+- Ler um livro sobre qualificação da Tenepes.
+
+:::
+
+## CPC {#sec-avaliacao-cpc}
+
+Durante o curso percebi que existe uma coincidência entra a escrita de objetivos e metas com a escrita das cláusulas do CPC, elas tem o mesmo propósito: comprometimento pessoal.
+
+Percebi que estou confortável em adicionar ajustes finos de conduta ao CPC.
+
+O resultado da análises do relatório (ver @sec-avaliacao-m4-peso) me deu indícios para adicionar uma nova cláusula mantendo ele ativo, como desejado.
+
+
+## Soma
+
+Segundo @Clear2019HabitosAtomicos, o que é monitorado recebe mais atenção e melhora. O objetivo para 2025 era *monitorar, realizar medições frequentes do peso*.
+
+Para autopesquisa existe duas formas de analisar:
+
+1. Identificar em mim as razões do porque não consegui superar as diversidades e realizar a reciclagem.
+2. Ou, remover as barreiras externas que me impeadiriam de diminuir o peso.
+
+Para 2026 optei pela segunda alternativa. Eu não posso mudar as estações do ano, mas optei por comprar 2 metros quadrados de EVA e realizar as atividades físicas dentro de casa, removendo os impedimentos dos obstáculos frio e chuva.
+
+::: {.callout-note title="Ações futuras"}
+
+- Continuar com as medições de peso.
+- Realizar as atividades físicas em casa (Já pedir 4,5 kg em Janeiro de 2026, realizando atividade física no tatame de EVA.), visando continuar perder o peso e *vencer as barreiras climáticas* que falhei em superá-las em 2025.
+- Substituição de doce ou refeições duplicadas por consumo de água com gás.
+
+
+:::
+
+
+<!--
 
 ## RQ1 - Como seria um exemplo de registro de situações de anotação assertiva?
 
@@ -1203,15 +1482,13 @@ Avaliar outra hipótese:
 
 - Utilizar a @Nader2018QualificacaoAutografopensenica (consultar o @YouTubeAPOSTILHAMENTO para conhecer )com Inteligência Artifical. Pa
 
-<!-- Taquigrafia. -->
+ Taquigrafia. -->
 
 
 
 ![Registro do dia 21/03/2025 com DSL](images/registro-dsl-2025-03-21.png){#fig-registro-dsl-2025-03-21}
 
 A escrita do registro utilizando uma DSL é rápida e autoexplicativa. A experiência foi muito mais agradável. Contudo esse registro foi apenas uma simulação. 
-
-#### Desafios técnicos para implementação da DSL {#dsl-desafios}
 
 # Apendice/Rascunho
 
@@ -1265,10 +1542,18 @@ Mudanças. Se houve mudanças de planos, criar um novo evento e remover o que n�
 
 ## Planejamento para o próximo ano 3
 
+
 # Perspectivas Futuras
 
-texo aqui.
+## Melhorias no Relatório
+
+- Escrever o relatório de forma modular reinserindo os mesmo arquivos e seções mas modificando o contexto antes da inserção para filtrar o texto antes da inclusão mas mantendo as mesmas seções. Ganho de padronização e eficiência na escrita. Ex: Seções de Dados coletados e Análise.
 
 
 {{< include software.qmd >}}
 {{< include objetivos-e-metas-2025.qmd >}}
+
+# Eduardo
+
+{{< include eduardo.qmd >}}
+
