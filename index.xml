@@ -1105,10 +1105,41 @@ volunteer work.</p>
       </def-item>
     </def-list>
   </sec>
-  <sec id="zenodo-nb-5">
+  <sec id="sec-zenodo-nb-5">
     <title>Zenodo</title>
     <p>O Zenodo é um sistema que permite a identificação do seu trabalho
-    e seu armazenamento para prosperidade.</p>
+    (DOI) e seu armazenamento para prosperidade, @ZenodoSite.</p>
+    <disp-quote>
+      <p>Um <bold>DOI</bold> (<italic>Digital Object
+      Identifier</italic>) é um identificador persistente atribuído a
+      objetos digitais (por exemplo, artigos, relatórios, conjuntos de
+      dados e software). Sua utilidade principal é garantir que o objeto
+      possa ser <bold>referenciado e recuperado de forma estável ao
+      longo do tempo</bold>, mesmo que a URL original mude. Na prática,
+      o DOI funciona como uma “chave permanente” para citação: ele
+      padroniza a identificação do item, facilita rastreamento de
+      uso/citações e melhora a interoperabilidade entre catálogos,
+      indexadores e sistemas de gestão bibliográfica –
+      @GuravNagarkar2025ZenodoPlatform.</p>
+    </disp-quote>
+    <disp-quote>
+      <p>O <bold>Zenodo</bold> é um repositório digital de <bold>acesso
+      aberto</bold> voltado ao depósito, preservação e disseminação de
+      resultados de pesquisa. Seu propósito é oferecer uma
+      infraestrutura simples para pesquisadores e projetos publicarem
+      materiais como publicações, datasets e software, com
+      funcionalidades centrais como <bold>atribuição de DOIs</bold>,
+      suporte a <bold>versionamento</bold>, metadados padronizados e
+      integração com plataformas (por exemplo, GitHub), contribuindo
+      para tornar esses produtos <bold>encontráveis, citáveis e
+      reutilizáveis</bold> dentro das práticas de Ciência Aberta –
+      @GuravNagarkar2025ZenodoPlatform.</p>
+    </disp-quote>
+    <fig>
+      <caption><p>Habilitação do repositório para geração do DOI e
+      preservação</p></caption>
+      <graphic mimetype="image" mime-subtype="png" xlink:href="images/zenodo-enables-2026-02-10_08-18.png" />
+    </fig>
   </sec>
 </sec>
 </body>

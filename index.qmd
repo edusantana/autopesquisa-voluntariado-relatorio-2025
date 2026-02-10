@@ -495,10 +495,11 @@ Após avaliação, adotei as seguintes ferramentas para utilização na autopesq
 |---------------------------------|---------------------------------|
 | Editoração                      | RStudio + Quarto.               |
 | Gestão de arquivos e publicação | Git + Github (@github_platform).|
+| Armazenamento para prosperidade | Zenodo  (ver @sec-zenodo)       |
 
 ::: {.callout-note}
 
-Embora não seja uma ferramenta para Editoração, vale mencionar a [Open Science Framework (OSF)](https://osf.io). Ela tem o propósito de organizar todas as etapas de pesquisa para uma ciência aberta:
+Embora não utilizada, outra ferramenta que vale mencionar é a [Open Science Framework (OSF)](https://osf.io). Ela tem o propósito de organizar todas as etapas de pesquisa para uma ciência aberta:
 
 {{< video https://www.youtube.com/watch?v=X07mBq2tnMg >}}
 
