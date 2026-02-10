@@ -1,0 +1,35 @@
+{
+  "title": "Autogestão do voluntariado conscienciológico: Relatório de 2025",
+  "upload_type": "publication",
+  "publication_type": "report",
+  "description": "This report contains my self-research related to conscienciology volunteer work.\n\nResumo em linguagem simples: Este relatório apresenta minha autopesquisa realizada a partir das atividades do voluntariado na conscienciologia.\n\nPontos-chave:\n- Autogestão do voluntariado\n- Recins\n- Recéxis",
+  "creators": [
+    {
+      "name": "Santana, Eduardo",
+      "orcid": "0000-0002-9165-9438",
+      "affiliation": "ISIC; Editares; Juriscons"
+    }
+  ],
+  "keywords": [
+    "Voluntariado",
+    "Conscienciologia",
+    "Autogestão",
+    "Relatório",
+    "Autopesquisa"
+  ],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "por",
+  "related_identifiers": [
+    {
+      "identifier": "https://edusantana.github.io/autopesquisa-voluntariado-relatorio-2025/",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-report"
+    },
+    {
+      "identifier": "https://github.com/edusantana/autopesquisa-voluntariado-relatorio-2025",
+      "relation": "isSupplementTo",
+      "resource_type": "software"
+    }
+  ]
+}
