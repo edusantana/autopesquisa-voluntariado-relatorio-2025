@@ -5,6 +5,17 @@ and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
 <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
 
 <front>
+<journal-meta>
+<journal-id></journal-id>
+
+<journal-title-group>
+</journal-title-group>
+<issn></issn>
+
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
 
 
 <article-meta>
@@ -44,7 +55,11 @@ draft" vocab-term-identifier="https://credit.niso.org/contributor-roles/writing-
 <corresp id="cor-1"></corresp>
 </author-notes>
 
-
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2026-02-10">
+<year>2026</year>
+<month>2</month>
+<day>10</day>
+</pub-date>
 
 
 
@@ -158,7 +173,7 @@ volunteer work.</p>
 </ref-list>
 </back>
 
-<sub-article article-type="notebook" id="nb-14-nb-article">
+<sub-article article-type="notebook" id="nb-12-nb-article">
 <front-stub>
 <title-group>
 <article-title>Relatório de autopesquisa do voluntariado</article-title>
@@ -998,7 +1013,7 @@ volunteer work.</p>
 
 
 </sub-article>
-<sub-article article-type="notebook" id="nb-12-nb-5">
+<sub-article article-type="notebook" id="nb-10-nb-5">
 <front-stub>
 </front-stub>
 
