@@ -1532,6 +1532,7 @@ Avaliar outra hipótese:
 
 ## Melhorias no Relatório
 
+- Dividir o relatório entre voluntariado e objetivos pessoais. A motivação é diminuir a fricção para adoção destas tecnologias para sua autopesquisa, utilizando informações mais simples: apenas atividades realizadas e do voluntariado. Elaborar objetivos de vida e metas anuais demora um pouco.
 - Escrever o relatório de forma modular reinserindo os mesmo arquivos e seções mas modificando o contexto antes da inserção para filtrar o texto antes da inclusão mas mantendo as mesmas seções. Ganho de padronização e eficiência na escrita. Ex: Seções de Dados coletados e Análise.
 
 ## Prazo
