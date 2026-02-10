@@ -66,6 +66,13 @@ PlantUML
 
 <!-- Segundo @vieira1986projeciologia projeciologia é cool. -->
 
-## Zenodo
+## Zenodo{#sec-zenodo}
 
-O Zenodo é um sistema que permite a identificação do seu trabalho e seu armazenamento para prosperidade.
+O Zenodo é um sistema que permite a identificação do seu trabalho (DOI) e seu armazenamento para prosperidade, @ZenodoSite.
+
+> Um **DOI** (*Digital Object Identifier*) é um identificador persistente atribuído a objetos digitais (por exemplo, artigos, relatórios, conjuntos de dados e software). Sua utilidade principal é garantir que o objeto possa ser **referenciado e recuperado de forma estável ao longo do tempo**, mesmo que a URL original mude. Na prática, o DOI funciona como uma “chave permanente” para citação: ele padroniza a identificação do item, facilita rastreamento de uso/citações e melhora a interoperabilidade entre catálogos, indexadores e sistemas de gestão bibliográfica -- @GuravNagarkar2025ZenodoPlatform.
+
+> O **Zenodo** é um repositório digital de **acesso aberto** voltado ao depósito, preservação e disseminação de resultados de pesquisa. Seu propósito é oferecer uma infraestrutura simples para pesquisadores e projetos publicarem materiais como publicações, datasets e software, com funcionalidades centrais como **atribuição de DOIs**, suporte a **versionamento**, metadados padronizados e integração com plataformas (por exemplo, GitHub), contribuindo para tornar esses produtos **encontráveis, citáveis e reutilizáveis** dentro das práticas de Ciência Aberta -- @GuravNagarkar2025ZenodoPlatform.
+
+
+![Habilitação do repositório para geração do DOI e preservação](images/zenodo-enables-2026-02-10_08-18.png)
