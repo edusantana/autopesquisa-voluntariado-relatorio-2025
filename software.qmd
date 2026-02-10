@@ -65,3 +65,7 @@ PlantUML
 
 
 <!-- Segundo @vieira1986projeciologia projeciologia é cool. -->
+
+## Zenodo
+
+O Zenodo é um sistema que permite a identificação do seu trabalho e seu armazenamento para prosperidade.
