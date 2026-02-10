@@ -1,0 +1,186 @@
+---
+title: "rascunho"
+format: html
+---
+
+
+![Registro do dia 21/03/2025 com DSL](images/registro-dsl-2025-03-21.png){#fig-registro-dsl-2025-03-21}
+
+A escrita do registro utilizando uma DSL é rápida e autoexplicativa. A experiência foi muito mais agradável. Contudo esse registro foi apenas uma simulação. 
+
+
+<!--
+## ECP1
+
+-   Eliminar a dispersão
+-->
+
+<!--
+# Justificativa
+
+**Registro.** *Sem registro não há autopesquisa.* Utilizar um instrumento de registro que seja confortável para o pesquisador é essencial para a manutenção da pesquisa.
+
+Uma primeiras técnicas que tive interesse em aplicar foi **A técnica da anotação assertiva**^[categorizada como uma *técnica de qualificação da intenção*] descrita em @Gesing2017Intencao, p. 72:
+
+
+As técnicas exaustivas demandam bastante tempo para registro: *valorizando tudo nos mínimos detalhes* e também para responder aos questionamentos. Os registros contém muitas informações repetidas e semelhantes, tais como: local, horário, companhia, pensene etc.
+
+Eu explorei a possibilidade de criar uma Linguagem Específica de Domínio (DSL) para realizar os registros.
+
+![](images/registro-dsl.png)
+
+
+
+Esta técnica exige um *esforço para registro enorme,* para 
+
+- Descrição do Sinal:
+Contexto:
+Data:
+Horário:
+Soma:
+Companhias:
+Local:
+Autopensenidade:
+Confirmação:
+Repetição:
+Padrão:
+Parafisiologia:
+Informação:
+Sincronicidades:
+Autodiscernimento:
+
+
+Como estruturar um registro necessário para atender a estes requisitos? Um diário? Não há planilhas para isso!
+
+
+
+
+Quando eu fui iniciar minha autopesquisa eu pesquisei as planilhas disponíveis 
+
+<!-- : motivo para realizar determinada pesquisa. -- >
+
+Iniciei minha trajetória na Comunidade Conscienciológica este ano.
+
+::: {.columns}
+::: {.column width="50%"}
+- Qualificação e Coerentização da Intenção  
+- Identificação dos Traf*o*res  
+- Identificação do Megatraf*o*r  
+- Identificação dos Traf*a*res
+:::
+
+::: {.column width="50%"}
+- Mapeamento de Sinaléticas
+- Parapsiquismo
+- Desperticidade
+- Interassistência
+:::
+:::
+
+
+> O processo de coerentização da intenção é o ato de completar
+o propósito original ou a ação continuada de a conscin, homem
+ou mulher, de assestar as autointenções através do consenso entre a vontade,
+intencionalidade e autorganização, a fim de alinhar e qualificar
+a automanifestação consciencial conforme o fluxo do Cosmos. -- @Gesing2017Intencao
+
+
+
+Interoperabilidade
+
+: A mesma fonte de dados pode ser utilizada por técnicas diferentes. Por exemplo, um mesmo arquivo contedo um preenchimento  trafores pode ser entrada para processamento por diferentes técnicas e implementações.
+
+Inteligência Artificial
+
+: Possibilidade de utilizar a IA para construção de gráficos e processamento de dados.
+
+
+
+<!--
+
+
+# Delimitação da autopesquisa
+
+Como tenho o propósito de criar um instrumento de pesquisa que possa ser facilmente replicado, tenho as seguintes restrições:
+
+Instrumento de pesquisa replicável
+
+: Template que outras pessoas possam baixar, adaptar e realizar a autopesquisa.
+
+Foco no Registo para análise posterior
+
+: A
+
+Agilidade para iniciar.
+
+: Escolha de temáticas simples, que possa agilizar o início da utilização por outrem
+
+Sem exposição de traços íntimos
+
+: Não abordar conteúdos íntimos. Para facilitar a divulgação, feedbacks e reprodutibilidade.
+
+Privacidade
+
+: Sem exposição de situações ou nomes de terceiros.
+
+Instrumento robusto
+
+: O instrumento deve poder gerar muitos gráficos diferentes e com automações.
+
+Clareza
+
+: A pesquisa deve promover o esclarecimento sobre o objeto de estudo (a consciência), métodos e as ferramentas empregadas.
+
+
+
+# Apendice/Rascunho
+
+## Instituições conscenciocêntricas
+
+CEAEC
+
+:   Centro de Altos Estudos da Conscienciologia. <http://campusceaec.org>
+
+Editares
+
+:   A editora da Conscienciologia. Website: <https://editares.org>
+
+ISIC
+
+:   Interassistantial Services for the Internationalization of Conscientiology. Website: <https://www.isicons.org>
+
+Juriscon
+
+:   Associação Internacional de Paradireitologia. Website: <https://juriscons.org>
+
+## Atividades
+
+## Situações
+
+O que há em situações
+
+::: callout-note
+Privacidade. Os nomes das pessoas foram alterados para manter a privacidade.
+
+Substituição. Para manter uma coerência ao longo do relatório, alguns nomes foram substituidos por nomes em Latim.
+
+```{=html}
+<!-- 
+https://www.dicionariodenomesproprios.com.br/nomes-latim-femininos/
+https://www.dicionariodenomesproprios.com.br/nomes-latim-masculinos/
+-->
+```
+:::
+
+
+## Otimizadores
+
+### Agenda de compromissos atualizada
+
+Exclusão. Remover os compromissos recorrentes que não foi atendidos para evitar compromissos enexistentes.
+
+Presentes. Para os compromissos on-line, manter a lista de convidados consistente com quem realmente esteve no evento.
+
+Mudanças. Se houve mudanças de planos, criar um novo evento e remover o que não ocorreu.
+
+## Planejamento para o próximo ano 3
