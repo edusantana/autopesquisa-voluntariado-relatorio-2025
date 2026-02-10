@@ -1,12 +1,25 @@
 # Software
 
+Segue as referências sobre os softwares utilizados neste relatório.
+
 ## CosmoWare{#sec-cosmoware}
 
-Para facilitar a extração dos dados do ICNET
+Quando eu estava acessando os sites das ICs, especialmente o site da Reaprendentia, eu percebi que havia artes demonstrando as equipes, no entanto  essas artes estavam desatualizadas. Esta foi minha motivação para criar uma extensão para o Google Chrome que batizei com o nome de `Cosmoware`. 
 
-O CosmoWare, @CosmoWareExtension, é uma extensão para o Google Chrome (Ver @fig-cosmoware) que adiciona funcionalidades aos sites da conscienciologia, especificamente ao ICNET. Com ela é possível exportar os dados do ICNET em planilhas compatíveis com o RStudio, @rstudio.
+Desenvolvi a funcionalidade de gerar diagramas das equipes a partir das informações cadastradas no ICNET (ver @fig-cosmoware-organograma). 
+
+![Utilização do CosmoWare para geração de diagrama de equipes](images/cosmoware-gerar-organograma-voluntarios.png){#fig-cosmoware-organograma}
+
+Posteriormente adicionei outra funcionalidade de exportar os dados do ICNET em planilhas compatíveis com o RStudio, ver @fig-cosmoware.
 
 ![Utilização do CosmoWare para extração dos dados do ICNET](images/cosmoware-exportar-planilhas.png){#fig-cosmoware}
+
+
+::: {.callout-note title="Código Pessoal de Cosmoética escrito há 6 nos"}
+
+A instalação do Cosmoware pode ser realizada a partir da [loja do Google Chrome através deste link](https://chromewebstore.google.com/detail/conscienciologia-tools-co/mamilhfnkleimaphdjpkinkekdbkbacl).
+
+::::
 
 
 
@@ -35,5 +48,20 @@ Este documento foi redigido no RStudio.
 ## Quarto
 
 O Quarto mantido por @quarto é um sistema de código aberto para escrita e publicação técnica e científica. Ela é uma ferramenta de comandos de linhas para gerenciar e publicar projetos, integrada nas versões recentes do RStudio.
+
+
+
+## Diagramas
+
+O interessante é utilizar o ChatGPT para pedir para elaborar o gráfico utilizando as tecnologias. E depois personalizar.
+
+Mermeid
+
+: Alguns diagramas foram elaborados com Mermeid.
+
+PlantUML
+
+: Outra possibilidade considerada foi o PlantUML.
+
 
 <!-- Segundo @vieira1986projeciologia projeciologia é cool. -->

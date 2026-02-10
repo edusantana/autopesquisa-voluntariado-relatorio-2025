@@ -300,18 +300,34 @@ volunteer work.</p>
 
 
 </sub-article>
-<sub-article article-type="notebook" id="nb-4-nb-1">
+<sub-article article-type="notebook" id="nb-2-nb-1">
 <front-stub>
 </front-stub>
 
 <body>
-<sec id="eduardo-nb-1">
-  <title>Eduardo</title>
+<sec id="conclusão-nb-1">
+  <title>Conclusão</title>
+  <p>Segue o que descobri sobre <italic>minha consciência</italic>.</p>
   <sec id="section-nb-1">
     <title>2025</title>
-    <disp-quote>
-      <p>Evito medir quando antecipo resultado ruim.</p>
-    </disp-quote>
+    <list list-type="order">
+      <list-item>
+        <p>Evito medir quando antecipo resultado ruim.</p>
+      </list-item>
+      <list-item>
+        <p>Há situações que eu como para fugir de um desconforto.</p>
+      </list-item>
+      <list-item>
+        <p>Leitura de mensagem no WhatsApp cria um novo bloco pensênico
+        abrindo uma ligação a uma outra situação, consins e
+        consiexs.</p>
+      </list-item>
+      <list-item>
+        <p>Posso utilizar meu instrumento de pesquisa para registrar as
+        situações relacionadas às sinaléticas para processamento
+        posterior.</p>
+      </list-item>
+    </list>
   </sec>
 </sec>
 </body>
@@ -323,7 +339,7 @@ volunteer work.</p>
 
 
 </sub-article>
-<sub-article article-type="notebook" id="nb-6-nb-2">
+<sub-article article-type="notebook" id="nb-4-nb-2">
 <front-stub>
 </front-stub>
 
@@ -499,7 +515,7 @@ volunteer work.</p>
 
 
 </sub-article>
-<sub-article article-type="notebook" id="nb-8-nb-3">
+<sub-article article-type="notebook" id="nb-6-nb-3">
 <front-stub>
 <title-group>
 <article-title>openscience.chatgpt</article-title>
@@ -693,7 +709,7 @@ volunteer work.</p>
 
 
 </sub-article>
-<sub-article article-type="notebook" id="nb-10-nb-4">
+<sub-article article-type="notebook" id="nb-8-nb-4">
 <front-stub>
 <title-group>
 <article-title>openscience.grok</article-title>
@@ -989,19 +1005,40 @@ volunteer work.</p>
 <body>
 <sec id="software-nb-5">
   <title>Software</title>
+  <p>Segue as referências sobre os softwares utilizados neste
+  relatório.</p>
   <sec id="sec-cosmoware-nb-5">
     <title>CosmoWare</title>
-    <p>Para facilitar a extração dos dados do ICNET</p>
-    <p>O CosmoWare, @CosmoWareExtension, é uma extensão para o Google
-    Chrome (Ver @fig-cosmoware) que adiciona funcionalidades aos sites
-    da conscienciologia, especificamente ao ICNET. Com ela é possível
-    exportar os dados do ICNET em planilhas compatíveis com o RStudio,
-    @rstudio.</p>
+    <p>Quando eu estava acessando os sites das ICs, especialmente o site
+    da Reaprendentia, eu percebi que havia artes demonstrando as
+    equipes, no entanto essas artes estavam desatualizadas. Esta foi
+    minha motivação para criar uma extensão para o Google Chrome que
+    batizei com o nome de <monospace>Cosmoware</monospace>.</p>
+    <p>Desenvolvi a funcionalidade de gerar diagramas das equipes a
+    partir das informações cadastradas no ICNET (ver
+    @fig-cosmoware-organograma).</p>
+    <fig id="fig-cosmoware-organograma-nb-5">
+      <caption><p>Utilização do CosmoWare para geração de diagrama de
+      equipes</p></caption>
+      <graphic mimetype="image" mime-subtype="png" xlink:href="images/cosmoware-gerar-organograma-voluntarios.png" />
+    </fig>
+    <p>Posteriormente adicionei outra funcionalidade de exportar os
+    dados do ICNET em planilhas compatíveis com o RStudio, ver
+    @fig-cosmoware.</p>
     <fig id="fig-cosmoware-nb-5">
       <caption><p>Utilização do CosmoWare para extração dos dados do
       ICNET</p></caption>
       <graphic mimetype="image" mime-subtype="png" xlink:href="images/cosmoware-exportar-planilhas.png" />
     </fig>
+    <boxed-text>
+      <disp-quote>
+        <p><bold>Código Pessoal de Cosmoética escrito há 6
+        nos</bold></p>
+        <p>A instalação do Cosmoware pode ser realizada a partir da
+        <ext-link ext-link-type="uri" xlink:href="https://chromewebstore.google.com/detail/conscienciologia-tools-co/mamilhfnkleimaphdjpkinkekdbkbacl">loja
+        do Google Chrome através deste link</ext-link>.</p>
+      </disp-quote>
+    </boxed-text>
   </sec>
   <sec id="instant-data-scraper-nb-5">
     <title>Instant Data Scraper</title>
@@ -1048,6 +1085,25 @@ volunteer work.</p>
     escrita e publicação técnica e científica. Ela é uma ferramenta de
     comandos de linhas para gerenciar e publicar projetos, integrada nas
     versões recentes do RStudio.</p>
+  </sec>
+  <sec id="diagramas-nb-5">
+    <title>Diagramas</title>
+    <p>O interessante é utilizar o ChatGPT para pedir para elaborar o
+    gráfico utilizando as tecnologias. E depois personalizar.</p>
+    <def-list>
+      <def-item>
+        <term>Mermeid</term>
+        <def>
+          <p>Alguns diagramas foram elaborados com Mermeid.</p>
+        </def>
+      </def-item>
+      <def-item>
+        <term>PlantUML</term>
+        <def>
+          <p>Outra possibilidade considerada foi o PlantUML.</p>
+        </def>
+      </def-item>
+    </def-list>
   </sec>
 </sec>
 </body>
