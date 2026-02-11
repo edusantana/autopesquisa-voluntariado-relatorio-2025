@@ -11,8 +11,9 @@ author:
       - Técnico de Transmissão
     affiliations:
       - ISIC
-      - Editares
-      - Juriscons
+      - EDITARES
+      - JURISCONS
+      - HOLOMEMÓRIA
 keywords:
   - Voluntariado
   - Conscienciologia
@@ -43,6 +44,13 @@ citation: true
 Este relatório representa a autopesquisa realizada pelo autor durante o ano de 2025.
 
 A motivação desta pesquisa é ter criado os meus instrumentos de Autopesquisa para agilizar os novos registros e análises futuras, utilizando tecnologias modernas que eu esteja confortável em utilizar.
+
+: Relatórios de Autopesquisa {#tbl-rqs}
+
+| Ano  | DOI                      | URL       |
+|------|--------------------------|------------------------------------------------------------------------|
+| 2025 | 10.5281/zenodo.18595104  | https://edusantana.github.io/autopesquisa-voluntariado-relatorio-2025/ |
+| 2026 | -                        | https://edusantana.github.io/autopesquisa-relatorio-2026/ |
 
 
 ## Justificativa
@@ -1274,11 +1282,117 @@ Passei várias semanas sem registrar o peso. Depois viajei para visitar a famíl
 Um exame de sangue foi realizado em 08/09/2025, de *checkup* geral, mas sem um acompanhamento médico para avaliação.
 
 
-## Livros
+## Social
 
-As compras (ou recebimento de presentes) de livros podem ter registros no e-mail ou uma organização da biblioteca pessoal pode set implementada manualmente.
+Para analisar minha interação social na CCCI eu utilizei com base dos dados as conversas individuais no WhatsApp.
 
--->
+Procedimento
+
+- Exportar as conversas de todas as pessoas da CCCI que tive durante o ano. 
+- Categorizar as pessoas por IC ou Contexto que as conheci ou convivi.
+- Remover cartões de visita de dentro dos logs.
+- Utilizar o tamanho do log zipado em KB como parâmetro para medição.
+
+
+::: {.callout-tip title="Antes de exportar os contatos"}
+
+É melhorar renomear todos os contatos ANTES de exportar, para facilitar a categorização.
+
+Quem tiver dois números de telefones, como eu, ainda será necessário fundir os arquivos dos dois números. Se o nome do contato for o mesmo será mais fácil.
+
+:::
+
+::: {.callout-warning title="Depois de exportado"}
+
+O WhatsApp exporta os cartões de visitas trocados durante o diálogo, para uma análise mais acurada é necessário removê-los (ver @fig-whatsapp-contato) antes de realizar a medição. 
+
+![Exemplo de Cartões de visita dentro do log exportado.](images/whatsapp-log-removendo-contato-enviado.png){#fig-whatsapp-contato}
+
+
+:::
+
+::: {.callout-note title="CEAEC"}
+
+A categoria CEAC utilizo como referência inicial ao conhecer alguém dentro do CEAC. Ela não representa necessariamente que a pessoa voluntaria no CEAEC.
+
+:::
+
+
+A @fig-social-ccci-2025 demonstra os dados extraídos das interações socais (mensagens diretas trocadas pelo whatsApp) na CCCI em 2025.
+
+
+```{r}
+#| label: fig-social-ccci-2025
+#| fig-cap: "Interação social na CCCI - 2025"
+
+library(readr)
+library(dplyr)
+library(networkD3)
+
+# 1) Ler o CSV (UTF-8)
+df <- read_csv(
+  "dados/social-whatsapp.csv",
+  locale = locale(encoding = "UTF-8")
+)
+
+# 2) Preparar links (source -> target -> value)
+links <- df %>%
+  transmute(
+    source = IC,
+    target = `Nome do Arquivo`,
+    value  = as.numeric(Tamanho)
+  ) %>%
+  filter(!is.na(value), value > 0)
+
+# (Opcional) filtrar só os mais relevantes
+# links <- links %>% filter(value >= 3)
+
+# 3) Nós (lista única de labels)
+nodes <- data.frame(name = unique(c(links$source, links$target)))
+
+# 4) Converter labels para índices 0-based (exigência do networkD3)
+links_idx <- links %>%
+  mutate(
+    source = match(source, nodes$name) - 1,
+    target = match(target, nodes$name) - 1
+  )
+
+# 5) Sankey
+sankeyNetwork(
+  Links = links_idx,
+  Nodes = nodes,
+  Source = "source",
+  Target = "target",
+  Value  = "value",
+  NodeID = "name",
+  fontSize = 12,
+  nodeWidth = 30,
+  height = 5000,
+  width  = 1000
+)
+```
+
+
+A @tbl-social-pessoas apresenta as lista das pessoas da CCCI com quem mais interagi no WhatsApp por mensagens diretas.
+
+: Principais pessoas da CCCI com quem interagi {#tbl-social-pessoas}
+
+| IC/Contexto    | Nome                        |
+|----------------|-----------------------------|
+|JURISCONS|Maria Eugênia|
+|OIC|Ana Ruiz|
+|ISIC|Liliana de Sousa Marques Alexandre|
+|ISIC|Mohammed Alamassi|
+|Holociclo|Márcia Lima|
+|EDITARES|Ana Claudia do Prado Castello Branco|
+|TCP-Curso-Entrada|Gabriel Augusto|
+|ISIC|Marcia Donadel|
+|ISIC|Fatima Maria Yahya|
+|Restaurante-Epigrafe|Tandresse|
+|EDITARES|Roberta Bouchardet|
+|IIPC|Ana Ceres|
+
+
 
 # Avaliação
 
@@ -1426,6 +1540,16 @@ Para 2026 optei pela segunda alternativa. Eu não posso mudar as estações do a
 
 
 :::
+
+## Social
+
+
+::: {.callout-warning title="Prazo extrapolado"}
+
+Devido ao extrapolação do prazo, não irei realizar análise dos dados Sociais.
+
+:::
+
 
 ## Avaliação dos 3 projetos
 
