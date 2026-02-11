@@ -1295,39 +1295,7 @@ Um exame de sangue foi realizado em 08/09/2025, de *checkup* geral, mas sem um a
 
 Para analisar minha interação social na CCCI eu utilizei com base dos dados as conversas individuais no WhatsApp.
 
-Procedimento
-
-- Exportar as conversas de todas as pessoas da CCCI que tive durante o ano. 
-- Categorizar as pessoas por IC ou Contexto que as conheci ou convivi.
-- Remover cartões de visita de dentro dos logs.
-- Utilizar o tamanho do log zipado em KB como parâmetro para medição.
-
-
-::: {.callout-tip title="Antes de exportar os contatos"}
-
-É melhorar renomear todos os contatos ANTES de exportar, para facilitar a categorização.
-
-Quem tiver dois números de telefones, como eu, ainda será necessário fundir os arquivos dos dois números. Se o nome do contato for o mesmo será mais fácil.
-
-:::
-
-::: {.callout-warning title="Depois de exportado"}
-
-O WhatsApp exporta os cartões de visitas trocados durante o diálogo, para uma análise mais acurada é necessário removê-los (ver @fig-whatsapp-contato) antes de realizar a medição. 
-
-![Exemplo de Cartões de visita dentro do log exportado.](images/whatsapp-log-removendo-contato-enviado.png){#fig-whatsapp-contato}
-
-
-:::
-
-::: {.callout-note title="CEAEC"}
-
-A categoria CEAC utilizo como referência inicial ao conhecer alguém dentro do CEAC. Ela não representa necessariamente que a pessoa voluntaria no CEAEC.
-
-:::
-
-
-A @fig-social-ccci-2025 demonstra os dados extraídos das interações socais (mensagens diretas trocadas pelo whatsApp) na CCCI em 2025.
+A @fig-social-ccci-2025 apresenta as interações socais (mensagens diretas trocadas pelo whatsApp) na CCCI em 2025.
 
 
 ```{r}
@@ -1382,7 +1350,27 @@ sankeyNetwork(
 ```
 
 
-A @tbl-social-pessoas apresenta as lista das pessoas da CCCI com quem mais interagi no WhatsApp por mensagens diretas.
+::: {.callout-tip title="Protocolo utilizado para medição"}
+
+- Exportar as conversas de todas as pessoas da CCCI que conversei pelo WhatsApp durante o ano. 
+- Remover cartões de visita de dentro dos logs.
+
+  O WhatsApp exporta os *cartões de visitas* enviados junto com os diálogos. Para uma análise mais acurada é necessário removê-los (ver @fig-whatsapp-contato) antes de realizar a medição, uma vez que o tamanho do cartão pode impactar consideravelmente no tamanho final. 
+
+  ![Exemplo de Cartões de visita dentro do log exportado.](images/whatsapp-log-removendo-contato-enviado.png){#fig-whatsapp-contato}
+
+
+- Categorizar as pessoas por IC ou Contexto que as conheci ou convivi.^[É melhorar renomear todos os contatos ANTES de exportar, para facilitar a categorização. Quem tiver dois números de telefones, como eu, será necessário agrupar os arquivos dos dois números após as exportações.]
+
+
+  Utilizo a categoria CEAC  como referência inicial ao conhecer alguém dentro do CEAC. Ela não representa necessariamente que a pessoa voluntaria no CEAEC.
+
+- Utilizar o tamanho do log zipado em KB como parâmetro para medição.
+
+:::
+
+
+A @tbl-social-pessoas apresenta as lista das pessoas da CCCI com quem mais interagi seguindo o protocolo descrito.
 
 : Principais pessoas da CCCI com quem interagi {#tbl-social-pessoas}
 
@@ -1394,7 +1382,7 @@ A @tbl-social-pessoas apresenta as lista das pessoas da CCCI com quem mais inter
 |ISIC|Mohammed Alamassi|
 |Holociclo|Márcia Lima|
 |EDITARES|Ana Claudia do Prado Castello Branco|
-|TCP-Curso-Entrada|Gabriel Augusto|
+|TCP Curso Entrada|Gabriel Augusto|
 |ISIC|Marcia Donadel|
 |ISIC|Fatima Maria Yahya|
 |Restaurante-Epigrafe|Tandresse|
@@ -1555,7 +1543,7 @@ Para 2026 optei pela segunda alternativa. Eu não posso mudar as estações do a
 
 ::: {.callout-warning title="Prazo extrapolado"}
 
-Devido ao extrapolação do prazo, não irei realizar análise dos dados Sociais.
+Devido a extrapolação do prazo, não realizei análise dos dados Sociais. Recomendações de análise são bem vindas.
 
 :::
 
