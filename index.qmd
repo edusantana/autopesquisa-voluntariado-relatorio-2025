@@ -1295,7 +1295,7 @@ Um exame de sangue foi realizado em 08/09/2025, de *checkup* geral, mas sem um a
 
 Para analisar minha interação social na CCCI eu utilizei com base dos dados as conversas individuais no WhatsApp.
 
-A @fig-social-ccci-2025 apresenta as interações socais (mensagens diretas trocadas pelo whatsApp) na CCCI em 2025, ao total foram **151** pessoas.
+A @fig-social-ccci-2025 apresenta as interações socais (mensagens diretas trocadas pelo whatsApp) na CCCI em 2025, ao total foram **152** pessoas.
 
 
 ```{r}
