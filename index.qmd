@@ -33,7 +33,7 @@ bibliography: references.bib
 #citation:
 #  container-title: Earth and Space Science
 number-sections: true
-doi: 10.5281/zenodo.18595104
+doi: 10.5281/zenodo.18615320
 site-url: "https://edusantana.github.io/autopesquisa-voluntariado-relatorio-2025/"
 citation: true
 
