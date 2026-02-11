@@ -190,16 +190,23 @@
   });
 </script>  <script src="site_libs/quarto-diagram/mermaid.min.js"></script>
 <script src="site_libs/quarto-diagram/mermaid-init.js"></script>
-<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">  
+<link href="site_libs/quarto-diagram/mermaid.css" rel="stylesheet">  <script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+
+<script src="site_libs/d3-4.9.1/d3.min.js"></script>
+
+<script src="site_libs/sankey-1/sankey.js"></script>
+
+<script src="site_libs/sankeyNetwork-binding-0.4.1/sankeyNetwork.js"></script>
+  
       <meta name="citation_title" content="Autogestão do voluntariado conscienciológico: Relatório de 2025">
 <meta name="citation_abstract" content="This report contains my self-research related to conscienciology volunteer work.
 ">
 <meta name="citation_keywords" content="Voluntariado,Conscienciologia,Autogestão,Relatório">
 <meta name="citation_author" content="Eduardo Santana">
-<meta name="citation_publication_date" content="2026-02-10">
-<meta name="citation_cover_date" content="2026-02-10">
+<meta name="citation_publication_date" content="2026-02-11">
+<meta name="citation_cover_date" content="2026-02-11">
 <meta name="citation_year" content="2026">
-<meta name="citation_online_date" content="2026-02-10">
+<meta name="citation_online_date" content="2026-02-11">
 <meta name="citation_doi" content="10.5281/zenodo.18595104">
 <meta name="citation_language" content="pt-BR">
 <meta name="citation_reference" content="citation_title=Zenodo: A platform for open access and sustainable digital research repository;,citation_author=Vinod P. Gurav;,citation_author=Sudhir R. Nagarkar;,citation_publication_date=2025-01-29;,citation_cover_date=2025-01-29;,citation_year=2025;,citation_fulltext_html_url=https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5246452;,citation_doi=10.2139/ssrn.5246452;,citation_conference_title=TechnoLibrarianship: A gateway towards future libraries-2025;,citation_conference=Shivaji University;">
@@ -268,10 +275,13 @@
                         ISIC
                       </p>
                     <p class="affiliation">
-                        Editares
+                        EDITARES
                       </p>
                     <p class="affiliation">
-                        Juriscons
+                        JURISCONS
+                      </p>
+                    <p class="affiliation">
+                        HOLOMEMÓRIA
                       </p>
                   </div>
                     </div>
@@ -282,7 +292,7 @@
                 <div>
             <div class="quarto-title-meta-heading">Data de Publicação</div>
             <div class="quarto-title-meta-contents">
-              <p class="date">10 de fevereiro de 2026</p>
+              <p class="date">11 de fevereiro de 2026</p>
             </div>
           </div>
           
@@ -401,7 +411,7 @@
   <li><a href="#evolução-do-peso" id="toc-evolução-do-peso" class="nav-link" data-scroll-target="#evolução-do-peso"><span class="header-section-number">5.12.1</span> Evolução do Peso</a></li>
   <li><a href="#exame-de-sangue" id="toc-exame-de-sangue" class="nav-link" data-scroll-target="#exame-de-sangue"><span class="header-section-number">5.12.2</span> Exame de sangue</a></li>
   </ul></li>
-  <li><a href="#livros" id="toc-livros" class="nav-link" data-scroll-target="#livros"><span class="header-section-number">5.13</span> Livros</a></li>
+  <li><a href="#social" id="toc-social" class="nav-link" data-scroll-target="#social"><span class="header-section-number">5.13</span> Social</a></li>
   </ul></li>
   <li><a href="#avaliação" id="toc-avaliação" class="nav-link" data-scroll-target="#avaliação"><span class="header-section-number">6</span> Avaliação</a>
   <ul class="collapse">
@@ -418,11 +428,12 @@
   <li><a href="#tenepes-1" id="toc-tenepes-1" class="nav-link" data-scroll-target="#tenepes-1"><span class="header-section-number">6.2</span> Tenepes</a></li>
   <li><a href="#sec-avaliacao-cpc" id="toc-sec-avaliacao-cpc" class="nav-link" data-scroll-target="#sec-avaliacao-cpc"><span class="header-section-number">6.3</span> CPC</a></li>
   <li><a href="#soma-1" id="toc-soma-1" class="nav-link" data-scroll-target="#soma-1"><span class="header-section-number">6.4</span> Soma</a></li>
-  <li><a href="#avaliação-dos-3-projetos" id="toc-avaliação-dos-3-projetos" class="nav-link" data-scroll-target="#avaliação-dos-3-projetos"><span class="header-section-number">6.5</span> Avaliação dos 3 projetos</a>
+  <li><a href="#social-1" id="toc-social-1" class="nav-link" data-scroll-target="#social-1"><span class="header-section-number">6.5</span> Social</a></li>
+  <li><a href="#avaliação-dos-3-projetos" id="toc-avaliação-dos-3-projetos" class="nav-link" data-scroll-target="#avaliação-dos-3-projetos"><span class="header-section-number">6.6</span> Avaliação dos 3 projetos</a>
   <ul class="collapse">
-  <li><a href="#qualificação-da-intenção" id="toc-qualificação-da-intenção" class="nav-link" data-scroll-target="#qualificação-da-intenção"><span class="header-section-number">6.5.1</span> Qualificação da Intenção</a></li>
-  <li><a href="#tecnologias-para-editoração" id="toc-tecnologias-para-editoração" class="nav-link" data-scroll-target="#tecnologias-para-editoração"><span class="header-section-number">6.5.2</span> Tecnologias para Editoração</a></li>
-  <li><a href="#autopesquisa" id="toc-autopesquisa" class="nav-link" data-scroll-target="#autopesquisa"><span class="header-section-number">6.5.3</span> Autopesquisa</a></li>
+  <li><a href="#qualificação-da-intenção" id="toc-qualificação-da-intenção" class="nav-link" data-scroll-target="#qualificação-da-intenção"><span class="header-section-number">6.6.1</span> Qualificação da Intenção</a></li>
+  <li><a href="#tecnologias-para-editoração" id="toc-tecnologias-para-editoração" class="nav-link" data-scroll-target="#tecnologias-para-editoração"><span class="header-section-number">6.6.2</span> Tecnologias para Editoração</a></li>
+  <li><a href="#autopesquisa" id="toc-autopesquisa" class="nav-link" data-scroll-target="#autopesquisa"><span class="header-section-number">6.6.3</span> Autopesquisa</a></li>
   </ul></li>
   </ul></li>
   <li><a href="#conclusão" id="toc-conclusão" class="nav-link" data-scroll-target="#conclusão"><span class="header-section-number">7</span> Conclusão</a>
@@ -460,6 +471,41 @@
 <h1 data-number="1"><span class="header-section-number">1</span> Introdução</h1>
 <p>Este relatório representa a autopesquisa realizada pelo autor durante o ano de 2025.</p>
 <p>A motivação desta pesquisa é ter criado os meus instrumentos de Autopesquisa para agilizar os novos registros e análises futuras, utilizando tecnologias modernas que eu esteja confortável em utilizar.</p>
+<div id="tbl-rqs" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-rqs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabela&nbsp;1: Relatórios de Autopesquisa
+</figcaption>
+<div aria-describedby="tbl-rqs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 5%">
+<col style="width: 25%">
+<col style="width: 69%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Ano</th>
+<th>DOI</th>
+<th>URL</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>2025</td>
+<td>10.5281/zenodo.18595104</td>
+<td>https://edusantana.github.io/autopesquisa-voluntariado-relatorio-2025/</td>
+</tr>
+<tr class="even">
+<td>2026</td>
+<td>-</td>
+<td>https://edusantana.github.io/autopesquisa-relatorio-2026/</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 <section id="justificativa" class="level2" data-number="1.1">
 <h2 data-number="1.1" class="anchored" data-anchor-id="justificativa"><span class="header-section-number">1.1</span> Justificativa</h2>
 <p><em>Sem registro não há autopesquisa.</em> Utilizar um instrumento de registro que seja confortável para o pesquisador é essencial para a manutenção da pesquisa.</p>
@@ -529,11 +575,11 @@ Reescrever a introduçao com base nas perguntas.
 </section>
 <section id="perguntas-da-pesquisa" class="level2" data-number="1.3">
 <h2 data-number="1.3" class="anchored" data-anchor-id="perguntas-da-pesquisa"><span class="header-section-number">1.3</span> Perguntas da Pesquisa</h2>
-<p>Esta pesquisa visa responder às seguintes perguntas na <a href="#tbl-rqs" class="quarto-xref">Tabela&nbsp;1</a>.</p>
+<p>Esta pesquisa visa responder às seguintes perguntas na <a href="#tbl-rqs" class="quarto-xref">Tabela&nbsp;2</a>.</p>
 <div id="tbl-rqs" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-rqs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;1: Perguntas de Pesquisa (RQ) para Autopesquisa
+Tabela&nbsp;2: Perguntas de Pesquisa (RQ) para Autopesquisa
 </figcaption>
 <div aria-describedby="tbl-rqs-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
@@ -605,7 +651,7 @@ Tabela&nbsp;1: Perguntas de Pesquisa (RQ) para Autopesquisa
 <div id="tbl-hipoteses" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-hipoteses-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;2: Hipóteses (H) associadas às Perguntas de Pesquisa
+Tabela&nbsp;3: Hipóteses (H) associadas às Perguntas de Pesquisa
 </figcaption>
 <div aria-describedby="tbl-hipoteses-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
@@ -755,11 +801,11 @@ Figura&nbsp;1: Exemplo de situações que necessitam registro e análise em um d
 <h2 data-number="2.2" class="anchored" data-anchor-id="rq1---como-seria-um-exemplo-de-registro-de-situações-de-anotação-assertiva"><span class="header-section-number">2.2</span> RQ1 - Como seria um exemplo de registro de situações de anotação assertiva?</h2>
 <section id="hipótese-1---formulário-web-pode-ser-utilizado-para-registrar-situações-e-análises" class="level3" data-number="2.2.1">
 <h3 data-number="2.2.1" class="anchored" data-anchor-id="hipótese-1---formulário-web-pode-ser-utilizado-para-registrar-situações-e-análises"><span class="header-section-number">2.2.1</span> Hipótese 1 - Formulário web pode ser utilizado para registrar situações e análises</h3>
-<p>Na investigação dessa hipótese eu mapiei os conceitos conforme a <a href="#tbl-linguagem-diminio-web" class="quarto-xref">Tabela&nbsp;3</a>.</p>
+<p>Na investigação dessa hipótese eu mapiei os conceitos conforme a <a href="#tbl-linguagem-diminio-web" class="quarto-xref">Tabela&nbsp;4</a>.</p>
 <div id="tbl-linguagem-diminio-web" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-linguagem-diminio-web-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;3: Linguagem do Domínio desta hipótese
+Tabela&nbsp;4: Linguagem do Domínio desta hipótese
 </figcaption>
 <div aria-describedby="tbl-linguagem-diminio-web-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
@@ -824,11 +870,11 @@ Figura&nbsp;2: Exemplo de situações que necessitam registro e análise de um d
 <h3 data-number="2.2.2" class="anchored" data-anchor-id="hipótese-2---utilização-de-software-de-roteiros-para-registrar-as-situações"><span class="header-section-number">2.2.2</span> Hipótese 2 - Utilização de software de Roteiros para registrar as situações</h3>
 <p>Baseado na ideia de que um roteiro de filme ou cinema descreve todas as cenas, diálogos e personagens investiguei a possibilidade de utilizar roteiro para realizar os registros das situações.</p>
 <p>Os roteiros possuem diversas terminologias da área (consultar <span class="citation" data-cites="Trottier2014ScreenwritersBible6">Trottier (<a href="#ref-Trottier2014ScreenwritersBible6" role="doc-biblioref">2014</a>)</span> para mais detalhes) e formatação padronizada. Por exemplo, toda <strong>Cena</strong> inicia com cabeçalho contendo as palavras INT/EXT (interior ou exterior) Nome da Cenca e DIA/NOITE. Essas informações são úteis para a gravação e orçamento do filme.</p>
-<p>Para registrar as situações como um roteiro seria necessário traduzir os conceitos das situações e redigir aplicando os estilos de cinema (ver <a href="#tbl-linguagem-diminio-roteiro" class="quarto-xref">Tabela&nbsp;5</a>). Por exemplo, o que eu ou alguém falou poderia ser registrado em formatação de diálogo.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Enquanto o que eu <em>pensei</em> poderia ser registrado como a <em>voz do Narrador</em>.</p>
+<p>Para registrar as situações como um roteiro seria necessário traduzir os conceitos das situações e redigir aplicando os estilos de cinema (ver <a href="#tbl-linguagem-diminio-roteiro" class="quarto-xref">Tabela&nbsp;6</a>). Por exemplo, o que eu ou alguém falou poderia ser registrado em formatação de diálogo.<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> Enquanto o que eu <em>pensei</em> poderia ser registrado como a <em>voz do Narrador</em>.</p>
 <div id="tbl-linguagem-diminio-roteiro" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-linguagem-diminio-roteiro-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;4: Linguagem do Domínio desta hipótese
+Tabela&nbsp;5: Linguagem do Domínio desta hipótese
 </figcaption>
 <div aria-describedby="tbl-linguagem-diminio-roteiro-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
@@ -926,7 +972,7 @@ Nota
 <div id="tbl-linguagem-diminio-roteiro" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-linguagem-diminio-roteiro-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;5: Linguagem do Domínio desta hipótese
+Tabela&nbsp;6: Linguagem do Domínio desta hipótese
 </figcaption>
 <div aria-describedby="tbl-linguagem-diminio-roteiro-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
@@ -1014,7 +1060,7 @@ Tabela&nbsp;5: Linguagem do Domínio desta hipótese
 </div>
 </figure>
 </div>
-<p>A utilização de uma DSL permite um mapeamento mais fácil dos conceitos (ver <a href="#tbl-linguagem-diminio-roteiro" class="quarto-xref">Tabela&nbsp;5</a>), e a escrita dos dados de forma estrutura e mais rápida.</p>
+<p>A utilização de uma DSL permite um mapeamento mais fácil dos conceitos (ver <a href="#tbl-linguagem-diminio-roteiro" class="quarto-xref">Tabela&nbsp;6</a>), e a escrita dos dados de forma estrutura e mais rápida.</p>
 <p>Um exemplo de registro utilizando uma DSL (ainda não implementada) pode ser visto na <a href="#fig-registro-dsl-2025-03-20" class="quarto-xref">Figura&nbsp;5</a>, que foi redigida no editor <span class="citation" data-cites="ObsidianSite"><span>“Obsidian”</span> (<a href="#ref-ObsidianSite" role="doc-biblioref">s.d.</a>)</span>. Através do registro podemos extrair as seguintes informações:</p>
 <ul>
 <li>O nome do arquivo indica a data que ocorreu as situações (20/03/2025).</li>
@@ -1269,7 +1315,7 @@ Nota
 <div id="tbl-fontes-consulta" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-fontes-consulta-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;6: Fontes de consulta dos dados
+Tabela&nbsp;7: Fontes de consulta dos dados
 </figcaption>
 <div aria-describedby="tbl-fontes-consulta-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
@@ -1389,7 +1435,7 @@ Figura&nbsp;9: Pesquisa no WhatsApp
 <div id="tbl-selecao-dados-icnet" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-selecao-dados-icnet-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;7: Dados para extração
+Tabela&nbsp;8: Dados para extração
 </figcaption>
 <div aria-describedby="tbl-selecao-dados-icnet-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
@@ -1440,7 +1486,7 @@ Tabela&nbsp;7: Dados para extração
 <h2 data-number="3.4" class="anchored" data-anchor-id="rq5---como-extrair-os-dados-relevantes-de-cada-fonte"><span class="header-section-number">3.4</span> RQ5 - Como extrair os dados relevantes de cada fonte?</h2>
 <section id="hipótese-8---criar-uma-extensão-para-o-google-chrome-para-extrair-os-dados-do-icnet" class="level3" data-number="3.4.1">
 <h3 data-number="3.4.1" class="anchored" data-anchor-id="hipótese-8---criar-uma-extensão-para-o-google-chrome-para-extrair-os-dados-do-icnet"><span class="header-section-number">3.4.1</span> Hipótese 8 - Criar uma extensão para o Google Chrome para extrair os dados do ICNET</h3>
-<p>Ao longo do ano eu já havia criado uma extensão para o Google Chrome (ver <a href="#sec-cosmoware" class="quarto-xref">Seção&nbsp;9.1</a>). Essa extensão adiciona uma funcionalidade para gerar diagramas das equipes cadastradas no ICNET (ver <a href="#fig-cosmoware-organograma" class="quarto-xref">Figura&nbsp;17</a>).</p>
+<p>Ao longo do ano eu já havia criado uma extensão para o Google Chrome (ver <a href="#sec-cosmoware" class="quarto-xref">Seção&nbsp;9.1</a>). Essa extensão adiciona uma funcionalidade para gerar diagramas das equipes cadastradas no ICNET (ver <a href="#fig-cosmoware-organograma" class="quarto-xref">Figura&nbsp;19</a>).</p>
 <p>Uma vez que a extensão já estava criada e publicada, adicionar uma nova funcionalidade é mais simples.</p>
 <p>Eu adicionei uma nova funcionalidade à extensão Cosmoware de extração de dados do ICNET criando datasets com nomes e estrutura padronizados. Exemplo de dataset extraído: <a href="https://github.com/edusantana/autopesquisa-voluntariado-relatorio-2025/blob/main/csv/icnet-ic-pessoa_fisica_geral_historico-20260122-102745.csv">csv/icnet-ic-pessoa_fisica_geral_historico-20260122-102745.csv</a></p>
 <div class="callout callout-style-default callout-note callout-titled">
@@ -1860,7 +1906,7 @@ Na seções a seguir são apresentadas diversos dados extraídos do ICNet.
 </section>
 <section id="cursos-de-campo-1" class="level2" data-number="5.3">
 <h2 data-number="5.3" class="anchored" data-anchor-id="cursos-de-campo-1"><span class="header-section-number">5.3</span> Cursos de Campo</h2>
-<p>Na <a href="#tbl-campo" class="quarto-xref">Tabela&nbsp;8</a> estão os cursos de campo realizados e suas respectivas ICs.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
+<p>Na <a href="#tbl-campo" class="quarto-xref">Tabela&nbsp;9</a> estão os cursos de campo realizados e suas respectivas ICs.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p>
 <div class="cell-container"><div class="cell-decorator"><pre>In [2]:</pre></div><div class="cell">
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readxl)</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
@@ -1889,7 +1935,7 @@ Attaching package: 'dplyr'</code></pre>
 <span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(acomplamentarium, <span class="at">format =</span> <span class="st">"pipe"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div><div id="tbl-campo" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-campo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;8: Cursos de Campo em 2025
+Tabela&nbsp;9: Cursos de Campo em 2025
 </figcaption>
 <div aria-describedby="tbl-campo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
@@ -1951,7 +1997,7 @@ Tabela&nbsp;8: Cursos de Campo em 2025
 <td style="text-align: left;">Curitiba</td>
 <td style="text-align: left;">IIPC</td>
 <td style="text-align: left;">ECP1</td>
-<td style="text-align: left;">Iara Suassuna</td>
+<td style="text-align: left;">Alessandra Nascimento, André Monteiro</td>
 </tr>
 <tr class="odd">
 <td style="text-align: left;">12/09/2025</td>
@@ -1993,7 +2039,7 @@ Tabela&nbsp;8: Cursos de Campo em 2025
 <span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(acomplamentarium, <span class="at">format =</span> <span class="st">"pipe"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div><div id="tbl-dinamicas" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-dinamicas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;9: Dinâmicas em 2025
+Tabela&nbsp;10: Dinâmicas em 2025
 </figcaption>
 <div aria-describedby="tbl-dinamicas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
@@ -2305,7 +2351,7 @@ Attaching package: 'lubridate'</code></pre>
 <span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(compras, <span class="at">format =</span> <span class="st">"pipe"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div><div id="tbl-compras" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-compras-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;10: Lista das compras
+Tabela&nbsp;11: Lista das compras
 </figcaption>
 <div aria-describedby="tbl-compras-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
@@ -2626,7 +2672,7 @@ lgl (1): Data Saída
 <div class="cell-container"><div class="cell-decorator"><pre>In [11]:</pre></div><div><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(voluntariados, <span class="at">format =</span> <span class="st">"pipe"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div><div id="tbl-voluntariados" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-voluntariados-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;11: Assinatura dos voluntariados
+Tabela&nbsp;12: Assinatura dos voluntariados
 </figcaption>
 <div aria-describedby="tbl-voluntariados-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
@@ -2683,7 +2729,7 @@ Tabela&nbsp;11: Assinatura dos voluntariados
 </figure>
 </div></div></div>
 </div></div>
-<p>A <a href="#tbl-voluntariados" class="quarto-xref">Tabela&nbsp;11</a> apresenta o dia da ssinatura do contrato de voluntariado para cada instituição. A ISIC e EDITARES ainda não incluiu no sistema em qual departamento foi incluído.</p>
+<p>A <a href="#tbl-voluntariados" class="quarto-xref">Tabela&nbsp;12</a> apresenta o dia da ssinatura do contrato de voluntariado para cada instituição. A ISIC e EDITARES ainda não incluiu no sistema em qual departamento foi incluído.</p>
 <div class="cell-container"><div class="cell-decorator"><pre>In [12]:</pre></div><div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
@@ -2706,7 +2752,7 @@ Tabela&nbsp;11: Assinatura dos voluntariados
 </section>
 <section id="participação-em-equipe" class="level3" data-number="5.8.2">
 <h3 data-number="5.8.2" class="anchored" data-anchor-id="participação-em-equipe"><span class="header-section-number">5.8.2</span> Participação em Equipe</h3>
-<p>Encontrei uma única entrada no ICNET sobre o trabalho em equipes (ver <a href="#tbl-equipes-participacao" class="quarto-xref">Tabela&nbsp;12</a>).</p>
+<p>Encontrei uma única entrada no ICNET sobre o trabalho em equipes (ver <a href="#tbl-equipes-participacao" class="quarto-xref">Tabela&nbsp;13</a>).</p>
 <div class="cell-container"><div class="cell-decorator"><pre>In [13]:</pre></div><div class="cell">
 
 <div class="cell-container"><div class="cell-decorator"><pre>In [14]:</pre></div><div><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
@@ -2723,7 +2769,7 @@ Tabela&nbsp;11: Assinatura dos voluntariados
 <span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(participacao_em_equipe, <span class="at">format =</span> <span class="st">"pipe"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div><div id="tbl-equipes-participacao" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-equipes-participacao-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;12: Participação de Equipes em 2025
+Tabela&nbsp;13: Participação de Equipes em 2025
 </figcaption>
 <div aria-describedby="tbl-equipes-participacao-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
@@ -2776,7 +2822,7 @@ Tabela&nbsp;12: Participação de Equipes em 2025
 <span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(acomplamentarium, <span class="at">format =</span> <span class="st">"pipe"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div><div id="tbl-atividades-voluntariado" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-atividades-voluntariado-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;13: Dinâmicas em 2025
+Tabela&nbsp;14: Dinâmicas em 2025
 </figcaption>
 <div aria-describedby="tbl-atividades-voluntariado-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
@@ -2852,24 +2898,29 @@ Tabela&nbsp;13: Dinâmicas em 2025
 <tr class="even">
 <td style="text-align: right;">2025</td>
 <td style="text-align: left;">ISIC</td>
-<td style="text-align: left;">Diagramação do Glossário da Conscienciologia em Árabe</td>
+<td style="text-align: left;">Diagramação de Nossa Evolução em Árabe (ePub)</td>
 </tr>
 <tr class="odd">
+<td style="text-align: right;">2025</td>
+<td style="text-align: left;">ISIC</td>
+<td style="text-align: left;">Diagramação do Glossário da Conscienciologia em Árabe</td>
+</tr>
+<tr class="even">
 <td style="text-align: right;">2025</td>
 <td style="text-align: left;">ISIC</td>
 <td style="text-align: left;">Transmissão do International Week</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: right;">2025</td>
 <td style="text-align: left;">ISIC</td>
 <td style="text-align: left;">Instalação de Aplicativo Web de Surveys no servidor da ISIC</td>
 </tr>
-<tr class="odd">
+<tr class="even">
 <td style="text-align: right;">2025</td>
 <td style="text-align: left;">JURISCONS</td>
 <td style="text-align: left;">Transmissão do Julgamentos da Humanidade</td>
 </tr>
-<tr class="even">
+<tr class="odd">
 <td style="text-align: right;">2025</td>
 <td style="text-align: left;">JURISCONS</td>
 <td style="text-align: left;">Apoio à trasmissão do Fórum do Paradireito</td>
@@ -2900,7 +2951,7 @@ Tabela&nbsp;13: Dinâmicas em 2025
 <span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(acomplamentarium, <span class="at">format =</span> <span class="st">"pipe"</span>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div><div id="tbl-iniciativas" class="cell quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-iniciativas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;14: Iniciativas em 2025
+Tabela&nbsp;15: Iniciativas em 2025
 </figcaption>
 <div aria-describedby="tbl-iniciativas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
@@ -3130,10 +3181,207 @@ Figura&nbsp;16: Evolução do peso em com faixas de IMC (OMS) - 2025
 <p>Um exame de sangue foi realizado em 08/09/2025, de <em>checkup</em> geral, mas sem um acompanhamento médico para avaliação.</p>
 </section>
 </section>
-<section id="livros" class="level2" data-number="5.13">
-<h2 data-number="5.13" class="anchored" data-anchor-id="livros"><span class="header-section-number">5.13</span> Livros</h2>
-<p>As compras (ou recebimento de presentes) de livros podem ter registros no e-mail ou uma organização da biblioteca pessoal pode set implementada manualmente.</p>
-<p>–&gt;</p>
+<section id="social" class="level2" data-number="5.13">
+<h2 data-number="5.13" class="anchored" data-anchor-id="social"><span class="header-section-number">5.13</span> Social</h2>
+<p>Para analisar minha interação social na CCCI eu utilizei com base dos dados as conversas individuais no WhatsApp.</p>
+<p>Procedimento</p>
+<ul>
+<li>Exportar as conversas de todas as pessoas da CCCI que tive durante o ano.</li>
+<li>Categorizar as pessoas por IC ou Contexto que as conheci ou convivi.</li>
+<li>Remover cartões de visita de dentro dos logs.</li>
+<li>Utilizar o tamanho do log zipado em KB como parâmetro para medição.</li>
+</ul>
+<div class="callout callout-style-default callout-tip callout-titled" title="Antes de exportar os contatos">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Antes de exportar os contatos
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>É melhorar renomear todos os contatos ANTES de exportar, para facilitar a categorização.</p>
+<p>Quem tiver dois números de telefones, como eu, ainda será necessário fundir os arquivos dos dois números. Se o nome do contato for o mesmo será mais fácil.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-warning callout-titled" title="Depois de exportado">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Depois de exportado
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>O WhatsApp exporta os cartões de visitas trocados durante o diálogo, para uma análise mais acurada é necessário removê-los (ver <a href="#fig-whatsapp-contato" class="quarto-xref">Figura&nbsp;17</a>) antes de realizar a medição.</p>
+<div id="fig-whatsapp-contato" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-whatsapp-contato-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<a href="images/whatsapp-log-removendo-contato-enviado.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="Figura&nbsp;17: Exemplo de Cartões de visita dentro do log exportado."><img src="images/whatsapp-log-removendo-contato-enviado.png" class="img-fluid figure-img"></a>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-whatsapp-contato-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;17: Exemplo de Cartões de visita dentro do log exportado.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled" title="CEAEC">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+CEAEC
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A categoria CEAC utilizo como referência inicial ao conhecer alguém dentro do CEAC. Ela não representa necessariamente que a pessoa voluntaria no CEAEC.</p>
+</div>
+</div>
+<p>A <a href="#fig-social-ccci-2025" class="quarto-xref">Figura&nbsp;18</a> demonstra os dados extraídos das interações socais (mensagens diretas trocadas pelo whatsApp) na CCCI em 2025.</p>
+<div class="cell-container"><div class="cell-decorator"><pre>In [20]:</pre></div><div id="cell-fig-social-ccci-2025" class="cell">
+<div class="sourceCode cell-code" id="cb31"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(readr)</span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(networkD3)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning: package 'networkD3' was built under R version 4.5.2</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb33"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 1) Ler o CSV (UTF-8)</span></span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">read_csv</span>(</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>  <span class="st">"dados/social-whatsapp.csv"</span>,</span>
+<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a>  <span class="at">locale =</span> <span class="fu">locale</span>(<span class="at">encoding =</span> <span class="st">"UTF-8"</span>)</span>
+<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Rows: 151 Columns: 3
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr (2): IC, Nome do Arquivo
+dbl (1): Tamanho
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb35"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2) Preparar links (source -&gt; target -&gt; value)</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>links <span class="ot">&lt;-</span> df <span class="sc">%&gt;%</span></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">transmute</span>(</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>    <span class="at">source =</span> IC,</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>    <span class="at">target =</span> <span class="st">`</span><span class="at">Nome do Arquivo</span><span class="st">`</span>,</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>    <span class="at">value  =</span> <span class="fu">as.numeric</span>(Tamanho)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>  ) <span class="sc">%&gt;%</span></span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">filter</span>(<span class="sc">!</span><span class="fu">is.na</span>(value), value <span class="sc">&gt;</span> <span class="dv">0</span>)</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a><span class="co"># (Opcional) filtrar só os mais relevantes</span></span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a><span class="co"># links &lt;- links %&gt;% filter(value &gt;= 3)</span></span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a><span class="co"># 3) Nós (lista única de labels)</span></span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a>nodes <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">name =</span> <span class="fu">unique</span>(<span class="fu">c</span>(links<span class="sc">$</span>source, links<span class="sc">$</span>target)))</span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a><span class="co"># 4) Converter labels para índices 0-based (exigência do networkD3)</span></span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a>links_idx <span class="ot">&lt;-</span> links <span class="sc">%&gt;%</span></span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a>  <span class="fu">mutate</span>(</span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a>    <span class="at">source =</span> <span class="fu">match</span>(source, nodes<span class="sc">$</span>name) <span class="sc">-</span> <span class="dv">1</span>,</span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>    <span class="at">target =</span> <span class="fu">match</span>(target, nodes<span class="sc">$</span>name) <span class="sc">-</span> <span class="dv">1</span></span>
+<span id="cb35-21"><a href="#cb35-21" aria-hidden="true" tabindex="-1"></a>  )</span>
+<span id="cb35-22"><a href="#cb35-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-23"><a href="#cb35-23" aria-hidden="true" tabindex="-1"></a><span class="co"># 5) Sankey</span></span>
+<span id="cb35-24"><a href="#cb35-24" aria-hidden="true" tabindex="-1"></a><span class="fu">sankeyNetwork</span>(</span>
+<span id="cb35-25"><a href="#cb35-25" aria-hidden="true" tabindex="-1"></a>  <span class="at">Links =</span> links_idx,</span>
+<span id="cb35-26"><a href="#cb35-26" aria-hidden="true" tabindex="-1"></a>  <span class="at">Nodes =</span> nodes,</span>
+<span id="cb35-27"><a href="#cb35-27" aria-hidden="true" tabindex="-1"></a>  <span class="at">Source =</span> <span class="st">"source"</span>,</span>
+<span id="cb35-28"><a href="#cb35-28" aria-hidden="true" tabindex="-1"></a>  <span class="at">Target =</span> <span class="st">"target"</span>,</span>
+<span id="cb35-29"><a href="#cb35-29" aria-hidden="true" tabindex="-1"></a>  <span class="at">Value  =</span> <span class="st">"value"</span>,</span>
+<span id="cb35-30"><a href="#cb35-30" aria-hidden="true" tabindex="-1"></a>  <span class="at">NodeID =</span> <span class="st">"name"</span>,</span>
+<span id="cb35-31"><a href="#cb35-31" aria-hidden="true" tabindex="-1"></a>  <span class="at">fontSize =</span> <span class="dv">12</span>,</span>
+<span id="cb35-32"><a href="#cb35-32" aria-hidden="true" tabindex="-1"></a>  <span class="at">nodeWidth =</span> <span class="dv">30</span>,</span>
+<span id="cb35-33"><a href="#cb35-33" aria-hidden="true" tabindex="-1"></a>  <span class="at">height =</span> <span class="dv">5000</span>,</span>
+<span id="cb35-34"><a href="#cb35-34" aria-hidden="true" tabindex="-1"></a>  <span class="at">width  =</span> <span class="dv">1000</span></span>
+<span id="cb35-35"><a href="#cb35-35" aria-hidden="true" tabindex="-1"></a>)</span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Links is a tbl_df. Converting to a plain data frame.</code></pre>
+</div>
+<div id="fig-social-ccci-2025" class="cell-output-display quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-social-ccci-2025-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div id="htmlwidget-d02e07c834490f1df719" style="width:100%;height:3250px;" class="sankeyNetwork html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d02e07c834490f1df719">{"x":{"links":{"source":[0,0,1,2,2,2,2,3,3,3,3,3,3,3,3,4,4,4,5,6,6,6,6,6,6,6,6,6,6,7,8,9,10,10,10,11,11,11,11,11,11,11,11,11,12,12,13,14,14,15,16,16,16,16,16,16,16,16,16,16,16,16,16,16,17,18,19,19,19,19,19,19,20,21,21,21,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,22,23,23,23,23,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,24,25,25,25,25,25,25,26,27,27,28,28,28,28,28,28,28,28,29,29,29,30,30,30,30,30,30,31,31,31,31,32,33,33,33,33,34,34,34,34],"target":[35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,170,171,172,173,174,175,176,177,178,179,180,181,182,183,184,185],"value":[1,1,1,1,6,1,3,3,1,2,3,1,2,3,1,1,2,1,1,2,2,1,1,1,2,1,2,1,2,1,2,1,2,5,1,2,2,1,5,5,3,2,5,4,1,2,1,1,4,1,4,19,1,1,1,1,1,3,1,4,4,1,1,12,3,21,5,2,4,3,4,1,1,2,1,4,11,1,1,1,3,4,2,2,1,1,1,1,2,1,2,3,1,2,3,2,2,2,16,1,3,1,3,29,2,1,1,18,1,26,2,7,6,53,2,2,3,1,33,1,2,1,1,3,2,1,1,1,3,3,1,3,1,3,4,3,1,2,1,1,15,3,4,1,19,1,1,2,1,1,1]},"nodes":{"name":["Acoplamentarium","AIEC","APEX","ASSINVEX","ASSIPI","Balanço existencial","CEAEC","Colégio Invisível Infocomunicologia","COMUNICONS","CONCIUS","Dança","DP_Ortopensenidade","DP_Paradireito","DP_Projectabilidade","ECP1","ECTOLAB","EDITARES","EXTRACONS","Holociclo","HOLOMEMORIA","ICGE","ICNET","IIPC","INTERCAMPI","ISIC","JURISCONS","OIC","ORTHOCOGNITIVUS","Outros","Programa Verbetografia","REAPRENDENTIA","Restaurante-Epigrafe","SEAPEX","TCP-Curso-Entrada","UNICIN","Christina Aragão","Jaqueline - DF","Fernanda","Gabriella Dias","Magda Emerenciano","Marlise Combet","Ricardo","Annie Oles","Gabriela Pellenz","Iago Pontes G. Nascimento","Laiza Pâmela Avelinois","Leonardo Medeiros Martins","Luiz Paulo Ramosis","Muriel Gracelliis","Saler Cezário Lourenço","Angelica","Elilma Souza","Thiago-ASSIPI","Maurício Colin","Adriana Kauati","Alexandre Zaslavsky","Giselly de Souza","Helia Cristina Borges Neri","Ibis Lourenço","Marcello Paskulin","Marcos de Vieira","Micheli Souza","Rosa Dias Orthopensene","Ruy Bueno de Camargo Junior","Marco Antônio Nascimento","Amaury Pontieri","Sofia","Adriane Diehl Krob","Michelly Ribeiro","Simônica Loiola","Caroline Espínola","Cirlei Gurgel","Everaldo","Hugo","Liege","Máris","Mércia","Rinete Marinello","Rosa Dias","Ranieri DP","Silvia Tais Betat","Jaciara Krummenauer","Juliana - Curitiba","Marlene Carvalho - Curitiba","André Pedretti","Amanda Goularte","Ana Claudia do Prado Castello Branco","Betânia Abreu","Cícero Simões Borges","Cristina Bornia","Danise Paro","Dayane Christian Rossa","Lane Galdino","Leonardo Ribeiro","LR Liliana - Portugual","Magda Stapf Amancio","Maria Koltun","Niciano Vilas Boas","Roberta Bouchardet","Daniela","Márcia Lima","André Quites","Isabela Collares","Leandro T. Citadin","Málu Balona","Maryana Nunes","Thiago","Flavio Buononato","Adėlio Conter","Ana Catarina Lima Silva","Bruna Getúlio","Ana Ceres","André Borges","Elio Zanette","Francielle Bury Santos","Helaine Handreia","Heliane Maia","Isabel Fernandes","Leandro (Duplista Ana Ceres)","Luciano Osorio Regnier","Luiza Guedes","Maiquel Grando","Margarete","Michelle Araujo","Patrícia Souza Lima","Rejane Sagaz","Welton Rodrigo Torres Nascimento","Fátima Cattaneo","Iara Suassuna","Leuzene Salgues","Rute","Andrea de Chermont","Aparecida Amélia","Fatima Maria Yahya","Jaclyn Cowen","Jeff Bryan Lloyd","Kim McCaul Germany","Leandro Guiraldeli","Liliana de Sousa Marques Alexandre","Lucas Limbrunner","Lygia Decker","Marcelo Pires","Marcia Donadel","Michiko","Mohammed Alamassi","Nara","Virginia Ruiz","Cristina Arakaki","Maria Eugênia","Rafael Petinelli","Ricardo Stefanelli","Telma Virgínia","Vanderlei Teresinha","Ana Ruiz","Aline Bittencourt","Olivia Rochadel","Aline Carletto","Cristina Heyden","Daniele Corretora","Leandro Costa","Lenemar Nascimento Pedroso","Rosiane Delgado","Tal caspi","Viviane Passos","Keiko Asaoka","Miriam Kunz","Samir H Moraes","Ana Cristina Cristina Zuccaro Wajsman","Eliane Wojslaw","Natalia","Rodrigo","Rosane Amadori","William","Daniela Zamboni","Helia Cristina","Tandresse","Thaís","Eliane Gallotti","Cassielle Barbosa","Gabriel Augusto","Náthalie Tpc","Paula Gabriella Barbosa","Antônio Pitaguari","Fernando Barbaresco","Igor Moreno Ferreira","Thiago Gutierrez"],"group":["Acoplamentarium","AIEC","APEX","ASSINVEX","ASSIPI","Balanço existencial","CEAEC","Colégio Invisível Infocomunicologia","COMUNICONS","CONCIUS","Dança","DP_Ortopensenidade","DP_Paradireito","DP_Projectabilidade","ECP1","ECTOLAB","EDITARES","EXTRACONS","Holociclo","HOLOMEMORIA","ICGE","ICNET","IIPC","INTERCAMPI","ISIC","JURISCONS","OIC","ORTHOCOGNITIVUS","Outros","Programa Verbetografia","REAPRENDENTIA","Restaurante-Epigrafe","SEAPEX","TCP-Curso-Entrada","UNICIN","Christina Aragão","Jaqueline - DF","Fernanda","Gabriella Dias","Magda Emerenciano","Marlise Combet","Ricardo","Annie Oles","Gabriela Pellenz","Iago Pontes G. Nascimento","Laiza Pâmela Avelinois","Leonardo Medeiros Martins","Luiz Paulo Ramosis","Muriel Gracelliis","Saler Cezário Lourenço","Angelica","Elilma Souza","Thiago-ASSIPI","Maurício Colin","Adriana Kauati","Alexandre Zaslavsky","Giselly de Souza","Helia Cristina Borges Neri","Ibis Lourenço","Marcello Paskulin","Marcos de Vieira","Micheli Souza","Rosa Dias Orthopensene","Ruy Bueno de Camargo Junior","Marco Antônio Nascimento","Amaury Pontieri","Sofia","Adriane Diehl Krob","Michelly Ribeiro","Simônica Loiola","Caroline Espínola","Cirlei Gurgel","Everaldo","Hugo","Liege","Máris","Mércia","Rinete Marinello","Rosa Dias","Ranieri DP","Silvia Tais Betat","Jaciara Krummenauer","Juliana - Curitiba","Marlene Carvalho - Curitiba","André Pedretti","Amanda Goularte","Ana Claudia do Prado Castello Branco","Betânia Abreu","Cícero Simões Borges","Cristina Bornia","Danise Paro","Dayane Christian Rossa","Lane Galdino","Leonardo Ribeiro","LR Liliana - Portugual","Magda Stapf Amancio","Maria Koltun","Niciano Vilas Boas","Roberta Bouchardet","Daniela","Márcia Lima","André Quites","Isabela Collares","Leandro T. Citadin","Málu Balona","Maryana Nunes","Thiago","Flavio Buononato","Adėlio Conter","Ana Catarina Lima Silva","Bruna Getúlio","Ana Ceres","André Borges","Elio Zanette","Francielle Bury Santos","Helaine Handreia","Heliane Maia","Isabel Fernandes","Leandro (Duplista Ana Ceres)","Luciano Osorio Regnier","Luiza Guedes","Maiquel Grando","Margarete","Michelle Araujo","Patrícia Souza Lima","Rejane Sagaz","Welton Rodrigo Torres Nascimento","Fátima Cattaneo","Iara Suassuna","Leuzene Salgues","Rute","Andrea de Chermont","Aparecida Amélia","Fatima Maria Yahya","Jaclyn Cowen","Jeff Bryan Lloyd","Kim McCaul Germany","Leandro Guiraldeli","Liliana de Sousa Marques Alexandre","Lucas Limbrunner","Lygia Decker","Marcelo Pires","Marcia Donadel","Michiko","Mohammed Alamassi","Nara","Virginia Ruiz","Cristina Arakaki","Maria Eugênia","Rafael Petinelli","Ricardo Stefanelli","Telma Virgínia","Vanderlei Teresinha","Ana Ruiz","Aline Bittencourt","Olivia Rochadel","Aline Carletto","Cristina Heyden","Daniele Corretora","Leandro Costa","Lenemar Nascimento Pedroso","Rosiane Delgado","Tal caspi","Viviane Passos","Keiko Asaoka","Miriam Kunz","Samir H Moraes","Ana Cristina Cristina Zuccaro Wajsman","Eliane Wojslaw","Natalia","Rodrigo","Rosane Amadori","William","Daniela Zamboni","Helia Cristina","Tandresse","Thaís","Eliane Gallotti","Cassielle Barbosa","Gabriel Augusto","Náthalie Tpc","Paula Gabriella Barbosa","Antônio Pitaguari","Fernando Barbaresco","Igor Moreno Ferreira","Thiago Gutierrez"]},"options":{"NodeID":"name","NodeGroup":"name","LinkGroup":null,"colourScale":"d3.scaleOrdinal(d3.schemeCategory20);","fontSize":12,"fontFamily":null,"nodeWidth":30,"nodePadding":10,"units":"","margin":{"top":null,"right":null,"bottom":null,"left":null},"iterations":32,"sinksRight":true}},"evals":[],"jsHooks":[]}</script>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-social-ccci-2025-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;18: Interação social na CCCI - 2025
+</figcaption>
+</figure>
+</div>
+</div></div>
+<p>A <a href="#tbl-social-pessoas" class="quarto-xref">Tabela&nbsp;16</a> apresenta as lista das pessoas da CCCI com quem mais interagi no WhatsApp por mensagens diretas.</p>
+<div id="tbl-social-pessoas" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-social-pessoas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Tabela&nbsp;16: Principais pessoas da CCCI com quem interagi
+</figcaption>
+<div aria-describedby="tbl-social-pessoas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>IC/Contexto</th>
+<th>Nome</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>JURISCONS</td>
+<td>Maria Eugênia</td>
+</tr>
+<tr class="even">
+<td>OIC</td>
+<td>Ana Ruiz</td>
+</tr>
+<tr class="odd">
+<td>ISIC</td>
+<td>Liliana de Sousa Marques Alexandre</td>
+</tr>
+<tr class="even">
+<td>ISIC</td>
+<td>Mohammed Alamassi</td>
+</tr>
+<tr class="odd">
+<td>Holociclo</td>
+<td>Márcia Lima</td>
+</tr>
+<tr class="even">
+<td>EDITARES</td>
+<td>Ana Claudia do Prado Castello Branco</td>
+</tr>
+<tr class="odd">
+<td>TCP-Curso-Entrada</td>
+<td>Gabriel Augusto</td>
+</tr>
+<tr class="even">
+<td>ISIC</td>
+<td>Marcia Donadel</td>
+</tr>
+<tr class="odd">
+<td>ISIC</td>
+<td>Fatima Maria Yahya</td>
+</tr>
+<tr class="even">
+<td>Restaurante-Epigrafe</td>
+<td>Tandresse</td>
+</tr>
+<tr class="odd">
+<td>EDITARES</td>
+<td>Roberta Bouchardet</td>
+</tr>
+<tr class="even">
+<td>IIPC</td>
+<td>Ana Ceres</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
 </section>
 </section>
 <section id="avaliação" class="level1" data-number="6">
@@ -3277,7 +3525,7 @@ Resultado de análise
 </ul>
 </div>
 </div>
-<div class="cell-container"><div class="cell-decorator"><pre>In [20]:</pre></div><div class="cell" data-layout-align="default">
+<div class="cell-container"><div class="cell-decorator"><pre>In [21]:</pre></div><div class="cell" data-layout-align="default">
 <div class="cell-output-display">
 <div>
 <p></p><figure class="figure"><p></p>
@@ -3362,70 +3610,86 @@ Ações futuras
 </div>
 </div>
 </section>
-<section id="avaliação-dos-3-projetos" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="avaliação-dos-3-projetos"><span class="header-section-number">6.5</span> Avaliação dos 3 projetos</h2>
-<section id="qualificação-da-intenção" class="level3" data-number="6.5.1">
-<h3 data-number="6.5.1" class="anchored" data-anchor-id="qualificação-da-intenção"><span class="header-section-number">6.5.1</span> Qualificação da Intenção</h3>
+<section id="social-1" class="level2" data-number="6.5">
+<h2 data-number="6.5" class="anchored" data-anchor-id="social-1"><span class="header-section-number">6.5</span> Social</h2>
+<div class="callout callout-style-default callout-warning callout-titled" title="Prazo extrapolado">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Prazo extrapolado
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Devido ao extrapolação do prazo, não irei realizar análise dos dados Sociais.</p>
+</div>
+</div>
+</section>
+<section id="avaliação-dos-3-projetos" class="level2" data-number="6.6">
+<h2 data-number="6.6" class="anchored" data-anchor-id="avaliação-dos-3-projetos"><span class="header-section-number">6.6</span> Avaliação dos 3 projetos</h2>
+<section id="qualificação-da-intenção" class="level3" data-number="6.6.1">
+<h3 data-number="6.6.1" class="anchored" data-anchor-id="qualificação-da-intenção"><span class="header-section-number">6.6.1</span> Qualificação da Intenção</h3>
 <!--
 : Aplicação de uma técnica de Qualificação da intenção chamada de **técnica da anotação assertiva** (ver @sec-qualificacao-da-intencao).
 -->
-<section id="gatilhos-de-fome-comendo-para-fugir-de-um-desconforto" class="level4" data-number="6.5.1.1">
-<h4 data-number="6.5.1.1" class="anchored" data-anchor-id="gatilhos-de-fome-comendo-para-fugir-de-um-desconforto"><span class="header-section-number">6.5.1.1</span> Gatilhos de fome: comendo para fugir de um desconforto</h4>
+<section id="gatilhos-de-fome-comendo-para-fugir-de-um-desconforto" class="level4" data-number="6.6.1.1">
+<h4 data-number="6.6.1.1" class="anchored" data-anchor-id="gatilhos-de-fome-comendo-para-fugir-de-um-desconforto"><span class="header-section-number">6.6.1.1</span> Gatilhos de fome: comendo para fugir de um desconforto</h4>
 <p>Durante o registro eu percebi que após trocar de ação, notadamente <em>comer</em> e analisar como eu estava me sentindo <code>antes</code> de comer revelou que eu estava fugindo de algo desagradável.</p>
 <p>Primeiro eu registrava a ação (mais fácil e evidente de registrar). Depois eu inspecionava qual era o meu <code>pen</code> imediatamente antes de iniciar a nova atividade.</p>
-<div class="sourceCode" id="cb31"><pre class="sourceCode ruby code-with-copy"><code class="sourceCode ruby"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2025-03-20</span></span>
-<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>pen(<span class="vs">'como eu avalio continuamente meu nível de sentimento e energia?'</span>, <span class="wa">fim:</span> <span class="fl">16.00</span>) <span class="cf">do</span></span>
-<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>     tinder(<span class="wa">fim:</span> <span class="fl">16.01</span>)</span>
-<span id="cb31-4"><a href="#cb31-4" aria-hidden="true" tabindex="-1"></a>     comida(<span class="vs">'bolo'</span>) <span class="cf">do</span></span>
-<span id="cb31-5"><a href="#cb31-5" aria-hidden="true" tabindex="-1"></a>         pen(<span class="vs">'é interessante possibilitar registar todos os pensamentos antes de comer para analisar gatilhos de fome'</span>)</span>
-<span id="cb31-6"><a href="#cb31-6" aria-hidden="true" tabindex="-1"></a>     <span class="cf">end</span><span class="at">.antes</span><span class="op">{</span>pen(<span class="vs">'Essa infra estrutura de PlanBuilder não servirá, terei que criar uma nova'</span>)<span class="op">}</span></span>
-<span id="cb31-7"><a href="#cb31-7" aria-hidden="true" tabindex="-1"></a>     pen(<span class="vs">'Não vou comer castanha, acabei de escovar os dentes'</span>)</span>
-<span id="cb31-8"><a href="#cb31-8" aria-hidden="true" tabindex="-1"></a> <span class="cf">end</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb37"><pre class="sourceCode ruby code-with-copy"><code class="sourceCode ruby"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="co"># 2025-03-20</span></span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>pen(<span class="vs">'como eu avalio continuamente meu nível de sentimento e energia?'</span>, <span class="wa">fim:</span> <span class="fl">16.00</span>) <span class="cf">do</span></span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>     tinder(<span class="wa">fim:</span> <span class="fl">16.01</span>)</span>
+<span id="cb37-4"><a href="#cb37-4" aria-hidden="true" tabindex="-1"></a>     comida(<span class="vs">'bolo'</span>) <span class="cf">do</span></span>
+<span id="cb37-5"><a href="#cb37-5" aria-hidden="true" tabindex="-1"></a>         pen(<span class="vs">'é interessante possibilitar registar todos os pensamentos antes de comer para analisar gatilhos de fome'</span>)</span>
+<span id="cb37-6"><a href="#cb37-6" aria-hidden="true" tabindex="-1"></a>     <span class="cf">end</span><span class="at">.antes</span><span class="op">{</span>pen(<span class="vs">'Essa infra estrutura de PlanBuilder não servirá, terei que criar uma nova'</span>)<span class="op">}</span></span>
+<span id="cb37-7"><a href="#cb37-7" aria-hidden="true" tabindex="-1"></a>     pen(<span class="vs">'Não vou comer castanha, acabei de escovar os dentes'</span>)</span>
+<span id="cb37-8"><a href="#cb37-8" aria-hidden="true" tabindex="-1"></a> <span class="cf">end</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>O pensamento “Essa infra estrutura de PlanBuilder não servirá, terei que criar uma nova” é um indício que eu estava <em>frustrado</em> com a atividade que estava realizando e em seguida eu fugi para <em>comer o bolo</em>.</p>
 <p>O registro demonstra a percepção sobre os <em>gatilhos de fome</em>.</p>
-<div class="sourceCode" id="cb32"><pre class="sourceCode ruby code-with-copy"><code class="sourceCode ruby"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>tarefa(<span class="vs">'aetna: extração de termos'</span>) <span class="cf">do</span></span>
-<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    banheiro(<span class="wa">inicio:</span> <span class="fl">13.36</span>)</span>
-<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>    fluxo(<span class="wa">inicio:</span> <span class="fl">14.00</span>)</span>
-<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>    comida(<span class="vs">'banana com granola'</span>)<span class="at">.antes</span><span class="op">{</span>pen(<span class="vs">'isso está trabalhoso'</span>, <span class="wa">isso:</span> <span class="vs">'Extração dos termos'</span>)<span class="op">}</span></span>
-<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a><span class="cf">end</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb38"><pre class="sourceCode ruby code-with-copy"><code class="sourceCode ruby"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>tarefa(<span class="vs">'aetna: extração de termos'</span>) <span class="cf">do</span></span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a>    banheiro(<span class="wa">inicio:</span> <span class="fl">13.36</span>)</span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>    fluxo(<span class="wa">inicio:</span> <span class="fl">14.00</span>)</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>    comida(<span class="vs">'banana com granola'</span>)<span class="at">.antes</span><span class="op">{</span>pen(<span class="vs">'isso está trabalhoso'</span>, <span class="wa">isso:</span> <span class="vs">'Extração dos termos'</span>)<span class="op">}</span></span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a><span class="cf">end</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>De forma semelhante, no registro acima eu fui <em>comer banana com granola</em>, depois eu inspecionei meus pensenes e percebi que eu estava <em>frustrado</em> com a tarefa que eu estava realizando no trabalho a <em>Extração dos termos</em>.</p>
 </section>
-<section id="a-leitura-de-uma-mensagem-no-whatsapp-trás-um-novo-bloco-pensênico" class="level4" data-number="6.5.1.2">
-<h4 data-number="6.5.1.2" class="anchored" data-anchor-id="a-leitura-de-uma-mensagem-no-whatsapp-trás-um-novo-bloco-pensênico"><span class="header-section-number">6.5.1.2</span> A leitura de uma mensagem no WhatsApp trás um novo bloco pensênico</h4>
+<section id="a-leitura-de-uma-mensagem-no-whatsapp-trás-um-novo-bloco-pensênico" class="level4" data-number="6.6.1.2">
+<h4 data-number="6.6.1.2" class="anchored" data-anchor-id="a-leitura-de-uma-mensagem-no-whatsapp-trás-um-novo-bloco-pensênico"><span class="header-section-number">6.6.1.2</span> A leitura de uma mensagem no WhatsApp trás um novo bloco pensênico</h4>
 <p>Eu percebi a mudança de bloco pensênico devido a leitura das mensagens. Nós estamos abertos a nos conectar com a situação, as concins e as conciexs por uma ação quase instintiva: <em>abrir e ler uma mensagem após escutar a notificação de recebimento de mensagem</em>.</p>
 <p>Isto foi tão significativo que decidi registrar estes eventos:</p>
-<div class="sourceCode" id="cb33"><pre class="sourceCode ruby code-with-copy"><code class="sourceCode ruby"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>msg(<span class="vs">'disponibilização de carona dinâmica da sexta-feira'</span>, <span class="wa">de:</span> fatima) <span class="co">#2025-03-20</span></span>
-<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>msg(<span class="vs">'conversando com sobre o livro'</span>, <span class="wa">de:</span> <span class="dt">Mohhamed</span>, <span class="wa">tema:</span> <span class="vs">'diagramação do livro'</span>) <span class="co"># 2025-03-21</span></span>
-<span id="cb33-4"><a href="#cb33-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb33-5"><a href="#cb33-5" aria-hidden="true" tabindex="-1"></a>msg(<span class="wa">com:</span> keiko, <span class="wa">tema:</span> <span class="vs">'verbete'</span>, <span class="wa">fim:</span> <span class="fl">11.26</span>) <span class="co">#2025-03-22</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb39"><pre class="sourceCode ruby code-with-copy"><code class="sourceCode ruby"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a>msg(<span class="vs">'disponibilização de carona dinâmica da sexta-feira'</span>, <span class="wa">de:</span> fatima) <span class="co">#2025-03-20</span></span>
+<span id="cb39-2"><a href="#cb39-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-3"><a href="#cb39-3" aria-hidden="true" tabindex="-1"></a>msg(<span class="vs">'conversando com sobre o livro'</span>, <span class="wa">de:</span> <span class="dt">Mohhamed</span>, <span class="wa">tema:</span> <span class="vs">'diagramação do livro'</span>) <span class="co"># 2025-03-21</span></span>
+<span id="cb39-4"><a href="#cb39-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb39-5"><a href="#cb39-5" aria-hidden="true" tabindex="-1"></a>msg(<span class="wa">com:</span> keiko, <span class="wa">tema:</span> <span class="vs">'verbete'</span>, <span class="wa">fim:</span> <span class="fl">11.26</span>) <span class="co">#2025-03-22</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>Eu tenho dois celulares, agora quando eu quero me desconectar de um contexto eu desligo um deles.</p>
 </section>
-<section id="registro-de-situações-sobre-sinalética" class="level4" data-number="6.5.1.3">
-<h4 data-number="6.5.1.3" class="anchored" data-anchor-id="registro-de-situações-sobre-sinalética"><span class="header-section-number">6.5.1.3</span> Registro de situações sobre sinalética</h4>
+<section id="registro-de-situações-sobre-sinalética" class="level4" data-number="6.6.1.3">
+<h4 data-number="6.6.1.3" class="anchored" data-anchor-id="registro-de-situações-sobre-sinalética"><span class="header-section-number">6.6.1.3</span> Registro de situações sobre sinalética</h4>
 <p>Eu ainda não conheço as técnicas para mapeamento de sinalética. Contudo sei que é importante registrar os eventos e as situações para análise futura. Realizei alguns registros de uma sinalético que denomino de <code>costas_ativada</code>:</p>
-<div class="sourceCode" id="cb34"><pre class="sourceCode ruby code-with-copy"><code class="sourceCode ruby"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>cena(<span class="vs">'rascunhando livro árabe'</span>, <span class="wa">em:</span> casa, <span class="wa">hora:</span> <span class="vs">'15:14'</span>) <span class="cf">do</span></span>
-<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>    sinal(costas_ativada)</span>
-<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="cf">end</span></span>
-<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a>tinder(<span class="vs">'expiada'</span>, <span class="wa">inicio:</span> <span class="fl">11.10</span>) <span class="cf">do</span></span>
-<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>  sinal(costas_ativacao, <span class="fl">11.15</span>)</span>
-<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a><span class="cf">end</span></span>
-<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a>cena(<span class="vs">'almoço'</span>, <span class="wa">inicio:</span> <span class="fl">12.17</span>, <span class="wa">em:</span> casa) <span class="cf">do</span></span>
-<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a>    tinder(<span class="wa">no:</span> computador)</span>
-<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a>    sinal(costas_ativada)</span>
-<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a>    comida</span>
-<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a>    tertulia(<span class="wa">inicio:</span> <span class="fl">12.17</span>, <span class="wa">fim:</span> <span class="fl">13.12</span>)</span>
-<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a><span class="cf">end</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode" id="cb40"><pre class="sourceCode ruby code-with-copy"><code class="sourceCode ruby"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>cena(<span class="vs">'rascunhando livro árabe'</span>, <span class="wa">em:</span> casa, <span class="wa">hora:</span> <span class="vs">'15:14'</span>) <span class="cf">do</span></span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a>    sinal(costas_ativada)</span>
+<span id="cb40-3"><a href="#cb40-3" aria-hidden="true" tabindex="-1"></a><span class="cf">end</span></span>
+<span id="cb40-4"><a href="#cb40-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-5"><a href="#cb40-5" aria-hidden="true" tabindex="-1"></a>tinder(<span class="vs">'expiada'</span>, <span class="wa">inicio:</span> <span class="fl">11.10</span>) <span class="cf">do</span></span>
+<span id="cb40-6"><a href="#cb40-6" aria-hidden="true" tabindex="-1"></a>  sinal(costas_ativacao, <span class="fl">11.15</span>)</span>
+<span id="cb40-7"><a href="#cb40-7" aria-hidden="true" tabindex="-1"></a><span class="cf">end</span></span>
+<span id="cb40-8"><a href="#cb40-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb40-9"><a href="#cb40-9" aria-hidden="true" tabindex="-1"></a>cena(<span class="vs">'almoço'</span>, <span class="wa">inicio:</span> <span class="fl">12.17</span>, <span class="wa">em:</span> casa) <span class="cf">do</span></span>
+<span id="cb40-10"><a href="#cb40-10" aria-hidden="true" tabindex="-1"></a>    tinder(<span class="wa">no:</span> computador)</span>
+<span id="cb40-11"><a href="#cb40-11" aria-hidden="true" tabindex="-1"></a>    sinal(costas_ativada)</span>
+<span id="cb40-12"><a href="#cb40-12" aria-hidden="true" tabindex="-1"></a>    comida</span>
+<span id="cb40-13"><a href="#cb40-13" aria-hidden="true" tabindex="-1"></a>    tertulia(<span class="wa">inicio:</span> <span class="fl">12.17</span>, <span class="wa">fim:</span> <span class="fl">13.12</span>)</span>
+<span id="cb40-14"><a href="#cb40-14" aria-hidden="true" tabindex="-1"></a><span class="cf">end</span></span></code><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 </section>
-<section id="tecnologias-para-editoração" class="level3" data-number="6.5.2">
-<h3 data-number="6.5.2" class="anchored" data-anchor-id="tecnologias-para-editoração"><span class="header-section-number">6.5.2</span> Tecnologias para Editoração</h3>
+<section id="tecnologias-para-editoração" class="level3" data-number="6.6.2">
+<h3 data-number="6.6.2" class="anchored" data-anchor-id="tecnologias-para-editoração"><span class="header-section-number">6.6.2</span> Tecnologias para Editoração</h3>
 <p>A utilização do RStudio, Quarto e Github possibilita a implementação do instrumento de pesquisa com as mesmas tecnologias para produção de livros.</p>
 </section>
-<section id="autopesquisa" class="level3" data-number="6.5.3">
-<h3 data-number="6.5.3" class="anchored" data-anchor-id="autopesquisa"><span class="header-section-number">6.5.3</span> Autopesquisa</h3>
+<section id="autopesquisa" class="level3" data-number="6.6.3">
+<h3 data-number="6.6.3" class="anchored" data-anchor-id="autopesquisa"><span class="header-section-number">6.6.3</span> Autopesquisa</h3>
 <p>Eu fui capaz de iniciar minha autopesquisa. Os próximos passos serão realizar os registros e aprimorar as análises.</p>
 <!--
 
@@ -3491,25 +3755,25 @@ Cuidado
 <section id="sec-cosmoware" class="level2" data-number="9.1">
 <h2 data-number="9.1" class="anchored" data-anchor-id="sec-cosmoware"><span class="header-section-number">9.1</span> CosmoWare</h2>
 <p>Quando eu estava acessando os sites das ICs, especialmente o site da Reaprendentia, eu percebi que havia artes demonstrando as equipes, no entanto essas artes estavam desatualizadas. Esta foi minha motivação para criar uma extensão para o Google Chrome que batizei com o nome de <code>Cosmoware</code>.</p>
-<p>Desenvolvi a funcionalidade de gerar diagramas das equipes a partir das informações cadastradas no ICNET (ver <a href="#fig-cosmoware-organograma" class="quarto-xref">Figura&nbsp;17</a>).</p>
+<p>Desenvolvi a funcionalidade de gerar diagramas das equipes a partir das informações cadastradas no ICNET (ver <a href="#fig-cosmoware-organograma" class="quarto-xref">Figura&nbsp;19</a>).</p>
 <div id="fig-cosmoware-organograma" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-cosmoware-organograma-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/cosmoware-gerar-organograma-voluntarios.png" class="lightbox" data-gallery="quarto-lightbox-gallery-17" title="Figura&nbsp;17: Utilização do CosmoWare para geração de diagrama de equipes"><img src="images/cosmoware-gerar-organograma-voluntarios.png" class="img-fluid figure-img"></a>
+<a href="images/cosmoware-gerar-organograma-voluntarios.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="Figura&nbsp;19: Utilização do CosmoWare para geração de diagrama de equipes"><img src="images/cosmoware-gerar-organograma-voluntarios.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cosmoware-organograma-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;17: Utilização do CosmoWare para geração de diagrama de equipes
+Figura&nbsp;19: Utilização do CosmoWare para geração de diagrama de equipes
 </figcaption>
 </figure>
 </div>
-<p>Posteriormente adicionei outra funcionalidade de exportar os dados do ICNET em planilhas compatíveis com o RStudio, ver <a href="#fig-cosmoware" class="quarto-xref">Figura&nbsp;18</a>.</p>
+<p>Posteriormente adicionei outra funcionalidade de exportar os dados do ICNET em planilhas compatíveis com o RStudio, ver <a href="#fig-cosmoware" class="quarto-xref">Figura&nbsp;20</a>.</p>
 <div id="fig-cosmoware" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-cosmoware-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/cosmoware-exportar-planilhas.png" class="lightbox" data-gallery="quarto-lightbox-gallery-18" title="Figura&nbsp;18: Utilização do CosmoWare para extração dos dados do ICNET"><img src="images/cosmoware-exportar-planilhas.png" class="img-fluid figure-img"></a>
+<a href="images/cosmoware-exportar-planilhas.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="Figura&nbsp;20: Utilização do CosmoWare para extração dos dados do ICNET"><img src="images/cosmoware-exportar-planilhas.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-cosmoware-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;18: Utilização do CosmoWare para extração dos dados do ICNET
+Figura&nbsp;20: Utilização do CosmoWare para extração dos dados do ICNET
 </figcaption>
 </figure>
 </div>
@@ -3530,28 +3794,28 @@ Código Pessoal de Cosmoética escrito há 6 nos
 <section id="instant-data-scraper" class="level2" data-number="9.2">
 <h2 data-number="9.2" class="anchored" data-anchor-id="instant-data-scraper"><span class="header-section-number">9.2</span> Instant Data Scraper</h2>
 <p>Para a extração de dados do ICNet (ver <a href="#fig-atividades" class="quarto-xref">Figura&nbsp;13</a>) copiar e colar no Excel é suficiente.</p>
-<p>Extrações mais complexas podem ser realizadas com a extensão para o Google Chrome chamada Instant Data Scraper, criada por <span class="citation" data-cites="instantDataScraper">webrobots.io (<a href="#ref-instantDataScraper" role="doc-biblioref">2025</a>)</span>. A <a href="#fig-instantdata" class="quarto-xref">Figura&nbsp;19</a> mostra uma extração de uma lista de pedidos de compras na Megastore.</p>
+<p>Extrações mais complexas podem ser realizadas com a extensão para o Google Chrome chamada Instant Data Scraper, criada por <span class="citation" data-cites="instantDataScraper">webrobots.io (<a href="#ref-instantDataScraper" role="doc-biblioref">2025</a>)</span>. A <a href="#fig-instantdata" class="quarto-xref">Figura&nbsp;21</a> mostra uma extração de uma lista de pedidos de compras na Megastore.</p>
 <div id="fig-instantdata" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-instantdata-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/instant-data-scraper.png" class="lightbox" data-gallery="quarto-lightbox-gallery-19" title="Figura&nbsp;19: Extração de dados na Megastore através do Instant Data Scraper"><img src="images/instant-data-scraper.png" class="img-fluid figure-img"></a>
+<a href="images/instant-data-scraper.png" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="Figura&nbsp;21: Extração de dados na Megastore através do Instant Data Scraper"><img src="images/instant-data-scraper.png" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-instantdata-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;19: Extração de dados na Megastore através do Instant Data Scraper
+Figura&nbsp;21: Extração de dados na Megastore através do Instant Data Scraper
 </figcaption>
 </figure>
 </div>
 </section>
 <section id="sec-trackandgraph" class="level2" data-number="9.3">
 <h2 data-number="9.3" class="anchored" data-anchor-id="sec-trackandgraph"><span class="header-section-number">9.3</span> Track &amp; Graph</h2>
-<p>O Track &amp; Graph (<a href="#fig-trackandgraph" class="quarto-xref">Figura&nbsp;20</a>) é um aplicativo para Android, <span class="citation" data-cites="trackandgraph">Amco (<a href="#ref-trackandgraph" role="doc-biblioref">2025</a>)</span>, que permite o registro de dados pessoas e exportação dos dados para planilhas. Pode ser utilizado para registro de tentativas de EV, de peso, sinaléticas ou qualquer outras variáveis que forem configuradas.</p>
+<p>O Track &amp; Graph (<a href="#fig-trackandgraph" class="quarto-xref">Figura&nbsp;22</a>) é um aplicativo para Android, <span class="citation" data-cites="trackandgraph">Amco (<a href="#ref-trackandgraph" role="doc-biblioref">2025</a>)</span>, que permite o registro de dados pessoas e exportação dos dados para planilhas. Pode ser utilizado para registro de tentativas de EV, de peso, sinaléticas ou qualquer outras variáveis que forem configuradas.</p>
 <div id="fig-trackandgraph" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-trackandgraph-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<a href="images/Screenshot_20250902_183240_Track_and_Graph.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-20" title="Figura&nbsp;20: Track &amp; Graph"><img src="images/Screenshot_20250902_183240_Track_and_Graph.jpg" class="img-fluid figure-img"></a>
+<a href="images/Screenshot_20250902_183240_Track_and_Graph.jpg" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Figura&nbsp;22: Track &amp; Graph"><img src="images/Screenshot_20250902_183240_Track_and_Graph.jpg" class="img-fluid figure-img"></a>
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-trackandgraph-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;20: Track &amp; Graph
+Figura&nbsp;22: Track &amp; Graph
 </figcaption>
 </figure>
 </div>
@@ -3562,7 +3826,7 @@ Figura&nbsp;20: Track &amp; Graph
 <p>Este documento foi redigido no RStudio.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/rstudio.png" class="lightbox" data-gallery="quarto-lightbox-gallery-21" title="Escrita do documento no RStudio"><img src="images/rstudio.png" class="img-fluid figure-img" alt="Escrita do documento no RStudio"></a></p>
+<p><a href="images/rstudio.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="Escrita do documento no RStudio"><img src="images/rstudio.png" class="img-fluid figure-img" alt="Escrita do documento no RStudio"></a></p>
 <figcaption>Escrita do documento no RStudio</figcaption>
 </figure>
 </div>
@@ -3597,7 +3861,7 @@ Figura&nbsp;20: Track &amp; Graph
 </blockquote>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="images/zenodo-enables-2026-02-10_08-18.png" class="lightbox" data-gallery="quarto-lightbox-gallery-22" title="Habilitação do repositório para geração do DOI e preservação"><img src="images/zenodo-enables-2026-02-10_08-18.png" class="img-fluid figure-img" alt="Habilitação do repositório para geração do DOI e preservação"></a></p>
+<p><a href="images/zenodo-enables-2026-02-10_08-18.png" class="lightbox" data-gallery="quarto-lightbox-gallery-23" title="Habilitação do repositório para geração do DOI e preservação"><img src="images/zenodo-enables-2026-02-10_08-18.png" class="img-fluid figure-img" alt="Habilitação do repositório para geração do DOI e preservação"></a></p>
 <figcaption>Habilitação do repositório para geração do DOI e preservação</figcaption>
 </figure>
 </div>
@@ -3648,11 +3912,11 @@ auto pesquisa projeciologica -- info comunicologia e projeciologia
 usar projções da consciencia para testar
 Artigo
 -->
-<p>Escrevi brevemente metas para ano. A elaboração das metas (ver <a href="#tbl-metas-2025" class="quarto-xref">Tabela&nbsp;15</a>) foi realizada e revisada durante os meses iniciais do ano.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p>
+<p>Escrevi brevemente metas para ano. A elaboração das metas (ver <a href="#tbl-metas-2025" class="quarto-xref">Tabela&nbsp;17</a>) foi realizada e revisada durante os meses iniciais do ano.<a href="#fn11" class="footnote-ref" id="fnref11" role="doc-noteref"><sup>11</sup></a></p>
 <div id="tbl-metas-2025" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-metas-2025-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;15: Metas para 2025
+Tabela&nbsp;17: Metas para 2025
 </figcaption>
 <div aria-describedby="tbl-metas-2025-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
@@ -3709,11 +3973,11 @@ Tabela&nbsp;15: Metas para 2025
 </div>
 </figure>
 </div>
-<p>Além das metas, os seguintes objetivos (ver <a href="#tbl-objetivos-nao-prioritarios-2025" class="quarto-xref">Tabela&nbsp;16</a>) foram elaborados para nortear o ano.</p>
+<p>Além das metas, os seguintes objetivos (ver <a href="#tbl-objetivos-nao-prioritarios-2025" class="quarto-xref">Tabela&nbsp;18</a>) foram elaborados para nortear o ano.</p>
 <div id="tbl-objetivos-nao-prioritarios-2025" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-tbl figure">
 <figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-objetivos-nao-prioritarios-2025-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Tabela&nbsp;16: Objetivos não prioritários
+Tabela&nbsp;18: Objetivos não prioritários
 </figcaption>
 <div aria-describedby="tbl-objetivos-nao-prioritarios-2025-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <table class="caption-top table">
