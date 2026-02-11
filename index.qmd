@@ -50,11 +50,11 @@ A motivação desta pesquisa é ter criado os meus instrumentos de Autopesquisa 
 | Ano  | DOI                      | URL       |
 |------|--------------------------|------------------------------------------------------------------------|
 | 2025 | 10.5281/zenodo.18595104  | [autopesquisa-voluntariado-relatorio-2025](https://edusantana.github.io/autopesquisa-voluntariado-relatorio-2025/) |
-| 2026 | -                        | [autopesquisa-relatorio-2026/](https://edusantana.github.io/autopesquisa-relatorio-2026/) |
+| 2026 | -                        | [autopesquisa-relatorio-2026](https://edusantana.github.io/autopesquisa-relatorio-2026/) |
 
 ## Feedback
 
-::: {.callout-note}
+::: {.callout-note title="Feedback"}
 
 No canto superior direito é **possível realizar anotações e enviar feedback**, sua colaboração é bem vinda! É necessário fazer um login antes de enviar.
 
