@@ -43,32 +43,39 @@ citation: true
 
 Este relatório representa a autopesquisa realizada pelo autor durante o ano de 2025.
 
-A motivação desta pesquisa é ter criado os meus instrumentos de Autopesquisa para agilizar os novos registros e análises futuras, utilizando tecnologias modernas que eu esteja confortável em utilizar.
-
 : Relatórios de Autopesquisa {#tbl-rqs}
 
-| Ano  | DOI                      | URL       |
-|------|--------------------------|------------------------------------------------------------------------|
-| 2025 | 10.5281/zenodo.18595104  | [autopesquisa-voluntariado-relatorio-2025](https://edusantana.github.io/autopesquisa-voluntariado-relatorio-2025/) |
-| 2026 | -                        | [autopesquisa-relatorio-2026](https://edusantana.github.io/autopesquisa-relatorio-2026/) |
+| Ano  | URL                      | DOI       |
+|------|------------------------------------------------------------------------|--------------------------|
+| 2025 | [autopesquisa-voluntariado-relatorio-2025](https://edusantana.github.io/autopesquisa-voluntariado-relatorio-2025/) |  {{< meta doi >}}  |
+| 2026 |  [autopesquisa-relatorio-2026](https://edusantana.github.io/autopesquisa-relatorio-2026/) | - |
 
-## Feedback
-
-::: {.callout-note title="Feedback"}
-
-No canto superior direito é **possível realizar anotações e enviar feedback**, sua colaboração é bem vinda! É necessário fazer um login antes de enviar.
-
-:::
 
 ## Justificativa
 
-*Sem registro não há autopesquisa.* Utilizar um instrumento de registro que seja confortável para o pesquisador é essencial para a manutenção da pesquisa.
+A motivação deste trabalho é diminuir a fricção de ter uma Autopesquisa ativa.
+
+> *Sem registro não há autopesquisa.* Utilizar um instrumento de registro que seja confortável para o pesquisador é essencial para a manutenção da pesquisa.
 
 <!--
 Minhas competências tecnológicas permite criar instrumentos técnicos com funcionalidades mais avançadas do que as planilhas disponibilizadas no @ICGEPlanilhasAutopesquisa.^[Haviam 25 instrumentos de autopesquisa disponibilizados em 2025. A maioria das planihas tem origem nos livros publicados ou em cursos específicos de autopesquisa.] As planilhas permitem a popularização dos instrumentos, no entanto, estão limitadas às funcionalidades do Excel.
 -->
 
-Tenho como propósito futuro, após o amadurecimento deste instrumento, apresentar para a Comunidade da Conscienciologia esta iniciativa do emprego de novas tecnologias aplicadas à Autopesquisa.
+Este relatório tem o propósito de dar o meu primeiro passo na direção de ter uma autopesquisa em execução, estimulando os seguintes fluxos:
+
+- Escolher, aplicar e avaliar técnica.
+- Criar planilhas e registros diversos.
+- Descobrir tecnologias de editoração, testar, avaliar e escolher quais utilizar.
+- Entender o que é Autopesquisa e como realizá-la.
+- Publicar e obter feedbacks para aprimorar.
+
+## Feedback
+
+::: {.callout-note title="Feedback"}
+
+No canto superior direito é **possível realizar anotações e enviar feedback**, sua colaboração é bem vinda!
+
+:::
 
 ## Projetos de pesquisa
 
